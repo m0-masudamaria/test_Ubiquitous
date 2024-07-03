@@ -8,6 +8,18 @@
 // </rtc-template>
 
 #include "Master.h"
+using namespace std;
+
+enum signal{
+    A,
+    B,
+    X,
+    Y,
+    RIGHT,
+    LEFT,
+    UP,
+    DOWN
+};
 
 // Module specification
 // <rtc-template block="module_spec">
@@ -80,7 +92,7 @@ RTC::ReturnCode_t Master::onInitialize()
   // <rtc-template block="bind_config">
   // </rtc-template>
 
-  
+  cout << "Initialize" << endl;
   return RTC::RTC_OK;
 }
 
@@ -106,19 +118,38 @@ RTC::ReturnCode_t Master::onFinalize()
 
 RTC::ReturnCode_t Master::onActivated(RTC::UniqueId /*ec_id*/)
 {
+    cout << "Activate" << endl;
   return RTC::RTC_OK;
 }
 
 
 RTC::ReturnCode_t Master::onDeactivated(RTC::UniqueId /*ec_id*/)
 {
+    cout << "Deactivate" << endl;
   return RTC::RTC_OK;
 }
 
 
 RTC::ReturnCode_t Master::onExecute(RTC::UniqueId /*ec_id*/)
 {
-  return RTC::RTC_OK;
+
+    if (m_TSSIn.isNew()) {//signalreceive(仮)にデータが来たか確認
+        while (!m_TSSIn.isEmpty()) {//データが空でないときに
+            m_TSSIn.read();//データの読み込み
+            short signal;
+            signal = m_TSS.data[0];//配列でデータを格納
+            cout << "start:" << m_TSS.data[0] << endl;
+            if (signal == A) { //Aボタンが押されたら
+
+            }
+            else if(signal == RIGHT) {
+            }
+
+        }
+
+    }
+    return RTC::RTC_OK;
+
 }
 
 
