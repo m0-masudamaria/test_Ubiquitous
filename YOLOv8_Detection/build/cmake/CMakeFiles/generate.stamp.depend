@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/HaveS/workspace/YOLOv8_Detection/cmake/CMakeLists.txt
+C:/Users/HaveS/workspace/YOLOv8_Detection/cmake/yolov8_detection-config-version.cmake.in
+C:/Users/HaveS/workspace/YOLOv8_Detection/cmake/yolov8_detection-config.cmake.in
+C:/Users/HaveS/workspace/YOLOv8_Detection/cmake/yolov8_detection.pc.in

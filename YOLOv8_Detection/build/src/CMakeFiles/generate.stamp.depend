@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Tools/opencv-dev/OpenCVConfig-version.cmake
+C:/Tools/opencv-dev/OpenCVConfig.cmake
+C:/Tools/opencv-dev/x64/vc17/lib/OpenCVConfig.cmake
+C:/Tools/opencv-dev/x64/vc17/lib/OpenCVModules-debug.cmake
+C:/Tools/opencv-dev/x64/vc17/lib/OpenCVModules.cmake
+C:/Users/HaveS/workspace/YOLOv8_Detection/src/CMakeLists.txt
