@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HaveS\workspace\RealsenseRGBD\build\CMakeFiles\25cf5527958a1e7b71ecc350c776d3dd\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{33F8128F-701D-36F1-9BC6-92B778DC37B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,54 @@
+# RealSense_RGBD_Camera CMake config file
+#
+# This file sets the following variables:
+# RealSense_RGBD_Camera_FOUND - Always TRUE.
+# RealSense_RGBD_Camera_INCLUDE_DIRS - Directories containing the RealSense_RGBD_Camera include files.
+# RealSense_RGBD_Camera_IDL_DIRS - Directories containing the RealSense_RGBD_Camera IDL files.
+# RealSense_RGBD_Camera_LIBRARIES - Libraries needed to use RealSense_RGBD_Camera.
+# RealSense_RGBD_Camera_DEFINITIONS - Compiler flags for RealSense_RGBD_Camera.
+# RealSense_RGBD_Camera_VERSION - The version of RealSense_RGBD_Camera found.
+# RealSense_RGBD_Camera_VERSION_MAJOR - The major version of RealSense_RGBD_Camera found.
+# RealSense_RGBD_Camera_VERSION_MINOR - The minor version of RealSense_RGBD_Camera found.
+# RealSense_RGBD_Camera_VERSION_REVISION - The revision version of RealSense_RGBD_Camera found.
+# RealSense_RGBD_Camera_VERSION_CANDIDATE - The candidate version of RealSense_RGBD_Camera found.
+
+message(STATUS "Found RealSense_RGBD_Camera-@PROJECT_VERSION@")
+set(RealSense_RGBD_Camera_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(RealSense_RGBD_Camera_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(RealSense_RGBD_Camera_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(RealSense_RGBD_Camera_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(RealSense_RGBD_Camera_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(RealSense_RGBD_Camera_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(RealSense_RGBD_Camera_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(RealSense_RGBD_Camera_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(RealSense_RGBD_Camera_VERSION @PROJECT_VERSION@)
+set(RealSense_RGBD_Camera_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(RealSense_RGBD_Camera_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(RealSense_RGBD_Camera_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(RealSense_RGBD_Camera_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+

@@ -1,0 +1,12 @@
+#include "BasicDataType.idl"
+
+enum pixelRes {
+    w640h480,
+    w1280h720,
+    w1920h1080
+};
+
+enum alignType {
+    Color,
+    Depth
+};

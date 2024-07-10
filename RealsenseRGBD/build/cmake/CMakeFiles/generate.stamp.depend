@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/HaveS/workspace/RealsenseRGBD/cmake/CMakeLists.txt
+C:/Users/HaveS/workspace/RealsenseRGBD/cmake/realsense_rgbd_camera-config-version.cmake.in
+C:/Users/HaveS/workspace/RealsenseRGBD/cmake/realsense_rgbd_camera-config.cmake.in
+C:/Users/HaveS/workspace/RealsenseRGBD/cmake/realsense_rgbd_camera.pc.in
