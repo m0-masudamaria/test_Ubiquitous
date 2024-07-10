@@ -1,0 +1,46 @@
+Jul 04 11:33:32.140 INFO: manager: 2.0.1
+Jul 04 11:33:32.141 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 04 11:33:32.141 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 04 11:33:32.141 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 04 11:33:32.141 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 04 11:33:32.141 INFO: manager:   All right reserved.
+Jul 04 11:33:32.142 INFO: manager: Manager starting.
+Jul 04 11:33:32.142 INFO: manager: Starting local logging.
+Jul 04 11:33:32.162 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 04 11:33:32.162 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 04 11:33:32.172 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 04 11:33:36.296 WARNING: ManagerServant: Master manager not found
+Jul 04 11:33:36.297 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 04 11:33:36.306 INFO: ec_base: setRate(1000000.000000) done
+Jul 04 11:33:36.307 INFO: ec_base: setRate(1000.000000) done
+Jul 04 11:33:36.307 INFO: Dynamixel0: 1 execution context was created.
+Jul 04 11:33:36.307 INFO: Dynamixel0: onInitialize()
+Jul 04 11:33:36.323 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 04 11:33:50.426 INFO: ManagerServant: Master manager not found
+Jul 04 11:33:52.316 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 04 11:34:00.533 INFO: ManagerServant: Master manager not found
+Jul 04 11:34:03.893 INFO: Dynamixel0: onActivated()
+Jul 04 11:34:04.037 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 
+Jul 04 11:34:04.038 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 
+Jul 04 11:34:10.513 INFO: ManagerServant: Master manager not found
+Jul 04 11:34:20.535 INFO: ManagerServant: Master manager not found
+Jul 04 11:34:26.872 INFO: Dynamixel0: onDeactivated()
+Jul 04 11:34:26.872 INFO: Dynamixel0: onAborting()
+Jul 04 11:34:30.542 INFO: ManagerServant: Master manager not found
+Jul 04 11:34:40.646 INFO: ManagerServant: Master manager not found
+Jul 04 11:34:50.640 INFO: ManagerServant: Master manager not found
+Jul 04 11:35:00.789 INFO: ManagerServant: Master manager not found
+Jul 04 11:35:10.806 INFO: ManagerServant: Master manager not found
+Jul 04 11:35:20.798 INFO: ManagerServant: Master manager not found
+Jul 04 11:35:30.891 INFO: ManagerServant: Master manager not found
+Jul 04 11:35:40.953 INFO: ManagerServant: Master manager not found
+Jul 04 11:35:51.061 INFO: ManagerServant: Master manager not found
+Jul 04 11:36:01.158 INFO: ManagerServant: Master manager not found
+Jul 04 11:36:11.284 INFO: ManagerServant: Master manager not found
+Jul 04 11:36:21.315 INFO: ManagerServant: Master manager not found
+Jul 04 11:36:31.330 INFO: ManagerServant: Master manager not found
+Jul 04 11:36:41.332 INFO: ManagerServant: Master manager not found
+Jul 04 11:36:51.321 INFO: ManagerServant: Master manager not found
+Jul 04 11:37:01.461 INFO: ManagerServant: Master manager not found
+Jul 04 11:37:11.460 INFO: ManagerServant: Master manager not found
+Jul 04 11:37:14.273 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.

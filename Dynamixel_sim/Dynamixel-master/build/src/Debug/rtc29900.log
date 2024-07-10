@@ -1,0 +1,29 @@
+Jul 04 13:27:48.541 INFO: manager: 2.0.1
+Jul 04 13:27:48.541 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 04 13:27:48.541 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 04 13:27:48.541 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 04 13:27:48.541 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 04 13:27:48.541 INFO: manager:   All right reserved.
+Jul 04 13:27:48.541 INFO: manager: Manager starting.
+Jul 04 13:27:48.542 INFO: manager: Starting local logging.
+Jul 04 13:27:48.563 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 04 13:27:48.563 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 04 13:27:48.570 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 04 13:27:52.663 WARNING: ManagerServant: Master manager not found
+Jul 04 13:27:52.667 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 04 13:27:52.703 INFO: ec_base: setRate(1000000.000000) done
+Jul 04 13:27:52.703 INFO: ec_base: setRate(1000.000000) done
+Jul 04 13:27:52.705 INFO: Dynamixel0: 1 execution context was created.
+Jul 04 13:27:52.706 INFO: Dynamixel0: onInitialize()
+Jul 04 13:27:52.728 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 04 13:28:00.394 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 04 13:28:06.839 INFO: ManagerServant: Master manager not found
+Jul 04 13:28:16.937 INFO: ManagerServant: Master manager not found
+Jul 04 13:28:17.859 INFO: Dynamixel0: onActivated()
+Jul 04 13:28:18.010 INFO: Dynamixel0: m_initialPosition: 512, 512, 
+Jul 04 13:28:18.010 INFO: Dynamixel0: m_initialSpeed: 100, 100, 
+Jul 04 13:28:26.961 INFO: ManagerServant: Master manager not found
+Jul 04 13:28:36.938 INFO: ManagerServant: Master manager not found
+Jul 04 13:28:47.067 INFO: ManagerServant: Master manager not found
+Jul 04 13:28:50.020 WARNING: goalPosition: Dead connection: a1adbf67-9c6d-4e78-8cd9-b240ea5c9830
+Jul 04 13:28:52.067 WARNING: goalPosition: Exception caught: minor code(1096024066).

@@ -1,0 +1,33 @@
+Jul 04 11:39:55.331 INFO: manager: 2.0.1
+Jul 04 11:39:55.331 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 04 11:39:55.331 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 04 11:39:55.331 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 04 11:39:55.331 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 04 11:39:55.331 INFO: manager:   All right reserved.
+Jul 04 11:39:55.331 INFO: manager: Manager starting.
+Jul 04 11:39:55.331 INFO: manager: Starting local logging.
+Jul 04 11:39:55.351 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 04 11:39:55.351 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 04 11:39:55.359 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 04 11:39:59.468 WARNING: ManagerServant: Master manager not found
+Jul 04 11:39:59.470 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 04 11:39:59.494 INFO: ec_base: setRate(1000000.000000) done
+Jul 04 11:39:59.494 INFO: ec_base: setRate(1000.000000) done
+Jul 04 11:39:59.495 INFO: Dynamixel0: 1 execution context was created.
+Jul 04 11:39:59.495 INFO: Dynamixel0: onInitialize()
+Jul 04 11:39:59.515 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 04 11:40:13.666 INFO: ManagerServant: Master manager not found
+Jul 04 11:40:21.761 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 04 11:40:23.658 INFO: ManagerServant: Master manager not found
+Jul 04 11:40:33.689 INFO: ManagerServant: Master manager not found
+Jul 04 11:40:34.920 INFO: Dynamixel0: onActivated()
+Jul 04 11:40:35.063 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 
+Jul 04 11:40:35.063 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 
+Jul 04 11:40:43.697 INFO: ManagerServant: Master manager not found
+Jul 04 11:40:53.725 INFO: ManagerServant: Master manager not found
+Jul 04 11:41:03.734 INFO: ManagerServant: Master manager not found
+Jul 04 11:41:04.184 ERROR: Dynamixel0: 通信エラー連続発生
+Jul 04 11:41:04.184 INFO: Dynamixel0: onDeactivated()
+Jul 04 11:41:04.185 INFO: Dynamixel0: onAborting()
+Jul 04 11:41:13.705 INFO: ManagerServant: Master manager not found
+Jul 04 11:41:23.732 INFO: ManagerServant: Master manager not found

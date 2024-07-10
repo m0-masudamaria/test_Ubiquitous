@@ -1,0 +1,35 @@
+Jun 26 07:52:50.573 INFO: manager: 2.0.1
+Jun 26 07:52:50.574 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jun 26 07:52:50.574 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jun 26 07:52:50.574 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jun 26 07:52:50.574 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jun 26 07:52:50.574 INFO: manager:   All right reserved.
+Jun 26 07:52:50.574 INFO: manager: Manager starting.
+Jun 26 07:52:50.574 INFO: manager: Starting local logging.
+Jun 26 07:52:50.597 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jun 26 07:52:50.597 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jun 26 07:52:50.605 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jun 26 07:52:54.739 WARNING: ManagerServant: Master manager not found
+Jun 26 07:52:54.747 INFO: LocalServiceAdmin: All the local services are enabled.
+Jun 26 07:52:54.827 INFO: ec_base: setRate(1000000.000000) done
+Jun 26 07:52:54.828 INFO: ec_base: setRate(1000.000000) done
+Jun 26 07:52:54.829 INFO: Dynamixel0: 1 execution context was created.
+Jun 26 07:52:54.830 INFO: Dynamixel0: onInitialize()
+Jun 26 07:52:54.853 INFO: Dynamixel0: Initial active configuration set is default.
+Jun 26 07:53:00.016 INFO: Dynamixel0: onActivated()
+Jun 26 07:53:00.159 INFO: Dynamixel0: m_initialPosition: 512, 
+Jun 26 07:53:00.160 INFO: Dynamixel0: m_initialSpeed: 30, 
+Jun 26 07:53:00.197 INFO: Dynamixel0: 全アクチュエータのトルク制限を最大に設定
+Jun 26 07:53:00.197 INFO: Dynamixel0: onDeactivated()
+Jun 26 07:53:00.198 INFO: Dynamixel0: onAborting()
+Jun 26 07:53:00.212 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jun 26 07:53:08.969 INFO: ManagerServant: Master manager not found
+Jun 26 07:53:18.991 INFO: ManagerServant: Master manager not found
+Jun 26 07:53:29.082 INFO: ManagerServant: Master manager not found
+Jun 26 07:53:39.126 INFO: ManagerServant: Master manager not found
+Jun 26 07:53:49.102 INFO: ManagerServant: Master manager not found
+Jun 26 07:53:59.245 INFO: ManagerServant: Master manager not found
+Jun 26 07:54:09.275 INFO: ManagerServant: Master manager not found
+Jun 26 07:54:19.278 INFO: ManagerServant: Master manager not found
+Jun 26 07:54:29.264 INFO: ManagerServant: Master manager not found
+Jun 26 07:54:39.390 INFO: ManagerServant: Master manager not found

@@ -1,0 +1,25 @@
+Jul 01 10:47:49.737 INFO: manager: 2.0.1
+Jul 01 10:47:49.738 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 01 10:47:49.738 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 01 10:47:49.738 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 01 10:47:49.738 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 01 10:47:49.738 INFO: manager:   All right reserved.
+Jul 01 10:47:49.739 INFO: manager: Manager starting.
+Jul 01 10:47:49.739 INFO: manager: Starting local logging.
+Jul 01 10:47:49.768 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 01 10:47:49.768 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 01 10:47:49.779 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 01 10:47:53.868 WARNING: ManagerServant: Master manager not found
+Jul 01 10:47:53.871 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 01 10:47:53.903 INFO: ec_base: setRate(1000000.000000) done
+Jul 01 10:47:53.903 INFO: ec_base: setRate(1000.000000) done
+Jul 01 10:47:53.905 INFO: Dynamixel0: 1 execution context was created.
+Jul 01 10:47:53.907 INFO: Dynamixel0: onInitialize()
+Jul 01 10:47:53.937 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 01 10:48:08.108 INFO: ManagerServant: Master manager not found
+Jul 01 10:48:08.580 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 01 10:48:18.118 INFO: ManagerServant: Master manager not found
+Jul 01 10:48:21.202 INFO: Dynamixel0: onActivated()
+Jul 01 10:48:21.351 INFO: Dynamixel0: m_initialPosition: 512, 
+Jul 01 10:48:21.352 INFO: Dynamixel0: m_initialSpeed: 100, 
+Jul 01 10:48:28.131 INFO: ManagerServant: Master manager not found

@@ -1,0 +1,32 @@
+Jun 26 11:56:06.935 INFO: manager: 2.0.1
+Jun 26 11:56:06.936 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jun 26 11:56:06.936 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jun 26 11:56:06.936 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jun 26 11:56:06.936 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jun 26 11:56:06.936 INFO: manager:   All right reserved.
+Jun 26 11:56:06.936 INFO: manager: Manager starting.
+Jun 26 11:56:06.936 INFO: manager: Starting local logging.
+Jun 26 11:56:06.976 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jun 26 11:56:06.976 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jun 26 11:56:06.990 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jun 26 11:56:11.073 WARNING: ManagerServant: Master manager not found
+Jun 26 11:56:11.076 INFO: LocalServiceAdmin: All the local services are enabled.
+Jun 26 11:56:11.096 INFO: ec_base: setRate(1000000.000000) done
+Jun 26 11:56:11.096 INFO: ec_base: setRate(1000.000000) done
+Jun 26 11:56:11.096 INFO: Dynamixel0: 1 execution context was created.
+Jun 26 11:56:11.097 INFO: Dynamixel0: onInitialize()
+Jun 26 11:56:11.120 INFO: Dynamixel0: Initial active configuration set is default.
+Jun 26 11:56:25.261 INFO: ManagerServant: Master manager not found
+Jun 26 11:56:34.340 INFO: Dynamixel0: onActivated()
+Jun 26 11:56:34.504 INFO: Dynamixel0: m_initialPosition: 512, 
+Jun 26 11:56:34.505 INFO: Dynamixel0: m_initialSpeed: 100, 
+Jun 26 11:56:34.632 INFO: Dynamixel0: onDeactivated()
+Jun 26 11:56:34.633 INFO: Dynamixel0: onAborting()
+Jun 26 11:56:35.381 INFO: ManagerServant: Master manager not found
+Jun 26 11:56:45.388 INFO: ManagerServant: Master manager not found
+Jun 26 11:56:55.418 INFO: ManagerServant: Master manager not found
+Jun 26 11:57:05.440 INFO: ManagerServant: Master manager not found
+Jun 26 11:57:15.450 INFO: ManagerServant: Master manager not found
+Jun 26 11:57:25.484 INFO: ManagerServant: Master manager not found
+Jun 26 11:57:35.500 INFO: ManagerServant: Master manager not found
+Jun 26 11:57:45.647 INFO: ManagerServant: Master manager not found

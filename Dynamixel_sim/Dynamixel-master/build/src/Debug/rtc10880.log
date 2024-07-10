@@ -1,0 +1,31 @@
+Jul 01 11:00:18.861 INFO: manager: 2.0.1
+Jul 01 11:00:18.862 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 01 11:00:18.862 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 01 11:00:18.862 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 01 11:00:18.862 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 01 11:00:18.862 INFO: manager:   All right reserved.
+Jul 01 11:00:18.863 INFO: manager: Manager starting.
+Jul 01 11:00:18.863 INFO: manager: Starting local logging.
+Jul 01 11:00:18.896 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 01 11:00:18.897 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 01 11:00:18.909 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 01 11:00:23.015 WARNING: ManagerServant: Master manager not found
+Jul 01 11:00:23.018 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 01 11:00:23.053 INFO: ec_base: setRate(1000000.000000) done
+Jul 01 11:00:23.053 INFO: ec_base: setRate(1000.000000) done
+Jul 01 11:00:23.055 INFO: Dynamixel0: 1 execution context was created.
+Jul 01 11:00:23.058 INFO: Dynamixel0: onInitialize()
+Jul 01 11:00:23.096 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 01 11:00:35.188 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 01 11:00:37.261 INFO: ManagerServant: Master manager not found
+Jul 01 11:00:46.045 INFO: Dynamixel0: onActivated()
+Jul 01 11:00:46.049 ERROR: Dynamixel0: シリアルポートのオープンに失敗
+Jul 01 11:00:46.049 INFO: Dynamixel0: onDeactivated()
+Jul 01 11:00:46.050 INFO: Dynamixel0: onAborting()
+Jul 01 11:00:46.058 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jul 01 11:00:47.276 INFO: ManagerServant: Master manager not found
+Jul 01 11:00:54.657 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 01 11:00:57.319 INFO: ManagerServant: Master manager not found
+Jul 01 11:01:07.314 INFO: ManagerServant: Master manager not found
+Jul 01 11:01:07.828 INFO: Dynamixel0: onReset()
+Jul 01 11:01:07.848 INFO: Dynamixel0: onFinalize()

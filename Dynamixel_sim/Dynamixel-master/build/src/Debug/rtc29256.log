@@ -1,0 +1,65 @@
+Jun 26 08:55:20.847 INFO: manager: 2.0.1
+Jun 26 08:55:20.847 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jun 26 08:55:20.847 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jun 26 08:55:20.848 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jun 26 08:55:20.848 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jun 26 08:55:20.848 INFO: manager:   All right reserved.
+Jun 26 08:55:20.848 INFO: manager: Manager starting.
+Jun 26 08:55:20.848 INFO: manager: Starting local logging.
+Jun 26 08:55:20.870 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jun 26 08:55:20.870 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jun 26 08:55:20.878 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jun 26 08:55:24.971 WARNING: ManagerServant: Master manager not found
+Jun 26 08:55:24.973 INFO: LocalServiceAdmin: All the local services are enabled.
+Jun 26 08:55:24.994 INFO: ec_base: setRate(1000000.000000) done
+Jun 26 08:55:24.994 INFO: ec_base: setRate(1000.000000) done
+Jun 26 08:55:24.995 INFO: Dynamixel0: 1 execution context was created.
+Jun 26 08:55:24.995 INFO: Dynamixel0: onInitialize()
+Jun 26 08:55:25.016 INFO: Dynamixel0: Initial active configuration set is default.
+Jun 26 08:55:39.209 INFO: ManagerServant: Master manager not found
+Jun 26 08:55:47.580 INFO: Dynamixel0: onActivated()
+Jun 26 08:55:47.722 INFO: Dynamixel0: m_initialPosition: 512, 
+Jun 26 08:55:47.722 INFO: Dynamixel0: m_initialSpeed: 500, 
+Jun 26 08:55:49.221 INFO: ManagerServant: Master manager not found
+Jun 26 08:55:59.224 INFO: ManagerServant: Master manager not found
+Jun 26 08:56:05.567 INFO: Dynamixel0: onDeactivated()
+Jun 26 08:56:08.050 INFO: Dynamixel0: onActivated()
+Jun 26 08:56:08.050 INFO: Dynamixel0: m_initialPosition: 200, 
+Jun 26 08:56:08.050 INFO: Dynamixel0: m_initialSpeed: 500, 
+Jun 26 08:56:09.234 INFO: ManagerServant: Master manager not found
+Jun 26 08:56:19.371 INFO: ManagerServant: Master manager not found
+Jun 26 08:56:24.232 INFO: Dynamixel0: onDeactivated()
+Jun 26 08:56:27.328 INFO: Dynamixel0: onActivated()
+Jun 26 08:56:27.329 INFO: Dynamixel0: m_initialPosition: 500, 
+Jun 26 08:56:27.329 INFO: Dynamixel0: m_initialSpeed: 500, 
+Jun 26 08:56:29.384 INFO: ManagerServant: Master manager not found
+Jun 26 08:56:29.686 INFO: Dynamixel0: onDeactivated()
+Jun 26 08:56:39.371 INFO: ManagerServant: Master manager not found
+Jun 26 08:56:40.307 INFO: Dynamixel0: onActivated()
+Jun 26 08:56:40.307 INFO: Dynamixel0: m_initialPosition: 200, 
+Jun 26 08:56:40.308 INFO: Dynamixel0: m_initialSpeed: 100, 
+Jun 26 08:56:49.513 INFO: ManagerServant: Master manager not found
+Jun 26 08:56:59.536 INFO: ManagerServant: Master manager not found
+Jun 26 08:57:09.415 INFO: Dynamixel0: onDeactivated()
+Jun 26 08:57:09.523 INFO: ManagerServant: Master manager not found
+Jun 26 08:57:19.629 INFO: ManagerServant: Master manager not found
+Jun 26 08:57:29.653 INFO: ManagerServant: Master manager not found
+Jun 26 08:57:39.664 INFO: ManagerServant: Master manager not found
+Jun 26 08:57:49.613 INFO: ManagerServant: Master manager not found
+Jun 26 08:57:51.340 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jun 26 08:57:59.722 INFO: ManagerServant: Master manager not found
+Jun 26 08:58:02.609 INFO: Dynamixel0: onActivated()
+Jun 26 08:58:02.609 INFO: Dynamixel0: m_initialPosition: 512, 
+Jun 26 08:58:02.610 INFO: Dynamixel0: m_initialSpeed: 100, 
+Jun 26 08:58:02.741 INFO: Dynamixel0: onDeactivated()
+Jun 26 08:58:02.741 INFO: Dynamixel0: onAborting()
+Jun 26 08:58:09.707 INFO: ManagerServant: Master manager not found
+Jun 26 08:58:19.818 INFO: ManagerServant: Master manager not found
+Jun 26 08:58:24.306 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jun 26 08:58:29.849 INFO: ManagerServant: Master manager not found
+Jun 26 08:58:39.956 INFO: ManagerServant: Master manager not found
+Jun 26 08:58:49.936 INFO: ManagerServant: Master manager not found
+Jun 26 08:59:00.041 INFO: ManagerServant: Master manager not found
+Jun 26 08:59:10.170 INFO: ManagerServant: Master manager not found
+Jun 26 08:59:20.183 INFO: ManagerServant: Master manager not found
+Jun 26 08:59:30.210 INFO: ManagerServant: Master manager not found

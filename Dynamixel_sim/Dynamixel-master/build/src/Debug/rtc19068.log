@@ -1,0 +1,32 @@
+Jul 01 10:51:43.774 INFO: manager: 2.0.1
+Jul 01 10:51:43.775 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 01 10:51:43.775 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 01 10:51:43.775 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 01 10:51:43.776 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 01 10:51:43.776 INFO: manager:   All right reserved.
+Jul 01 10:51:43.776 INFO: manager: Manager starting.
+Jul 01 10:51:43.776 INFO: manager: Starting local logging.
+Jul 01 10:51:43.827 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 01 10:51:43.828 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 01 10:51:43.841 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 01 10:51:47.952 WARNING: ManagerServant: Master manager not found
+Jul 01 10:51:47.955 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 01 10:51:47.987 INFO: ec_base: setRate(1000000.000000) done
+Jul 01 10:51:47.988 INFO: ec_base: setRate(1000.000000) done
+Jul 01 10:51:47.989 INFO: Dynamixel0: 1 execution context was created.
+Jul 01 10:51:47.991 INFO: Dynamixel0: onInitialize()
+Jul 01 10:51:48.018 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 01 10:52:01.837 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 01 10:52:02.240 INFO: ManagerServant: Master manager not found
+Jul 01 10:52:12.283 INFO: ManagerServant: Master manager not found
+Jul 01 10:52:22.342 INFO: ManagerServant: Master manager not found
+Jul 01 10:52:27.274 WARNING: goalPosition: Dead connection: b4443a58-6e0f-4101-9c42-18991adc5a34
+Jul 01 10:52:29.321 WARNING: goalPosition: Exception caught: minor code(1096024066).
+Jul 01 10:52:32.355 INFO: ManagerServant: Master manager not found
+Jul 01 10:52:42.368 INFO: ManagerServant: Master manager not found
+Jul 01 10:52:52.375 INFO: ManagerServant: Master manager not found
+Jul 01 10:52:54.804 INFO: Dynamixel0: onActivated()
+Jul 01 10:52:54.963 INFO: Dynamixel0: m_initialPosition: 512, 
+Jul 01 10:52:54.964 INFO: Dynamixel0: m_initialSpeed: 30, 
+Jul 01 10:53:02.514 INFO: ManagerServant: Master manager not found
+Jul 01 10:53:12.549 INFO: ManagerServant: Master manager not found

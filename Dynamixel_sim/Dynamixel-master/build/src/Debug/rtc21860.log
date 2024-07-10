@@ -1,0 +1,26 @@
+Jun 26 07:44:58.952 INFO: manager: 2.0.1
+Jun 26 07:44:58.953 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jun 26 07:44:58.953 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jun 26 07:44:58.953 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jun 26 07:44:58.953 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jun 26 07:44:58.953 INFO: manager:   All right reserved.
+Jun 26 07:44:58.953 INFO: manager: Manager starting.
+Jun 26 07:44:58.953 INFO: manager: Starting local logging.
+Jun 26 07:44:58.975 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jun 26 07:44:58.975 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jun 26 07:44:58.985 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jun 26 07:45:03.052 WARNING: ManagerServant: Master manager not found
+Jun 26 07:45:03.053 INFO: LocalServiceAdmin: All the local services are enabled.
+Jun 26 07:45:03.073 INFO: ec_base: setRate(1000000.000000) done
+Jun 26 07:45:03.073 INFO: ec_base: setRate(1000.000000) done
+Jun 26 07:45:03.074 INFO: Dynamixel0: 1 execution context was created.
+Jun 26 07:45:03.074 INFO: Dynamixel0: onInitialize()
+Jun 26 07:45:03.091 INFO: Dynamixel0: Initial active configuration set is default.
+Jun 26 07:45:07.180 INFO: Dynamixel0: onActivated()
+Jun 26 07:45:07.186 ERROR: Dynamixel0: シリアルポートのオープンに失敗
+Jun 26 07:45:07.186 INFO: Dynamixel0: onDeactivated()
+Jun 26 07:45:07.186 INFO: Dynamixel0: onAborting()
+Jun 26 07:45:07.199 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jun 26 07:45:17.268 INFO: ManagerServant: Master manager not found
+Jun 26 07:45:17.785 INFO: Dynamixel0: onReset()
+Jun 26 07:45:17.805 INFO: Dynamixel0: onFinalize()

@@ -1,0 +1,18 @@
+Jun 26 11:47:22.571 INFO: manager: 2.0.1
+Jun 26 11:47:22.573 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jun 26 11:47:22.574 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jun 26 11:47:22.574 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jun 26 11:47:22.574 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jun 26 11:47:22.574 INFO: manager:   All right reserved.
+Jun 26 11:47:22.574 INFO: manager: Manager starting.
+Jun 26 11:47:22.574 INFO: manager: Starting local logging.
+Jun 26 11:47:22.603 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jun 26 11:47:22.603 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jun 26 11:47:22.616 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jun 26 11:47:26.731 WARNING: ManagerServant: Master manager not found
+Jun 26 11:47:26.739 INFO: LocalServiceAdmin: All the local services are enabled.
+Jun 26 11:47:26.805 INFO: ec_base: setRate(1000000.000000) done
+Jun 26 11:47:26.805 INFO: ec_base: setRate(1000.000000) done
+Jun 26 11:47:26.809 INFO: Dynamixel0: 1 execution context was created.
+Jun 26 11:47:26.812 INFO: Dynamixel0: onInitialize()
+Jun 26 11:47:26.842 INFO: Dynamixel0: Initial active configuration set is default.

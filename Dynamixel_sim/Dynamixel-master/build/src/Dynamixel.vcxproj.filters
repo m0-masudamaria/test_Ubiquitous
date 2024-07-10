@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cakes\workspace\Dynamixel_sim\Dynamixel-master\src\Dynamixel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cakes\workspace\Dynamixel_sim\Dynamixel-master\src\DynamixelBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\cakes\workspace\Dynamixel_sim\Dynamixel-master\include\Dynamixel\Dynamixel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cakes\workspace\Dynamixel_sim\Dynamixel-master\include\Dynamixel\DynamixelBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cakes\workspace\Dynamixel_sim\Dynamixel-master\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BCCA3515-D51C-3F58-B4C1-6A02A49E28AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29EFE32C-89BB-3FD8-8C24-8305D957EA12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+Jun 26 08:41:07.947 INFO: manager: 2.0.1
+Jun 26 08:41:07.948 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jun 26 08:41:07.948 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jun 26 08:41:07.948 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jun 26 08:41:07.948 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jun 26 08:41:07.948 INFO: manager:   All right reserved.
+Jun 26 08:41:07.948 INFO: manager: Manager starting.
+Jun 26 08:41:07.948 INFO: manager: Starting local logging.
+Jun 26 08:41:07.969 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jun 26 08:41:07.969 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jun 26 08:41:07.977 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jun 26 08:41:12.086 WARNING: ManagerServant: Master manager not found
+Jun 26 08:41:12.088 INFO: LocalServiceAdmin: All the local services are enabled.
+Jun 26 08:41:12.107 INFO: ec_base: setRate(1000000.000000) done
+Jun 26 08:41:12.108 INFO: ec_base: setRate(1000.000000) done
+Jun 26 08:41:12.108 INFO: Dynamixel0: 1 execution context was created.
+Jun 26 08:41:12.109 INFO: Dynamixel0: onInitialize()
+Jun 26 08:41:12.128 INFO: Dynamixel0: Initial active configuration set is default.
+Jun 26 08:41:18.411 INFO: Dynamixel0: onActivated()
+Jun 26 08:41:18.556 INFO: Dynamixel0: m_initialPosition: 512, 
+Jun 26 08:41:18.557 INFO: Dynamixel0: m_initialSpeed: 30, 
+Jun 26 08:41:18.593 INFO: Dynamixel0: 全アクチュエータのトルク制限を最大に設定
+Jun 26 08:41:18.593 INFO: Dynamixel0: onDeactivated()
+Jun 26 08:41:18.593 INFO: Dynamixel0: onAborting()
+Jun 26 08:41:18.608 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jun 26 08:41:24.064 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jun 26 08:41:26.265 INFO: ManagerServant: Master manager not found
