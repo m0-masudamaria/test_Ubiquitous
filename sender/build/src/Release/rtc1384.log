@@ -1,0 +1,66 @@
+Jul 10 03:21:33.800 INFO: manager: 2.0.1
+Jul 10 03:21:33.803 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 10 03:21:33.803 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 10 03:21:33.803 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 10 03:21:33.804 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 10 03:21:33.804 INFO: manager:   All right reserved.
+Jul 10 03:21:33.804 INFO: manager: Manager starting.
+Jul 10 03:21:33.804 INFO: manager: Starting local logging.
+Jul 10 03:21:33.947 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 10 03:21:33.948 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 10 03:21:33.957 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 10 03:21:38.307 WARNING: ManagerServant: Master manager not found
+Jul 10 03:21:38.313 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 10 03:21:38.342 INFO: ec_base: setRate(1000000.000000) done
+Jul 10 03:21:38.342 INFO: ec_base: setRate(1000.000000) done
+Jul 10 03:21:38.343 INFO: sender0: 1 execution context was created.
+Jul 10 03:21:38.346 INFO: sender0: Initial active configuration set is default.
+Jul 10 03:21:52.504 INFO: ManagerServant: Master manager not found
+Jul 10 03:22:02.790 INFO: ManagerServant: Master manager not found
+Jul 10 03:22:12.838 INFO: ManagerServant: Master manager not found
+Jul 10 03:22:22.590 INFO: ManagerServant: Master manager not found
+Jul 10 03:22:32.921 INFO: ManagerServant: Master manager not found
+Jul 10 03:22:42.805 INFO: NamingManager: Name server: localhost (corba) disappeared.
+Jul 10 03:22:46.872 INFO: ManagerServant: Master manager not found
+Jul 10 03:22:52.793 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 10 03:22:56.860 INFO: ManagerServant: Master manager not found
+Jul 10 03:23:02.921 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 10 03:23:06.967 INFO: ManagerServant: Master manager not found
+Jul 10 03:23:13.025 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 10 03:23:17.071 INFO: ManagerServant: Master manager not found
+Jul 10 03:23:23.115 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 10 03:23:27.172 INFO: ManagerServant: Master manager not found
+Jul 10 03:23:33.224 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 10 03:23:37.272 INFO: ManagerServant: Master manager not found
+Jul 10 03:23:39.274 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 10 03:23:39.274 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 10 03:23:39.274 INFO: NamingManager: Connected to a name server: corba/localhost
+Jul 10 03:23:43.403 INFO: ManagerServant: Master manager not found
+Jul 10 03:23:53.355 INFO: ManagerServant: Master manager not found
+Jul 10 03:24:03.385 INFO: ManagerServant: Master manager not found
+Jul 10 03:24:13.389 INFO: ManagerServant: Master manager not found
+Jul 10 03:24:23.431 INFO: ManagerServant: Master manager not found
+Jul 10 03:24:33.471 INFO: ManagerServant: Master manager not found
+Jul 10 03:24:43.514 INFO: ManagerServant: Master manager not found
+Jul 10 03:24:53.578 INFO: ManagerServant: Master manager not found
+Jul 10 03:25:03.607 INFO: ManagerServant: Master manager not found
+Jul 10 03:25:13.634 INFO: ManagerServant: Master manager not found
+Jul 10 03:25:23.692 INFO: ManagerServant: Master manager not found
+Jul 10 03:25:33.684 INFO: ManagerServant: Master manager not found
+Jul 10 03:25:43.702 INFO: ManagerServant: Master manager not found
+Jul 10 03:25:53.725 INFO: ManagerServant: Master manager not found
+Jul 10 03:26:03.818 INFO: ManagerServant: Master manager not found
+Jul 10 03:26:13.802 INFO: ManagerServant: Master manager not found
+Jul 10 03:26:23.942 INFO: ManagerServant: Master manager not found
+Jul 10 03:26:34.098 INFO: ManagerServant: Master manager not found
+Jul 10 03:26:44.048 INFO: ManagerServant: Master manager not found
+Jul 10 03:26:54.150 INFO: ManagerServant: Master manager not found
+Jul 10 03:27:04.251 INFO: ManagerServant: Master manager not found
+Jul 10 03:27:14.373 INFO: ManagerServant: Master manager not found
+Jul 10 03:27:24.441 INFO: ManagerServant: Master manager not found
+Jul 10 03:27:34.512 INFO: ManagerServant: Master manager not found
+Jul 10 03:27:44.576 INFO: ManagerServant: Master manager not found
+Jul 10 03:27:54.637 INFO: ManagerServant: Master manager not found
+Jul 10 03:28:04.694 INFO: ManagerServant: Master manager not found
+Jul 10 03:28:14.734 INFO: ManagerServant: Master manager not found
+Jul 10 03:28:24.775 INFO: ManagerServant: Master manager not found

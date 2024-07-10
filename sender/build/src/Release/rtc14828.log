@@ -1,0 +1,32 @@
+Jul 04 15:26:44.200 INFO: manager: 2.0.1
+Jul 04 15:26:44.201 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 04 15:26:44.201 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 04 15:26:44.201 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 04 15:26:44.201 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 04 15:26:44.201 INFO: manager:   All right reserved.
+Jul 04 15:26:44.201 INFO: manager: Manager starting.
+Jul 04 15:26:44.201 INFO: manager: Starting local logging.
+Jul 04 15:26:44.230 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 04 15:26:44.231 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 04 15:26:44.232 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 04 15:26:48.312 WARNING: ManagerServant: Master manager not found
+Jul 04 15:26:48.312 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 04 15:26:48.314 INFO: ec_base: setRate(1000000.000000) done
+Jul 04 15:26:48.314 INFO: ec_base: setRate(1000.000000) done
+Jul 04 15:26:48.314 INFO: sender0: 1 execution context was created.
+Jul 04 15:26:48.315 INFO: sender0: Initial active configuration set is default.
+Jul 04 15:27:02.450 INFO: ManagerServant: Master manager not found
+Jul 04 15:27:12.539 INFO: ManagerServant: Master manager not found
+Jul 04 15:27:22.636 INFO: ManagerServant: Master manager not found
+Jul 04 15:27:32.744 INFO: ManagerServant: Master manager not found
+Jul 04 15:27:42.811 INFO: ManagerServant: Master manager not found
+Jul 04 15:27:52.863 INFO: ManagerServant: Master manager not found
+Jul 04 15:28:02.965 INFO: ManagerServant: Master manager not found
+Jul 04 15:28:12.950 INFO: ManagerServant: Master manager not found
+Jul 04 15:28:23.061 INFO: ManagerServant: Master manager not found
+Jul 04 15:28:33.165 INFO: ManagerServant: Master manager not found
+Jul 04 15:28:43.292 INFO: ManagerServant: Master manager not found
+Jul 04 15:28:53.265 INFO: ManagerServant: Master manager not found
+Jul 04 15:29:03.404 INFO: ManagerServant: Master manager not found
+Jul 04 15:29:13.373 INFO: ManagerServant: Master manager not found
+Jul 04 15:29:23.482 INFO: ManagerServant: Master manager not found

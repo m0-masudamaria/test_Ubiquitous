@@ -1,0 +1,66 @@
+Jul 05 09:23:18.329 INFO: manager: 2.0.1
+Jul 05 09:23:18.330 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 05 09:23:18.330 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 05 09:23:18.330 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 05 09:23:18.330 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 05 09:23:18.330 INFO: manager:   All right reserved.
+Jul 05 09:23:18.330 INFO: manager: Manager starting.
+Jul 05 09:23:18.330 INFO: manager: Starting local logging.
+Jul 05 09:23:18.353 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 05 09:23:18.354 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 05 09:23:18.354 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 05 09:23:22.462 WARNING: ManagerServant: Master manager not found
+Jul 05 09:23:22.463 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 05 09:23:22.464 INFO: ec_base: setRate(1000000.000000) done
+Jul 05 09:23:22.464 INFO: ec_base: setRate(1000.000000) done
+Jul 05 09:23:22.464 INFO: sender0: 1 execution context was created.
+Jul 05 09:23:22.464 INFO: sender0: Initial active configuration set is default.
+Jul 05 09:23:36.567 INFO: ManagerServant: Master manager not found
+Jul 05 09:23:46.681 INFO: ManagerServant: Master manager not found
+Jul 05 09:23:56.796 INFO: ManagerServant: Master manager not found
+Jul 05 09:24:06.892 INFO: ManagerServant: Master manager not found
+Jul 05 09:24:17.009 INFO: ManagerServant: Master manager not found
+Jul 05 09:24:27.102 INFO: ManagerServant: Master manager not found
+Jul 05 09:24:32.828 WARNING: sender: Dead connection: f0e1b8c5-b57a-40d6-93b8-4e6c0413b74f
+Jul 05 09:24:34.858 WARNING: sender: Exception caught: minor code.
+Jul 05 09:24:37.129 INFO: ManagerServant: Master manager not found
+Jul 05 09:24:47.183 INFO: ManagerServant: Master manager not found
+Jul 05 09:24:55.755 ERROR: ec_worker: State of the RTC is not INACTIVE_STATE.
+Jul 05 09:24:57.260 INFO: ManagerServant: Master manager not found
+Jul 05 09:25:07.223 INFO: ManagerServant: Master manager not found
+Jul 05 09:25:17.305 INFO: ManagerServant: Master manager not found
+Jul 05 09:25:27.339 INFO: ManagerServant: Master manager not found
+Jul 05 09:25:37.466 INFO: ManagerServant: Master manager not found
+Jul 05 09:25:47.436 INFO: ManagerServant: Master manager not found
+Jul 05 09:25:57.530 INFO: ManagerServant: Master manager not found
+Jul 05 09:26:07.632 INFO: ManagerServant: Master manager not found
+Jul 05 09:26:17.601 INFO: ManagerServant: Master manager not found
+Jul 05 09:26:23.497 WARNING: sender: Dead connection: 10140863-b481-4ba7-96b3-cadc11218142
+Jul 05 09:26:25.526 WARNING: sender: Exception caught: minor code(1096024066).
+Jul 05 09:26:27.721 INFO: ManagerServant: Master manager not found
+Jul 05 09:26:37.813 INFO: ManagerServant: Master manager not found
+Jul 05 09:26:47.907 INFO: ManagerServant: Master manager not found
+Jul 05 09:26:49.820 ERROR: ec_worker: State of the RTC is not INACTIVE_STATE.
+Jul 05 09:26:57.856 INFO: ManagerServant: Master manager not found
+Jul 05 09:27:07.964 INFO: ManagerServant: Master manager not found
+Jul 05 09:27:17.946 INFO: ManagerServant: Master manager not found
+Jul 05 09:27:28.046 INFO: ManagerServant: Master manager not found
+Jul 05 09:27:38.014 INFO: ManagerServant: Master manager not found
+Jul 05 09:27:48.138 INFO: ManagerServant: Master manager not found
+Jul 05 09:27:58.143 INFO: ManagerServant: Master manager not found
+Jul 05 09:28:08.174 INFO: ManagerServant: Master manager not found
+Jul 05 09:28:12.294 WARNING: sender: Dead connection: d7662d09-30ad-4b50-b533-e4f965d5d30f
+Jul 05 09:28:14.349 WARNING: sender: Exception caught: minor code(1096024066).
+Jul 05 09:28:18.263 INFO: ManagerServant: Master manager not found
+Jul 05 09:28:28.276 INFO: ManagerServant: Master manager not found
+Jul 05 09:28:38.313 INFO: ManagerServant: Master manager not found
+Jul 05 09:28:48.376 INFO: ManagerServant: Master manager not found
+Jul 05 09:28:50.216 ERROR: ec_worker: State of the RTC is not INACTIVE_STATE.
+Jul 05 09:28:58.335 INFO: ManagerServant: Master manager not found
+Jul 05 09:29:08.391 INFO: ManagerServant: Master manager not found
+Jul 05 09:29:18.489 INFO: ManagerServant: Master manager not found
+Jul 05 09:29:28.515 INFO: ManagerServant: Master manager not found
+Jul 05 09:29:38.494 INFO: ManagerServant: Master manager not found
+Jul 05 09:29:48.594 INFO: ManagerServant: Master manager not found
+Jul 05 09:29:58.689 INFO: ManagerServant: Master manager not found
+Jul 05 09:30:08.804 INFO: ManagerServant: Master manager not found

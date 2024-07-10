@@ -1,0 +1,23 @@
+Jul 05 05:25:01.776 INFO: manager: 2.0.1
+Jul 05 05:25:01.776 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 05 05:25:01.776 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 05 05:25:01.776 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 05 05:25:01.776 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 05 05:25:01.777 INFO: manager:   All right reserved.
+Jul 05 05:25:01.777 INFO: manager: Manager starting.
+Jul 05 05:25:01.777 INFO: manager: Starting local logging.
+Jul 05 05:25:01.876 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 05 05:25:01.877 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 05 05:25:01.880 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 05 05:25:05.990 WARNING: ManagerServant: Master manager not found
+Jul 05 05:25:05.995 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 05 05:25:06.011 INFO: ec_base: setRate(1000000.000000) done
+Jul 05 05:25:06.011 INFO: ec_base: setRate(1000.000000) done
+Jul 05 05:25:06.011 INFO: sender0: 1 execution context was created.
+Jul 05 05:25:06.014 INFO: sender0: Initial active configuration set is default.
+Jul 05 05:25:20.061 INFO: ManagerServant: Master manager not found
+Jul 05 05:25:26.976 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 05 05:25:30.192 INFO: ManagerServant: Master manager not found
+Jul 05 05:25:40.188 INFO: ManagerServant: Master manager not found
+Jul 05 05:25:43.611 ERROR: ec_base: The component is not responding.
+Jul 05 05:25:43.611 ERROR: ec_base: Unknown error: Invalid state transition.
