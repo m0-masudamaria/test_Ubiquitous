@@ -1,0 +1,10 @@
+^C:\USERS\CAKES\WORKSPACE\CAL_INVERSE_KINEMATICS\BUILD\CMAKEFILES\417F89B048E295C6D7E0214E5B98D2B7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/cakes/workspace/cal_inverse_kinematics -BC:/Users/cakes/workspace/cal_inverse_kinematics/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/cakes/workspace/cal_inverse_kinematics/build/cal_inverse_kinematics.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

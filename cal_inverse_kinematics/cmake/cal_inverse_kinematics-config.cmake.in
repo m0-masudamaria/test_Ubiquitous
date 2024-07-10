@@ -1,0 +1,54 @@
+# cal_inverse_kinematics CMake config file
+#
+# This file sets the following variables:
+# cal_inverse_kinematics_FOUND - Always TRUE.
+# cal_inverse_kinematics_INCLUDE_DIRS - Directories containing the cal_inverse_kinematics include files.
+# cal_inverse_kinematics_IDL_DIRS - Directories containing the cal_inverse_kinematics IDL files.
+# cal_inverse_kinematics_LIBRARIES - Libraries needed to use cal_inverse_kinematics.
+# cal_inverse_kinematics_DEFINITIONS - Compiler flags for cal_inverse_kinematics.
+# cal_inverse_kinematics_VERSION - The version of cal_inverse_kinematics found.
+# cal_inverse_kinematics_VERSION_MAJOR - The major version of cal_inverse_kinematics found.
+# cal_inverse_kinematics_VERSION_MINOR - The minor version of cal_inverse_kinematics found.
+# cal_inverse_kinematics_VERSION_REVISION - The revision version of cal_inverse_kinematics found.
+# cal_inverse_kinematics_VERSION_CANDIDATE - The candidate version of cal_inverse_kinematics found.
+
+message(STATUS "Found cal_inverse_kinematics-@PROJECT_VERSION@")
+set(cal_inverse_kinematics_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(cal_inverse_kinematics_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(cal_inverse_kinematics_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(cal_inverse_kinematics_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(cal_inverse_kinematics_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(cal_inverse_kinematics_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(cal_inverse_kinematics_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(cal_inverse_kinematics_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(cal_inverse_kinematics_VERSION @PROJECT_VERSION@)
+set(cal_inverse_kinematics_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(cal_inverse_kinematics_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(cal_inverse_kinematics_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(cal_inverse_kinematics_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+

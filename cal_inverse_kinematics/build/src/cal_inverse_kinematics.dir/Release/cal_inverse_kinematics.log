@@ -1,0 +1,19 @@
+﻿  cal_inverse_kinematics.cpp
+C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_inverse_kinematics.cpp(586,50): warning C4244: '=': 'double' から 'T' への変換です。データが失われる可能性があります。
+          with
+          [
+              T=CORBA::Short
+          ]
+C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_inverse_kinematics.cpp(587,50): warning C4244: '=': 'double' から 'T' への変換です。データが失われる可能性があります。
+          with
+          [
+              T=CORBA::Short
+          ]
+C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_inverse_kinematics.cpp(588,50): warning C4244: '=': 'double' から 'T' への変換です。データが失われる可能性があります。
+          with
+          [
+              T=CORBA::Short
+          ]
+C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_inverse_kinematics.cpp(619,35): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+     ライブラリ C:/Users/cakes/workspace/cal_inverse_kinematics/build/src/Release/cal_inverse_kinematics.lib とオブジェクト C:/Users/cakes/workspace/cal_inverse_kinematics/build/src/Release/cal_inverse_kinematics.exp を作成中
+  cal_inverse_kinematics.vcxproj -> C:\Users\cakes\workspace\cal_inverse_kinematics\build\src\Release\cal_inverse_kinematics.dll

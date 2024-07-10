@@ -1,0 +1,24 @@
+Jul 05 07:57:46.216 INFO: manager: 2.0.1
+Jul 05 07:57:46.216 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 05 07:57:46.216 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 05 07:57:46.216 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 05 07:57:46.216 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 05 07:57:46.216 INFO: manager:   All right reserved.
+Jul 05 07:57:46.216 INFO: manager: Manager starting.
+Jul 05 07:57:46.216 INFO: manager: Starting local logging.
+Jul 05 07:57:46.233 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 05 07:57:46.233 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 05 07:57:46.234 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 05 07:57:50.323 WARNING: ManagerServant: Master manager not found
+Jul 05 07:57:50.324 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 05 07:57:50.326 INFO: ec_base: setRate(1000000.000000) done
+Jul 05 07:57:50.326 INFO: ec_base: setRate(1000.000000) done
+Jul 05 07:57:50.326 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 05 07:57:50.327 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 05 07:57:55.404 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 05 07:58:02.794 ERROR: ec_worker: State of the RTC is not INACTIVE_STATE.
+Jul 05 07:58:04.425 INFO: ManagerServant: Master manager not found
+Jul 05 07:58:14.437 INFO: ManagerServant: Master manager not found
+Jul 05 07:58:24.541 INFO: ManagerServant: Master manager not found
+Jul 05 07:58:34.564 INFO: ManagerServant: Master manager not found
+Jul 05 07:58:44.528 INFO: ManagerServant: Master manager not found
