@@ -598,10 +598,10 @@ short pred_hat_XY;
 void HatPress(float x, float y)
 {
   hat_XY = (short)hat[0].getValue();
-  if(hat_XY==2)hat_XY=2;
-  else if(hat_XY==4)hat_XY=4;
+  if(hat_XY==2)hat_XY=4;
+  else if(hat_XY==4)hat_XY=5;
   else if(hat_XY==6)hat_XY=6;
-  else if(hat_XY==8)hat_XY=8;
+  else if(hat_XY==8)hat_XY=7;
   else hat_XY=9;
   if (pred_hat_XY != hat_XY)
   {
