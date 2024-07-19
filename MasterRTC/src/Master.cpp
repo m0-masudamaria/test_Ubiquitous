@@ -60,7 +60,7 @@ Master::Master(RTC::Manager* manager)
 // <rtc-template block="initializer">
     : RTC::DataFlowComponentBase(manager),
     m_GamePad_Arg_SpeedIn("GamePad_Arg_Speed", m_GamePad_Arg_Speed),
-    m_CameraIn("Camera", m_Camera),
+    m_nb_of_pinsIn("Nb_of_pins", m_nb_of_pins),
     m_IK_CompIn("IK_Comp", m_IK_Comp),
     m_kobuki_CompIn("kobuki_Comp", m_kobuki_Comp),
     m_SendSpeedOut("SendSpeed", m_SendSpeed),
@@ -85,9 +85,10 @@ RTC::ReturnCode_t Master::onInitialize()
     // <rtc-template block="registration">
     // Set InPort buffers
     addInPort("GamePad_Arg_Speed", m_GamePad_Arg_SpeedIn);
-    addInPort("Camera", m_CameraIn);
+    addInPort("Nb_of_pins", m_nb_of_pinsIn);
     addInPort("IK_Comp", m_IK_CompIn);
     addInPort("kobuki_Comp", m_kobuki_CompIn);
+
 
     // Set OutPort buffer
     addOutPort("SendSpeed", m_SendSpeedOut);
@@ -299,6 +300,51 @@ RTC::ReturnCode_t Master::onExecute(RTC::UniqueId /*ec_id*/)
         }
 
     }
+    
+#pragma region Number of Pins detected
+
+    if (m_nb_of_pinsIn.isNew()) {
+        m_nb_of_pinsIn.read();
+
+        std::cout << "Bowling pins detected: " << m_nb_of_pins.data << std::endl;
+
+        switch (m_nb_of_pins.data) {
+            case 0: // 0 pins remaining
+                // ACE
+
+                break;
+            case 1:
+            case 2:
+            case 3:
+                // When 1-3 pins remaining
+
+                break;
+            case 4:
+            case 5:
+            case 6:
+                // When 4-6 pins remaining
+
+                break;
+            case 7:
+            case 8:
+            case 9:
+                // When 7-9 pins remaining
+
+                break;
+            case 10: // all pins remain (no pin hit)
+                // fail
+                
+                break;
+
+            default:
+                // undefined condition, nothing.
+                break;
+        }
+    }
+
+#pragma endregion
+
+    
     return RTC::RTC_OK;
 
 }

@@ -226,10 +226,10 @@ class Master
   /*!
    */
   RTC::InPort<RTC::TimedShortSeq> m_GamePad_Arg_SpeedIn;
-  RTC::TimedUShort m_Camera;
+  RTC::TimedUShort m_nb_of_pins;
   /*!
    */
-  RTC::InPort<RTC::TimedUShort> m_CameraIn;
+  RTC::InPort<RTC::TimedUShort> m_nb_of_pinsIn;
   RTC::TimedBoolean m_IK_Comp;
   /*!
    */
