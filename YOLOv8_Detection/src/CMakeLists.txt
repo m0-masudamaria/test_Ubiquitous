@@ -1,8 +1,11 @@
-set(ONNXRUNTIME_INCLUDE_DIR "C:/Users/HaveS/source/repos/onnxruntime/include")
+include(SetReferences.cmake)
+include(FindOnnxRuntime.cmake)
 
-set(OpenCV_STATIC)
+set(OpenCV_DIR "${CMAKE_SOURCE_DIR}/opencv4.10-dev" CACHE STRING "OpenCV directory")
+option(OpenCV_STATIC "To use OpenCV Static linking" ON)
 find_package(OpenCV REQUIRED)
 
+message("  STATIC_LIBS: ${STATIC_LIBS}")
 if(STATIC_LIBS)
     set(CompilerFlags
             CMAKE_CXX_FLAGS
@@ -64,20 +67,22 @@ MAP_ADD_STR(comp_hdrs "../" comp_headers)
 
 link_directories(${OPENRTM_LIBRARY_DIRS})
 
-add_library(${PROJECT_NAME} ${LIB_TYPE} ${comp_srcs} ${ONNXRUNTIME_INCLUDE_DIR}
-  ${comp_headers} ${ALL_IDL_SRCS} {})
-set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
+add_library(${PROJECT_NAME} ${LIB_TYPE} ${comp_srcs}
+  ${comp_headers} ${ALL_IDL_SRCS})
+set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX ""
+                                                 VS_USER_PROPS "${ONNXRUNTIME_PROPS_FILE}")
 set_source_files_properties(${ALL_IDL_SRCS} PROPERTIES GENERATED 1)
 if(NOT TARGET ALL_IDL_TGT)
  add_custom_target(ALL_IDL_TGT)
 endif(NOT TARGET ALL_IDL_TGT)
 add_dependencies(${PROJECT_NAME} ALL_IDL_TGT)
-target_link_libraries(${PROJECT_NAME} ${OPENRTM_LIBRARIES} ${OpenCV_LIBS})
+target_link_libraries(${PROJECT_NAME} ${OPENRTM_LIBRARIES} ${OpenCV_LIBS} ${ONNXRUNTIME_LIBRARIES})
 
 add_executable(${PROJECT_NAME}Comp ${standalone_srcs}
   ${comp_srcs} ${comp_headers} ${ALL_IDL_SRCS})
 add_dependencies(${PROJECT_NAME}Comp ALL_IDL_TGT)
-target_link_libraries(${PROJECT_NAME}Comp ${OPENRTM_LIBRARIES} ${OpenCV_LIBS})
+set_target_properties(${PROJECT_NAME}Comp PROPERTIES VS_USER_PROPS "${ONNXRUNTIME_PROPS_FILE}")
+target_link_libraries(${PROJECT_NAME}Comp ${OPENRTM_LIBRARIES} ${OpenCV_LIBS} ${ONNXRUNTIME_LIBRARIES})
 
 install(TARGETS ${PROJECT_NAME} ${PROJECT_NAME}Comp
     EXPORT ${PROJECT_NAME}

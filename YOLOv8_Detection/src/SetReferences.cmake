@@ -1,7 +1,7 @@
 # SetReferences.cmake
 
 # Define the path to nuget.exe
-set(NUGET_EXECUTABLE "${CMAKE_SOURCE_DIR}/nuget.exe")
+set(NUGET_EXECUTABLE "${CMAKE_SOURCE_DIR}/nuget.exe" CACHE STRING "NuGet package manager executable")
 
 # Define the packages.config file location
 set(PACKAGES_CONFIG "${CMAKE_SOURCE_DIR}/src/packages.config")
