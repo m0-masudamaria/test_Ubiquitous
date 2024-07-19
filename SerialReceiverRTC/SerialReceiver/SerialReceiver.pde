@@ -34,13 +34,16 @@ public void setup()
 {
   // RTCを"jogController"というインスタンス名で生成
   OpenRTMUtil util = new OpenRTMUtil();
-  util.createComponent("jogController");
+  util.createComponent("SerialReceiver");
   // データの初期化
   TimedShortSeq val = new TimedShortSeq();
   val.tm = new Time();
   outdata = new DataRef<TimedShortSeq>(val);
   // OutPortを"cmd"という名前で生成
   outport = util.addOutPort("cmd", outdata);
+  
+      // データポート配列長確保
+    outdata.v.data = new short[1]; // 配列の長さを設定
 
   textureMode(NORMAL);
   //ゲームパッドを検知したらサブウィンドウを開く
@@ -250,14 +253,10 @@ public class SubWindow extends PApplet
   }
   void draw()
   {
-    gamepadDraw();
-  }
-
-  void gamepadDraw()
-  {
     background(0);
     textUpDate();
   }
+
 
   void textUpDate()
   {
@@ -321,45 +320,6 @@ void showText3d(String str, int x, int y)
   text(str, x, y);
   hint(ENABLE_DEPTH_TEST);
   popMatrix();
-}
-
-//void rightHandedRotateX(float rad_angle)
-//{
-//  rotateZ(-rad_angle);
-//}
-
-//void rightHandedRotateY(float rad_angle)
-//{
-//  rotateX(-rad_angle);
-//}
-
-//void rightHandedRotateZ(float rad_angle)
-//{
-//  rotateY(rad_angle);
-//}
-
-//void makeLinkX(float link_length)
-//{
-//  stroke(50);
-//  translate(0, 0, link_length / 2);
-//  box(20,20,abs(link_length));
-//  translate(0, 0, link_length / 2);
-//}
-
-void makeLinkY(float link_length)
-{
-  stroke(50);
-  translate(link_length / 2, 0, 0);
-  box(abs(link_length),20,20);
-  translate(link_length / 2, 0, 0);
-}
-
-void makeLinkZ(float link_length)
-{
-  stroke(50);
-  translate(0, -link_length / 2, 0);
-  box(20,abs(link_length),20);
-  translate(0, -link_length / 2, 0);
 }
 
 import org.gamecontrolplus.*;
@@ -453,7 +413,7 @@ void A_ButtonPress()
   button_A += 1;
   println("A");
   // データポート配列長確保
-    outdata.v.data = new short[1]; // 配列の長さを設定
+    //outdata.v.data = new short[1]; // 配列の長さを設定
   outdata.v.data[0]=0;
   // データ送信
     outport.write();
@@ -465,7 +425,7 @@ void A_ButtonRelease()
   button_A -= 1;
   println("Ar");
   // データポート配列長確保
-    outdata.v.data = new short[1]; // 配列の長さを設定
+    //outdata.v.data = new short[1]; // 配列の長さを設定
   outdata.v.data[0]=9;
   // データ送信
     outport.write();
@@ -476,7 +436,7 @@ void B_ButtonPress()
   button_B += 1;
   println("B");
   // データポート配列長確保
-    outdata.v.data = new short[1]; // 配列の長さを設定
+    //outdata.v.data = new short[1]; // 配列の長さを設定
   outdata.v.data[0]=1;
   // データ送信
     outport.write();
@@ -487,7 +447,7 @@ void B_ButtonRelease()
 {
   button_B -= 1;
   // データポート配列長確保
-    outdata.v.data = new short[1]; // 配列の長さを設定
+    //outdata.v.data = new short[1]; // 配列の長さを設定
   outdata.v.data[0]=10;
   // データ送信
     outport.write();
@@ -499,7 +459,7 @@ void X_ButtonPress()
   button_X += 1;
   println("X");
   // データポート配列長確保
-    outdata.v.data = new short[1]; // 配列の長さを設定
+    //outdata.v.data = new short[1]; // 配列の長さを設定
   outdata.v.data[0]=2;
   // データ送信
     outport.write();
@@ -516,7 +476,7 @@ void Y_ButtonPress()
   button_Y += 1;
   println("A");
   // データポート配列長確保
-    outdata.v.data = new short[1]; // 配列の長さを設定
+    //outdata.v.data = new short[1]; // 配列の長さを設定
   outdata.v.data[0]=3;
   // データ送信
     outport.write();
@@ -595,36 +555,33 @@ void RA_ButtonPress()
 //}
 
 short pred_hat_XY;
+short hat_change;
+short pred_hat_change;
 void HatPress(float x, float y)
 {
   hat_XY = (short)hat[0].getValue();
-  if(hat_XY==2)hat_XY=4;
-  else if(hat_XY==4)hat_XY=5;
-  else if(hat_XY==6)hat_XY=6;
-  else if(hat_XY==8)hat_XY=7;
-  else hat_XY=9;
-  if (pred_hat_XY != hat_XY)
-  {
-    // データポート配列長確保
-    outdata.v.data = new short[1]; // 配列の長さを設定
-  outdata.v.data[0]=hat_XY;
-  // データ送信
   
+  //if (pred_hat_change != hat_change)
+  //{
+    if(hat_XY==2)hat_change=6;
+  else if(hat_XY==4)hat_change=4;
+  else if(hat_XY==6)hat_change=7;
+  else if(hat_XY==8)hat_change=5;
+  else hat_XY=9;
+  outdata.v.data[0]=hat_change;
+  // データ送信
     outport.write();
-    control_counter++;
-  }
+    //control_counter++;
+    println(hat_XY);
+  //}
 
-  pred_hat_XY = hat_XY;
+  pred_hat_change = hat_change;
 }
 
 void HatRelease(float x, float y)
 {
   hat_XY = (short)hat[0].getValue();
-  
-  // データポート配列長確保
-    outdata.v.data = new short[1]; // 配列の長さを設定
   outdata.v.data[0]=8;
   // データ送信
-  
     outport.write();
 }
