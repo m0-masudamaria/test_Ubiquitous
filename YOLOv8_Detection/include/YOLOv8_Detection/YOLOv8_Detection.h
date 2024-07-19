@@ -33,6 +33,17 @@
 #include <rtm/DataOutPort.h>
 
 
+#include <onnxruntime_cxx_api.h>
+
+#include <opencv2/opencv.hpp>
+#include <opencv2/core/ocl.hpp>
+
+struct Detection {
+	cv::Rect box;
+	float score;
+	int class_id;
+};
+
 // <rtc-template block="component_description">
 /*!
  * @class YOLOv8_Detection
@@ -130,7 +141,7 @@ class YOLOv8_Detection
    * 
    * 
    */
-  // RTC::ReturnCode_t onDeactivated(RTC::UniqueId ec_id) override;
+   RTC::ReturnCode_t onDeactivated(RTC::UniqueId ec_id) override;
 
   /***
    *
@@ -178,7 +189,7 @@ class YOLOv8_Detection
    * 
    * 
    */
-  // RTC::ReturnCode_t onReset(RTC::UniqueId ec_id) override;
+   RTC::ReturnCode_t onReset(RTC::UniqueId ec_id) override;
   
   /***
    *
@@ -223,6 +234,18 @@ class YOLOv8_Detection
    * - DefaultValue: none
    */
   std::string m_onnxFileStr;
+  /*!
+   * 
+   * - Name:  cf_thres
+   * - DefaultValue: 0.75
+   */
+  float m_cf_thres;
+  /*!
+   * 
+   * - Name:  iou_thres
+   * - DefaultValue: 0.75
+   */
+  float m_iou_thres;
 
   // </rtc-template>
 
@@ -266,10 +289,39 @@ class YOLOv8_Detection
   
   // </rtc-template>
 
+	 //const OrtApi* ortApi = OrtGetApiBase()->GetApi(ORT_API_VERSION);;
+
+	 //OrtEnv* ortEnv;
+	 Ort::Env ortEnvWrap;
+
+	 //OrtSession* inf;
+	 Ort::Session infWrap;
+
+	 Ort::MemoryInfo memInfo;
+
+	 std::vector<int64_t> inputDims, outputDims;
+	 int64_t inputSize, outputSize;
+
+	 cv::Size in_sz;
+
+	 std::vector<std::string> labels;
+	 int64_t channels;
+
+	 Ort::Value in_tensor, out_tensor;
+	 std::vector<float> output0_tensor;
+
+	 //cv::dnn::Net model;
+
+	 //void* img_in_buf;
+	 cv::Rect pad_roi_rect;
+	 cv::Mat img_src;
+	 cv::UMat img_src_n, img_in, blob;
+
   // <rtc-template block="private_operation">
   
   // </rtc-template>
 
+	 //bool YOLOv8_Detection::CheckStatus(const OrtApi*, OrtStatus*);
 };
 
 

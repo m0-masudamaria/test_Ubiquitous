@@ -30,12 +30,20 @@ static const char* yolov8_detection_spec[] =
     "lang_type",         "compile",
     // Configuration variables
     "conf.default.ONNX_File", "none",
+    "conf.default.Confidence_Threshold", "0.75",
+    "conf.default.Overlap_IoU_Threshold", "0.75",
 
     // Widget
     "conf.__widget__.ONNX_File", "text",
+    "conf.__widget__.Confidence_Threshold", "slider.0.01",
+    "conf.__widget__.Overlap_IoU_Threshold", "slider.0.01",
     // Constraints
+    "conf.__constraints__.Confidence_Threshold", "0.01<=x<=1.0",
+    "conf.__constraints__.Overlap_IoU_Threshold", "0.01<=x<=1.0",
 
     "conf.__type__.ONNX_File", "string",
+    "conf.__type__.Confidence_Threshold", "float",
+    "conf.__type__.Overlap_IoU_Threshold", "float",
 
     ""
   };
@@ -85,6 +93,8 @@ RTC::ReturnCode_t YOLOv8_DetectionTest::onInitialize()
   // <rtc-template block="bind_config">
   // Bind variables and configuration variable
   bindParameter("ONNX_File", m_onnxFileStr, "none");
+  bindParameter("Confidence_Threshold", m_cf_thres, "0.75");
+  bindParameter("Overlap_IoU_Threshold", m_iou_thres, "0.75");
   // </rtc-template>
   
   return RTC::RTC_OK;

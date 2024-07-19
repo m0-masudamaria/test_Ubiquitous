@@ -1,1 +1,6 @@
 build/
+*.xml*
+*.h*
+*.cpp*
+*.conf*
+*.md*

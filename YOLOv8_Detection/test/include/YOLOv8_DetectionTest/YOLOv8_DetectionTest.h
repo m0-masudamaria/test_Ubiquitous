@@ -125,7 +125,7 @@ class YOLOv8_DetectionTest
    * 
    * 
    */
-  // RTC::ReturnCode_t onDeactivated(RTC::UniqueId ec_id) override;
+   RTC::ReturnCode_t onDeactivated(RTC::UniqueId ec_id) override;
 
   /***
    *
@@ -173,7 +173,7 @@ class YOLOv8_DetectionTest
    * 
    * 
    */
-  // RTC::ReturnCode_t onReset(RTC::UniqueId ec_id) override;
+   RTC::ReturnCode_t onReset(RTC::UniqueId ec_id) override;
   
   /***
    *
@@ -219,6 +219,18 @@ class YOLOv8_DetectionTest
    * - DefaultValue: none
    */
   std::string m_onnxFileStr;
+  /*!
+   * 
+   * - Name:  cf_thres
+   * - DefaultValue: 0.75
+   */
+  float m_cf_thres;
+  /*!
+   * 
+   * - Name:  iou_thres
+   * - DefaultValue: 0.75
+   */
+  float m_iou_thres;
 
   // </rtc-template>
 

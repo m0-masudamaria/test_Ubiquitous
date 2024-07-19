@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rtc:RtcProfile rtc:version="0.3" rtc:id="RTC:ha-ves:ImageProcessiong:YOLOv8_Detection:1.0.0" xmlns:rtc="http://www.openrtp.org/namespaces/rtc" xmlns:rtcExt="http://www.openrtp.org/namespaces/rtc_ext" xmlns:rtcDoc="http://www.openrtp.org/namespaces/rtc_doc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <rtc:BasicInfo xsi:type="rtcExt:basic_info_ext" rtcExt:saveProject="YOLOv8_Detection" rtc:updateDate="2024-07-03T17:16:25.000+09:00" rtc:creationDate="2024-06-26T14:48:12.000+09:00" rtc:version="1.0.0" rtc:vendor="ha-ves" rtc:maxInstances="0" rtc:executionType="PeriodicExecutionContext" rtc:executionRate="1000.0" rtc:description="Detect object using YOLOv8 ONNX model" rtc:category="ImageProcessiong" rtc:componentKind="DataFlowComponent" rtc:activityType="SPORADIC" rtc:componentType="COMMUTATIVE" rtc:name="YOLOv8_Detection">
+    <rtc:BasicInfo xsi:type="rtcExt:basic_info_ext" rtcExt:saveProject="YOLOv8_Detection" rtc:updateDate="2024-07-18T08:45:55.000+09:00" rtc:creationDate="2024-06-26T14:48:12.000+09:00" rtc:version="1.0.0" rtc:vendor="ha-ves" rtc:maxInstances="0" rtc:executionType="PeriodicExecutionContext" rtc:executionRate="1000.0" rtc:description="Detect object using YOLOv8 ONNX model" rtc:category="ImageProcessiong" rtc:componentKind="DataFlowComponent" rtc:activityType="SPORADIC" rtc:componentType="COMMUTATIVE" rtc:name="YOLOv8_Detection">
         <rtcExt:Properties rtcExt:value="false" rtcExt:name="FSM"/>
         <rtcExt:Properties rtcExt:value="StaticFSM" rtcExt:name="FSMType"/>
     </rtc:BasicInfo>
@@ -10,10 +10,10 @@
         <rtc:OnStartup xsi:type="rtcDoc:action_status_doc" rtc:implemented="true"/>
         <rtc:OnShutdown xsi:type="rtcDoc:action_status_doc" rtc:implemented="false"/>
         <rtc:OnActivated xsi:type="rtcDoc:action_status_doc" rtc:implemented="true"/>
-        <rtc:OnDeactivated xsi:type="rtcDoc:action_status_doc" rtc:implemented="false"/>
+        <rtc:OnDeactivated xsi:type="rtcDoc:action_status_doc" rtc:implemented="true"/>
         <rtc:OnAborting xsi:type="rtcDoc:action_status_doc" rtc:implemented="false"/>
         <rtc:OnError xsi:type="rtcDoc:action_status_doc" rtc:implemented="false"/>
-        <rtc:OnReset xsi:type="rtcDoc:action_status_doc" rtc:implemented="false"/>
+        <rtc:OnReset xsi:type="rtcDoc:action_status_doc" rtc:implemented="true"/>
         <rtc:OnExecute xsi:type="rtcDoc:action_status_doc" rtc:implemented="true"/>
         <rtc:OnStateUpdate xsi:type="rtcDoc:action_status_doc" rtc:implemented="false"/>
         <rtc:OnRateChanged xsi:type="rtcDoc:action_status_doc" rtc:implemented="false"/>
@@ -21,6 +21,28 @@
     <rtc:ConfigurationSet>
         <rtc:Configuration xsi:type="rtcExt:configuration_ext" rtcExt:variableName="onnxFileStr" rtc:unit="" rtc:defaultValue="none" rtc:type="string" rtc:name="ONNX_File">
             <rtcExt:Properties rtcExt:value="text" rtcExt:name="__widget__"/>
+        </rtc:Configuration>
+        <rtc:Configuration xsi:type="rtcExt:configuration_ext" rtcExt:variableName="cf_thres" rtc:unit="100s% (Percent)" rtc:defaultValue="0.75" rtc:type="float" rtc:name="Confidence_Threshold">
+            <rtc:Constraint>
+                <rtc:ConstraintUnitType>
+                    <rtc:propertyIsBetween>
+                        <rtc:LowerBoundary>0.01</rtc:LowerBoundary>
+                        <rtc:UpperBoundary>1.0</rtc:UpperBoundary>
+                    </rtc:propertyIsBetween>
+                </rtc:ConstraintUnitType>
+            </rtc:Constraint>
+            <rtcExt:Properties rtcExt:value="slider.0.01" rtcExt:name="__widget__"/>
+        </rtc:Configuration>
+        <rtc:Configuration xsi:type="rtcExt:configuration_ext" rtcExt:variableName="iou_thres" rtc:unit="100s% (Percent)" rtc:defaultValue="0.75" rtc:type="float" rtc:name="Overlap_IoU_Threshold">
+            <rtc:Constraint>
+                <rtc:ConstraintUnitType>
+                    <rtc:propertyIsBetween>
+                        <rtc:LowerBoundary>0.01</rtc:LowerBoundary>
+                        <rtc:UpperBoundary>1.0</rtc:UpperBoundary>
+                    </rtc:propertyIsBetween>
+                </rtc:ConstraintUnitType>
+            </rtc:Constraint>
+            <rtcExt:Properties rtcExt:value="slider.0.01" rtcExt:name="__widget__"/>
         </rtc:Configuration>
     </rtc:ConfigurationSet>
     <rtc:DataPorts xsi:type="rtcExt:dataport_ext" rtcExt:position="LEFT" rtcExt:variableName="camImage" rtc:unit="" rtc:subscriptionType="" rtc:dataflowType="" rtc:interfaceType="" rtc:idlFile="&lt;RTM_ROOT&gt;\rtm\idl\InterfaceDataTypes.idl" rtc:type="RTC::CameraImage" rtc:name="in_image" rtc:portType="DataInPort"/>

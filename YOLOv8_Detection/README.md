@@ -90,8 +90,20 @@ Detect object using YOLOv8 ONNX model
     </tr>
   </tr>
   <tr>
-    <td>on_deactivated</td>
-    <td colspan="2"></td>
+    <td rowspan="4">on_deactivated</td>
+    <td colspan="2">implemented</td>
+    <tr>
+      <td>Description</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PreCondition</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PostCondition</td>
+      <td></td>
+    </tr>
   </tr>
   <tr>
     <td rowspan="4">on_execute</td>
@@ -118,8 +130,20 @@ Detect object using YOLOv8 ONNX model
     <td colspan="2"></td>
   </tr>
   <tr>
-    <td>on_reset</td>
-    <td colspan="2"></td>
+    <td rowspan="4">on_reset</td>
+    <td colspan="2">implemented</td>
+    <tr>
+      <td>Description</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PreCondition</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PostCondition</td>
+      <td></td>
+    </tr>
   </tr>
   <tr>
     <td>on_state_update</td>
@@ -245,6 +269,84 @@ Detect object using YOLOv8 ONNX model
   <tr>
     <td>Constraint</td>
     <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Range</td>
+    <td colspan="2"></td>
+  </tr>
+</table>
+
+#### Confidence_Threshold
+
+
+
+
+<table>
+  <tr>
+    <td>DataType</td>
+    <td colspan="2">float</td>
+  </tr>
+  <tr>
+    <td>DefaultValue</td>
+    <td>0.75</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Unit</td>
+    <td>100s% (Percent)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Widget</td>
+    <td colspan="2">slider</td>
+  </tr>
+  <tr>
+    <td>Step</td>
+    <td colspan="2">0.01</td>
+  </tr>
+  <tr>
+    <td>Constraint</td>
+    <td>0.01<=x<=1.0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Range</td>
+    <td colspan="2"></td>
+  </tr>
+</table>
+
+#### Overlap_IoU_Threshold
+
+
+
+
+<table>
+  <tr>
+    <td>DataType</td>
+    <td colspan="2">float</td>
+  </tr>
+  <tr>
+    <td>DefaultValue</td>
+    <td>0.75</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Unit</td>
+    <td>100s% (Percent)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Widget</td>
+    <td colspan="2">slider</td>
+  </tr>
+  <tr>
+    <td>Step</td>
+    <td colspan="2">0.01</td>
+  </tr>
+  <tr>
+    <td>Constraint</td>
+    <td>0.01<=x<=1.0</td>
     <td></td>
   </tr>
   <tr>
