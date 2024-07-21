@@ -1,0 +1,27 @@
+Jul 19 09:52:15.868 INFO: manager: 2.0.1
+Jul 19 09:52:15.868 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 19 09:52:15.869 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 19 09:52:15.869 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 19 09:52:15.869 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 19 09:52:15.869 INFO: manager:   All right reserved.
+Jul 19 09:52:15.869 INFO: manager: Manager starting.
+Jul 19 09:52:15.869 INFO: manager: Starting local logging.
+Jul 19 09:52:15.889 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 19 09:52:15.890 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 19 09:52:15.901 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 19 09:52:15.907 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 19 09:52:15.907 INFO: ManagerServant: Adding this manager to this manager.
+Jul 19 09:52:15.907 INFO: ManagerServant: Register this manager to master manager.
+Jul 19 09:52:15.907 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 19 09:52:15.909 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 19 09:52:15.924 INFO: ec_base: setRate(1000000.000000) done
+Jul 19 09:52:15.924 INFO: ec_base: setRate(1000.000000) done
+Jul 19 09:52:15.924 INFO: Dynamixel0: 1 execution context was created.
+Jul 19 09:52:15.925 INFO: Dynamixel0: onInitialize()
+Jul 19 09:52:15.943 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 19 09:52:28.313 INFO: Dynamixel0: onActivated()
+Jul 19 09:52:28.465 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 09:52:28.465 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 09:52:32.936 INFO: Dynamixel0: onDeactivated()
+Jul 19 09:52:32.936 INFO: Dynamixel0: onAborting()
+Jul 19 09:52:39.651 WARNING: SdoServiceAdmin: No available SDO service in the factory: 

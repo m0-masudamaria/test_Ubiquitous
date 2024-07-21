@@ -1,0 +1,27 @@
+Jul 21 15:25:40.108 INFO: manager: 2.0.1
+Jul 21 15:25:40.110 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 21 15:25:40.110 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 21 15:25:40.111 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 21 15:25:40.111 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 21 15:25:40.112 INFO: manager:   All right reserved.
+Jul 21 15:25:40.112 INFO: manager: Manager starting.
+Jul 21 15:25:40.112 INFO: manager: Starting local logging.
+Jul 21 15:25:40.168 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 21 15:25:40.169 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 21 15:25:40.196 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 21 15:25:40.217 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 21 15:25:40.217 INFO: ManagerServant: Adding this manager to this manager.
+Jul 21 15:25:40.218 INFO: ManagerServant: Register this manager to master manager.
+Jul 21 15:25:40.219 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 21 15:25:40.223 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 21 15:25:40.284 INFO: ec_base: setRate(1000000.000000) done
+Jul 21 15:25:40.284 INFO: ec_base: setRate(1000.000000) done
+Jul 21 15:25:40.285 INFO: Dynamixel0: 1 execution context was created.
+Jul 21 15:25:40.286 INFO: Dynamixel0: onInitialize()
+Jul 21 15:25:40.393 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 21 15:26:06.718 INFO: Dynamixel0: onActivated()
+Jul 21 15:26:07.213 WARNING: ec_base: The component is not responding.
+Jul 21 15:26:07.213 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 21 15:26:08.848 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 21 15:26:08.859 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 21 15:28:28.531 INFO: Dynamixel0: onDeactivated()

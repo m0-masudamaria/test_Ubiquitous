@@ -1,0 +1,73 @@
+Jul 21 15:29:41.786 INFO: manager: 2.0.1
+Jul 21 15:29:41.787 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 21 15:29:41.787 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 21 15:29:41.788 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 21 15:29:41.788 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 21 15:29:41.788 INFO: manager:   All right reserved.
+Jul 21 15:29:41.790 INFO: manager: Manager starting.
+Jul 21 15:29:41.791 INFO: manager: Starting local logging.
+Jul 21 15:29:41.939 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 21 15:29:41.940 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 21 15:29:41.990 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 21 15:29:42.021 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 21 15:29:42.022 INFO: ManagerServant: Adding this manager to this manager.
+Jul 21 15:29:42.022 INFO: ManagerServant: Register this manager to master manager.
+Jul 21 15:29:42.024 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 21 15:29:42.031 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 21 15:29:42.170 INFO: ec_base: setRate(1000000.000000) done
+Jul 21 15:29:42.174 INFO: ec_base: setRate(1000.000000) done
+Jul 21 15:29:42.178 INFO: Dynamixel0: 1 execution context was created.
+Jul 21 15:29:42.180 INFO: Dynamixel0: onInitialize()
+Jul 21 15:29:42.293 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 21 15:30:32.797 INFO: Dynamixel0: onActivated()
+Jul 21 15:30:33.299 WARNING: ec_base: The component is not responding.
+Jul 21 15:30:33.300 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 21 15:30:35.922 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 21 15:30:35.927 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 21 15:32:42.319 INFO: Dynamixel0: onDeactivated()
+Jul 21 15:42:30.866 WARNING: goalPosition: Dead connection: 18167db1-489a-44a8-b17d-0a2b2152516a
+Jul 21 15:42:36.985 WARNING: goalPosition: Exception caught: minor code(1096024066).
+Jul 21 15:42:43.136 WARNING: movingSpeed: Dead connection: c012ba3c-425b-49a5-b5e3-991d4addbc61
+Jul 21 15:42:49.270 WARNING: movingSpeed: Exception caught: minor code(1096024066).
+Jul 21 15:43:26.284 INFO: Dynamixel0: onActivated()
+Jul 21 15:43:26.287 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 21 15:43:26.288 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 21 15:43:53.158 INFO: Dynamixel0: onDeactivated()
+Jul 21 15:45:55.882 WARNING: goalPosition: Dead connection: d4e2bd67-52b0-4c44-a4e5-7b40d8835181
+Jul 21 15:46:02.123 WARNING: goalPosition: Exception caught: minor code.
+Jul 21 15:46:08.429 WARNING: movingSpeed: Dead connection: 5fe10d13-a91a-409f-a37a-db6a745bd4ac
+Jul 21 15:46:14.493 WARNING: movingSpeed: Exception caught: minor code(1096024066).
+Jul 21 15:47:08.944 INFO: Dynamixel0: onActivated()
+Jul 21 15:47:08.945 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 21 15:47:08.946 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 21 15:48:06.455 INFO: Dynamixel0: onDeactivated()
+Jul 21 15:48:36.190 WARNING: goalPosition: Dead connection: ff6c8d5f-3052-4846-8910-4e30f7998c20
+Jul 21 15:48:42.316 WARNING: goalPosition: Exception caught: minor code(1096024066).
+Jul 21 15:48:48.407 WARNING: movingSpeed: Dead connection: ad27d696-e8b4-4f16-9f87-f40a3326beeb
+Jul 21 15:48:54.494 WARNING: movingSpeed: Exception caught: minor code(1096024066).
+Jul 21 15:50:11.757 INFO: Dynamixel0: onActivated()
+Jul 21 15:50:11.758 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 21 15:50:11.763 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 21 15:50:59.375 INFO: Dynamixel0: onDeactivated()
+Jul 21 16:05:51.636 WARNING: goalPosition: Dead connection: 69964654-f4a9-4bcd-97b7-2663663bb14b
+Jul 21 16:05:57.781 WARNING: goalPosition: Exception caught: minor code.
+Jul 21 16:06:04.384 WARNING: movingSpeed: Dead connection: a31fbbaa-267c-405e-9837-ae0c1bdda3a9
+Jul 21 16:06:10.504 WARNING: movingSpeed: Exception caught: minor code.
+Jul 21 16:06:58.358 INFO: Dynamixel0: onActivated()
+Jul 21 16:06:58.364 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 21 16:06:58.368 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 21 16:07:40.616 INFO: Dynamixel0: onDeactivated()
+Jul 21 16:09:14.098 WARNING: goalPosition: Dead connection: 1d2b8fb5-97b0-419d-92f4-01242d0e051c
+Jul 21 16:09:20.252 WARNING: goalPosition: Exception caught: minor code.
+Jul 21 16:09:26.419 WARNING: movingSpeed: Dead connection: addc5545-d5a1-496e-9b74-ea8abb6421b3
+Jul 21 16:09:32.579 WARNING: movingSpeed: Exception caught: minor code(1096024066).
+Jul 21 16:09:34.491 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 21 16:11:11.710 INFO: Dynamixel0: onActivated()
+Jul 21 16:11:11.721 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 21 16:11:11.722 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 21 16:11:11.739 INFO: Dynamixel0: 全アクチュエータのトルク制限を最大に設定
+Jul 21 16:11:11.740 INFO: Dynamixel0: onDeactivated()
+Jul 21 16:11:11.741 INFO: Dynamixel0: onAborting()
+Jul 21 16:11:11.744 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jul 21 16:11:18.821 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 21 16:11:23.614 WARNING: SdoServiceAdmin: No available SDO service in the factory: 

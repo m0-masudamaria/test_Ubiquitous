@@ -1,0 +1,25 @@
+Jul 21 15:22:52.973 INFO: manager: 2.0.1
+Jul 21 15:22:52.973 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 21 15:22:52.973 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 21 15:22:52.973 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 21 15:22:52.973 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 21 15:22:52.973 INFO: manager:   All right reserved.
+Jul 21 15:22:52.973 INFO: manager: Manager starting.
+Jul 21 15:22:52.973 INFO: manager: Starting local logging.
+Jul 21 15:22:53.143 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 21 15:22:53.144 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 21 15:22:53.149 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 21 15:22:53.163 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 21 15:22:53.163 INFO: ManagerServant: Adding this manager to this manager.
+Jul 21 15:22:53.163 INFO: ManagerServant: Register this manager to master manager.
+Jul 21 15:22:53.165 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 21 15:22:53.167 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 21 15:22:53.188 INFO: ec_base: setRate(1000000.000000) done
+Jul 21 15:22:53.189 INFO: ec_base: setRate(1000.000000) done
+Jul 21 15:22:53.189 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 21 15:22:53.197 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 21 15:23:25.423 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 21 15:25:04.109 WARNING: motor_deg: Dead connection: 14173304-fcbe-4d4d-a8d6-d82f316c3dd3
+Jul 21 15:25:10.660 WARNING: motor_deg: Exception caught: minor code.
+Jul 21 15:25:16.908 WARNING: motor_speed: Dead connection: fcb63914-ef1c-47b3-a92a-ecf70a9eebef
+Jul 21 15:25:23.013 WARNING: motor_speed: Exception caught: minor code.

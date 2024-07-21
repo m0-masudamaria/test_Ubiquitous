@@ -1,0 +1,73 @@
+Jul 19 05:44:16.621 INFO: manager: 2.0.1
+Jul 19 05:44:16.621 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 19 05:44:16.621 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 19 05:44:16.621 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 19 05:44:16.622 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 19 05:44:16.622 INFO: manager:   All right reserved.
+Jul 19 05:44:16.622 INFO: manager: Manager starting.
+Jul 19 05:44:16.622 INFO: manager: Starting local logging.
+Jul 19 05:44:20.724 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 19 05:44:20.740 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 19 05:44:20.748 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 19 05:44:20.748 INFO: ManagerServant: Adding this manager to this manager.
+Jul 19 05:44:20.749 INFO: ManagerServant: Register this manager to master manager.
+Jul 19 05:44:20.749 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 19 05:44:20.751 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 19 05:44:20.774 INFO: ec_base: setRate(1000000.000000) done
+Jul 19 05:44:20.774 INFO: ec_base: setRate(1000.000000) done
+Jul 19 05:44:20.775 INFO: Dynamixel0: 1 execution context was created.
+Jul 19 05:44:20.776 INFO: Dynamixel0: onInitialize()
+Jul 19 05:44:20.811 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 19 05:44:34.958 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 19 05:44:45.015 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 19 05:44:55.094 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 19 05:45:05.181 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 19 05:45:15.220 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 19 05:45:25.286 INFO: NamingManager: NameServer connection failed: corba/localhost
+Jul 19 05:45:31.224 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 19 05:45:31.224 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 19 05:45:31.224 INFO: NamingManager: Connected to a name server: corba/localhost
+Jul 19 05:48:34.481 INFO: Dynamixel0: onActivated()
+Jul 19 05:48:34.949 WARNING: ec_base: The component is not responding.
+Jul 19 05:48:34.950 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 19 05:48:37.420 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 05:48:37.421 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 05:49:22.458 INFO: Dynamixel0: onDeactivated()
+Jul 19 05:49:43.135 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 19 05:49:59.208 INFO: Dynamixel0: onActivated()
+Jul 19 05:49:59.209 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 05:49:59.211 INFO: Dynamixel0: m_initialSpeed: 50, 50, 50, 50, 50, 
+Jul 19 05:50:11.194 INFO: Dynamixel0: onDeactivated()
+Jul 19 05:50:19.116 INFO: Dynamixel0: onActivated()
+Jul 19 05:50:19.117 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 05:50:19.119 INFO: Dynamixel0: m_initialSpeed: 30, 30, 30, 30, 30, 
+Jul 19 05:50:42.759 INFO: Dynamixel0: onDeactivated()
+Jul 19 05:50:49.482 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 19 05:54:24.528 INFO: Dynamixel0: onActivated()
+Jul 19 05:54:24.529 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 05:54:24.530 INFO: Dynamixel0: m_initialSpeed: 30, 30, 30, 30, 30, 
+Jul 19 05:54:29.313 INFO: Dynamixel0: onDeactivated()
+Jul 19 05:54:39.863 INFO: Dynamixel0: onActivated()
+Jul 19 05:54:39.865 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 05:54:39.866 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 05:55:50.735 WARNING: goalPosition: Dead connection: a2972eb9-d1a5-4848-b38e-915d927825b6
+Jul 19 05:55:52.787 WARNING: goalPosition: Exception caught: minor code(1096024066).
+Jul 19 05:57:51.399 INFO: Dynamixel0: onDeactivated()
+Jul 19 05:58:02.295 INFO: Dynamixel0: onActivated()
+Jul 19 05:58:02.295 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 05:58:02.296 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 05:58:21.462 INFO: Dynamixel0: onDeactivated()
+Jul 19 05:58:35.451 INFO: Dynamixel0: onActivated()
+Jul 19 05:58:35.452 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 05:58:35.453 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 06:00:06.506 INFO: Dynamixel0: onDeactivated()
+Jul 19 06:21:02.124 WARNING: goalPosition: Dead connection: 9d743a7f-9111-4ff9-b939-52676965b888
+Jul 19 06:21:04.159 WARNING: goalPosition: Exception caught: minor code(1096024066).
+Jul 19 06:21:44.135 INFO: Dynamixel0: onActivated()
+Jul 19 06:21:44.136 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 06:21:44.138 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 06:21:44.208 INFO: Dynamixel0: 全アクチュエータのトルク制限を最大に設定
+Jul 19 06:21:44.208 INFO: Dynamixel0: onDeactivated()
+Jul 19 06:21:44.208 INFO: Dynamixel0: onAborting()
+Jul 19 06:21:44.223 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jul 19 06:21:47.609 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.

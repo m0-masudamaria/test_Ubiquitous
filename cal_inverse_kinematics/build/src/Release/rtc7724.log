@@ -1,0 +1,23 @@
+Jul 19 09:19:18.195 INFO: manager: 2.0.1
+Jul 19 09:19:18.195 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 19 09:19:18.195 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 19 09:19:18.195 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 19 09:19:18.195 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 19 09:19:18.195 INFO: manager:   All right reserved.
+Jul 19 09:19:18.195 INFO: manager: Manager starting.
+Jul 19 09:19:18.195 INFO: manager: Starting local logging.
+Jul 19 09:19:18.215 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 19 09:19:18.215 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 19 09:19:18.216 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 19 09:19:18.218 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 19 09:19:18.218 INFO: ManagerServant: Adding this manager to this manager.
+Jul 19 09:19:18.218 INFO: ManagerServant: Register this manager to master manager.
+Jul 19 09:19:18.218 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 19 09:19:18.219 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 19 09:19:18.220 INFO: ec_base: setRate(1000000.000000) done
+Jul 19 09:19:18.220 INFO: ec_base: setRate(1000.000000) done
+Jul 19 09:19:18.221 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 19 09:19:18.222 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 19 09:20:06.042 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 19 09:20:21.104 WARNING: motor_deg: Dead connection: 720b1034-e6a6-4f70-a298-8b16e7b0554f
+Jul 19 09:20:23.134 WARNING: motor_deg: Exception caught: minor code.

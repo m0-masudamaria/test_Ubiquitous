@@ -1,0 +1,29 @@
+Jul 19 13:32:55.532 INFO: manager: 2.0.1
+Jul 19 13:32:55.533 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 19 13:32:55.533 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 19 13:32:55.534 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 19 13:32:55.535 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 19 13:32:55.536 INFO: manager:   All right reserved.
+Jul 19 13:32:55.536 INFO: manager: Manager starting.
+Jul 19 13:32:55.537 INFO: manager: Starting local logging.
+Jul 19 13:32:55.651 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 19 13:32:55.651 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 19 13:32:55.705 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 19 13:32:55.744 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 19 13:32:55.744 INFO: ManagerServant: Adding this manager to this manager.
+Jul 19 13:32:55.745 INFO: ManagerServant: Register this manager to master manager.
+Jul 19 13:32:55.747 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 19 13:32:55.753 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 19 13:32:55.834 INFO: ec_base: setRate(1000000.000000) done
+Jul 19 13:32:55.835 INFO: ec_base: setRate(1000.000000) done
+Jul 19 13:32:55.837 INFO: Dynamixel0: 1 execution context was created.
+Jul 19 13:32:55.840 INFO: Dynamixel0: onInitialize()
+Jul 19 13:32:56.077 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 19 13:33:10.461 INFO: Dynamixel0: onActivated()
+Jul 19 13:33:10.607 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 13:33:10.607 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 13:33:10.684 INFO: Dynamixel0: 全アクチュエータのトルク制限を最大に設定
+Jul 19 13:33:10.684 INFO: Dynamixel0: onDeactivated()
+Jul 19 13:33:10.684 INFO: Dynamixel0: onAborting()
+Jul 19 13:33:10.689 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jul 19 13:33:15.147 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.

@@ -133,6 +133,10 @@ endif(IDL_FILES)
 
 add_subdirectory(include)
 MAP_ADD_STR(headers  "include/" comp_hdrs)
+MAP_ADD_STR(headers_1  "include/" comp_hdrs_1)
+MAP_ADD_STR(headers_2  "include/" comp_hdrs_2)
+MAP_ADD_STR(headers_3  "include/" comp_hdrs_3)
+MAP_ADD_STR(headers_4  "include/" comp_hdrs_4)
 add_subdirectory(src)
 
 if(BUILD_TESTS)

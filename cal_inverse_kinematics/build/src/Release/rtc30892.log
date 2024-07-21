@@ -1,0 +1,21 @@
+Jul 16 10:44:23.222 INFO: manager: 2.0.1
+Jul 16 10:44:23.222 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 16 10:44:23.222 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 16 10:44:23.222 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 16 10:44:23.222 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 16 10:44:23.222 INFO: manager:   All right reserved.
+Jul 16 10:44:23.222 INFO: manager: Manager starting.
+Jul 16 10:44:23.222 INFO: manager: Starting local logging.
+Jul 16 10:44:23.269 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 16 10:44:23.269 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 16 10:44:23.273 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 16 10:44:23.279 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 16 10:44:23.279 INFO: ManagerServant: Adding this manager to this manager.
+Jul 16 10:44:23.279 INFO: ManagerServant: Register this manager to master manager.
+Jul 16 10:44:23.282 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 16 10:44:23.282 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 16 10:44:23.291 INFO: ec_base: setRate(1000000.000000) done
+Jul 16 10:44:23.291 INFO: ec_base: setRate(1000.000000) done
+Jul 16 10:44:23.292 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 16 10:44:23.294 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 16 10:49:50.976 ERROR: ec_worker: State of the RTC is not INACTIVE_STATE.

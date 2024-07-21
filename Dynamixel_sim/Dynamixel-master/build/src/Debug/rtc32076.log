@@ -1,0 +1,43 @@
+Jul 19 09:20:30.715 INFO: manager: 2.0.1
+Jul 19 09:20:30.715 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 19 09:20:30.715 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 19 09:20:30.716 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 19 09:20:30.716 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 19 09:20:30.716 INFO: manager:   All right reserved.
+Jul 19 09:20:30.716 INFO: manager: Manager starting.
+Jul 19 09:20:30.716 INFO: manager: Starting local logging.
+Jul 19 09:20:30.741 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 19 09:20:30.742 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 19 09:20:30.753 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 19 09:20:30.759 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 19 09:20:30.759 INFO: ManagerServant: Adding this manager to this manager.
+Jul 19 09:20:30.759 INFO: ManagerServant: Register this manager to master manager.
+Jul 19 09:20:30.760 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 19 09:20:30.761 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 19 09:20:30.783 INFO: ec_base: setRate(1000000.000000) done
+Jul 19 09:20:30.784 INFO: ec_base: setRate(1000.000000) done
+Jul 19 09:20:30.784 INFO: Dynamixel0: 1 execution context was created.
+Jul 19 09:20:30.785 INFO: Dynamixel0: onInitialize()
+Jul 19 09:20:30.809 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 19 09:21:51.308 INFO: Dynamixel0: onActivated()
+Jul 19 09:21:51.455 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 09:21:51.456 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 09:22:52.953 INFO: Dynamixel0: onDeactivated()
+Jul 19 09:25:33.830 WARNING: goalPosition: Dead connection: 5047057e-62d3-4187-adda-cb829be193d2
+Jul 19 09:25:35.869 WARNING: goalPosition: Exception caught: minor code.
+Jul 19 09:27:25.296 INFO: Dynamixel0: onActivated()
+Jul 19 09:27:25.304 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 09:27:25.305 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 09:27:50.384 INFO: Dynamixel0: onDeactivated()
+Jul 19 09:28:42.444 WARNING: goalPosition: Dead connection: 9c95f87a-f5f4-4e64-8fc7-59c1ff407397
+Jul 19 09:28:44.487 WARNING: goalPosition: Exception caught: minor code(1096024066).
+Jul 19 09:29:15.368 INFO: Dynamixel0: onActivated()
+Jul 19 09:29:15.369 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 09:29:15.369 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 09:30:11.913 INFO: Dynamixel0: onDeactivated()
+Jul 19 09:33:42.761 WARNING: goalPosition: Dead connection: 618dce25-336a-42b8-a315-7f1696bbd609
+Jul 19 09:33:44.818 WARNING: goalPosition: Exception caught: minor code(1096024066).
+Jul 19 09:34:04.466 INFO: Dynamixel0: onActivated()
+Jul 19 09:34:04.466 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 19 09:34:04.467 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 19 09:35:22.574 INFO: Dynamixel0: onDeactivated()

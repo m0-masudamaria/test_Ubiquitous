@@ -1,0 +1,57 @@
+Jul 21 17:14:59.385 INFO: manager: 2.0.1
+Jul 21 17:14:59.387 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 21 17:14:59.387 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 21 17:14:59.387 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 21 17:14:59.387 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 21 17:14:59.387 INFO: manager:   All right reserved.
+Jul 21 17:14:59.387 INFO: manager: Manager starting.
+Jul 21 17:14:59.387 INFO: manager: Starting local logging.
+Jul 21 17:14:59.540 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 21 17:14:59.540 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 21 17:14:59.557 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 21 17:15:03.649 WARNING: ManagerServant: Master manager not found
+Jul 21 17:15:03.650 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 21 17:15:03.657 INFO: ec_base: setRate(1000000.000000) done
+Jul 21 17:15:03.657 INFO: ec_base: setRate(1000.000000) done
+Jul 21 17:15:03.658 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 21 17:15:03.659 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 21 17:15:17.808 INFO: ManagerServant: Master manager not found
+Jul 21 17:15:27.916 INFO: ManagerServant: Master manager not found
+Jul 21 17:15:37.902 INFO: ManagerServant: Master manager not found
+Jul 21 17:15:48.016 INFO: ManagerServant: Master manager not found
+Jul 21 17:15:58.110 INFO: ManagerServant: Master manager not found
+Jul 21 17:16:08.109 INFO: ManagerServant: Master manager not found
+Jul 21 17:16:18.203 INFO: ManagerServant: Master manager not found
+Jul 21 17:16:28.303 INFO: ManagerServant: Master manager not found
+Jul 21 17:16:38.403 INFO: ManagerServant: Master manager not found
+Jul 21 17:16:48.505 INFO: ManagerServant: Master manager not found
+Jul 21 17:16:58.590 INFO: ManagerServant: Master manager not found
+Jul 21 17:17:08.670 INFO: ManagerServant: Master manager not found
+Jul 21 17:17:18.748 INFO: ManagerServant: Master manager not found
+Jul 21 17:17:28.830 INFO: ManagerServant: Master manager not found
+Jul 21 17:17:38.905 INFO: ManagerServant: Master manager not found
+Jul 21 17:17:48.960 INFO: ManagerServant: Master manager not found
+Jul 21 17:17:59.065 INFO: ManagerServant: Master manager not found
+Jul 21 17:18:09.082 INFO: ManagerServant: Master manager not found
+Jul 21 17:18:19.054 INFO: ManagerServant: Master manager not found
+Jul 21 17:18:29.125 INFO: ManagerServant: Master manager not found
+Jul 21 17:18:39.221 INFO: ManagerServant: Master manager not found
+Jul 21 17:18:49.346 INFO: ManagerServant: Master manager not found
+Jul 21 17:18:59.300 INFO: ManagerServant: Master manager not found
+Jul 21 17:19:09.410 INFO: ManagerServant: Master manager not found
+Jul 21 17:19:19.474 INFO: ManagerServant: Master manager not found
+Jul 21 17:19:29.581 INFO: ManagerServant: Master manager not found
+Jul 21 17:19:39.698 INFO: ManagerServant: Master manager not found
+Jul 21 17:19:49.673 INFO: ManagerServant: Master manager not found
+Jul 21 17:19:59.757 INFO: ManagerServant: Master manager not found
+Jul 21 17:20:09.859 INFO: ManagerServant: Master manager not found
+Jul 21 17:20:19.942 INFO: ManagerServant: Master manager not found
+Jul 21 17:20:30.045 INFO: ManagerServant: Master manager not found
+Jul 21 17:20:40.142 INFO: ManagerServant: Master manager not found
+Jul 21 17:20:50.247 INFO: ManagerServant: Master manager not found
+Jul 21 17:21:00.279 INFO: ManagerServant: Master manager not found
+Jul 21 17:21:10.330 INFO: ManagerServant: Master manager not found
+Jul 21 17:21:20.423 INFO: ManagerServant: Master manager not found
+Jul 21 17:21:28.037 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 21 17:21:30.386 INFO: ManagerServant: Master manager not found
+Jul 21 17:21:40.474 INFO: ManagerServant: Master manager not found

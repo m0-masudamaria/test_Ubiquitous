@@ -319,7 +319,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_inverse_kinematicsComp.cpp" />
     <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_inverse_kinematics.cpp" />
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\basic_funtion.cpp" />
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_4motor_ik.cpp" />
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_3motor_ik.cpp" />
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\operate_motor.cpp" />
     <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\cal_inverse_kinematics.h" />
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\basic_function.h" />
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\cal_4motor_ik.h" />
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\cal_3motor_ik.h" />
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\operate_motor.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\cakes\workspace\cal_inverse_kinematics\build\ZERO_CHECK.vcxproj">

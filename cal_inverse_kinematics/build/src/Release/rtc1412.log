@@ -1,0 +1,24 @@
+Jul 19 05:46:41.243 INFO: manager: 2.0.1
+Jul 19 05:46:41.244 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 19 05:46:41.244 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 19 05:46:41.244 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 19 05:46:41.244 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 19 05:46:41.244 INFO: manager:   All right reserved.
+Jul 19 05:46:41.244 INFO: manager: Manager starting.
+Jul 19 05:46:41.244 INFO: manager: Starting local logging.
+Jul 19 05:46:41.273 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 19 05:46:41.273 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 19 05:46:41.276 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 19 05:46:41.278 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 19 05:46:41.278 INFO: ManagerServant: Adding this manager to this manager.
+Jul 19 05:46:41.278 INFO: ManagerServant: Register this manager to master manager.
+Jul 19 05:46:41.279 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 19 05:46:41.279 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 19 05:46:41.283 INFO: ec_base: setRate(1000000.000000) done
+Jul 19 05:46:41.283 INFO: ec_base: setRate(1000.000000) done
+Jul 19 05:46:41.284 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 19 05:46:41.291 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 19 05:50:46.183 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 19 05:50:49.448 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 19 05:53:51.718 WARNING: d_position: Dead connection: 27c96d48-cda7-446e-a867-de51cc1d97cf
+Jul 19 05:53:53.770 WARNING: d_position: Exception caught: minor code(1096024066).

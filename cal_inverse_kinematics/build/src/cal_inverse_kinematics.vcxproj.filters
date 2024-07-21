@@ -4,9 +4,33 @@
     <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_inverse_kinematics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\basic_funtion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_4motor_ik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_3motor_ik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\operate_motor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\cal_inverse_kinematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\basic_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\cal_4motor_ik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\cal_3motor_ik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\operate_motor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

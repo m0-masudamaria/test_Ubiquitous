@@ -30,7 +30,7 @@ static const char* dynamixel_spec[] =
     "language",          "C++",
     "lang_type",         "compile",
     // Configuration variables
-    "conf.default.NUM_ACTUATOR", "4",
+    "conf.default.NUM_ACTUATOR", "5",
     "conf.default.DEVICENAME", "COM3",
     "conf.default.BAUDRATE", "115200",
     "conf.default.MODEL", "AX12",
@@ -108,7 +108,7 @@ RTC::ReturnCode_t Dynamixel::onInitialize()
 
   // <rtc-template block="bind_config">
   // Bind variables and configuration variable
-  bindParameter("NUM_ACTUATOR", m_NUM_ACTUATOR, "4");
+  bindParameter("NUM_ACTUATOR", m_NUM_ACTUATOR, "5");
   bindParameter("DEVICENAME", m_DEVICENAME, "COM3");
   bindParameter("BAUDRATE", m_BAUDRATE, "115200");
   bindParameter("MODEL", m_MODEL, "AX12");
@@ -292,6 +292,8 @@ RTC::ReturnCode_t Dynamixel::onExecute(RTC::UniqueId ec_id)
     for (int i = 0; i<m_NUM_ACTUATOR; i++) {
       m_speed[i] = m_movingSpeed.data[i];
     }
+    std::cout << "get speed message: " << m_speed[0] << std::endl;
+
   }
 
   if(m_goalPositionIn.isNew()) {

@@ -1,0 +1,25 @@
+Jul 16 11:39:50.306 INFO: manager: 2.0.1
+Jul 16 11:39:50.306 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 16 11:39:50.307 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 16 11:39:50.307 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 16 11:39:50.307 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 16 11:39:50.307 INFO: manager:   All right reserved.
+Jul 16 11:39:50.307 INFO: manager: Manager starting.
+Jul 16 11:39:50.307 INFO: manager: Starting local logging.
+Jul 16 11:39:50.355 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 16 11:39:50.355 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 16 11:39:50.358 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 16 11:39:50.367 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 16 11:39:50.367 INFO: ManagerServant: Adding this manager to this manager.
+Jul 16 11:39:50.367 INFO: ManagerServant: Register this manager to master manager.
+Jul 16 11:39:50.369 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 16 11:39:50.375 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 16 11:39:50.398 INFO: ec_base: setRate(1000000.000000) done
+Jul 16 11:39:50.399 INFO: ec_base: setRate(1000.000000) done
+Jul 16 11:39:50.400 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 16 11:39:50.410 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 16 11:41:52.503 WARNING: d_position: Dead connection: 54c3031a-088d-4511-9a85-178f6754bc07
+Jul 16 11:41:54.542 WARNING: d_position: Exception caught: minor code(1096024066).
+Jul 16 11:44:59.023 WARNING: d_position: Dead connection: f2a755d2-28ca-49df-9afb-67613f5de9d0
+Jul 16 11:45:01.069 WARNING: d_position: Exception caught: minor code(1096024066).
+Jul 16 11:46:45.545 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.

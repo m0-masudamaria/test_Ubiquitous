@@ -1,0 +1,60 @@
+Jul 21 16:39:13.058 INFO: manager: 2.0.1
+Jul 21 16:39:13.059 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 21 16:39:13.060 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 21 16:39:13.060 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 21 16:39:13.061 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 21 16:39:13.061 INFO: manager:   All right reserved.
+Jul 21 16:39:13.061 INFO: manager: Manager starting.
+Jul 21 16:39:13.061 INFO: manager: Starting local logging.
+Jul 21 16:39:13.242 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 21 16:39:13.242 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 21 16:39:13.246 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 21 16:39:17.762 WARNING: ManagerServant: Master manager not found
+Jul 21 16:39:17.764 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 21 16:39:17.775 INFO: ec_base: setRate(1000000.000000) done
+Jul 21 16:39:17.775 INFO: ec_base: setRate(1000.000000) done
+Jul 21 16:39:17.776 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 21 16:39:17.788 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 21 16:39:32.575 INFO: ManagerServant: Master manager not found
+Jul 21 16:39:42.051 INFO: ManagerServant: Master manager not found
+Jul 21 16:39:52.106 INFO: ManagerServant: Master manager not found
+Jul 21 16:39:59.384 ERROR: ec_base: The component is not responding.
+Jul 21 16:39:59.385 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 21 16:40:01.103 WARNING: motor_deg: Dead connection: 8d308440-2601-4b9d-8da5-381b4b8f6d9c
+Jul 21 16:40:02.137 INFO: ManagerServant: Master manager not found
+Jul 21 16:40:02.186 WARNING: motor_deg: connection_lost id: 8d308440-2601-4b9d-8da5-381b4b8f6d9c
+Jul 21 16:40:07.238 WARNING: motor_deg: Exception caught: minor code(1096024066).
+Jul 21 16:40:08.313 WARNING: motor_deg: Exception caught: minor code(1096024066).
+Jul 21 16:40:08.313 ERROR: motor_deg: Invalid connector id: manager.modules.Python.load_paths
+Jul 21 16:40:12.208 INFO: ManagerServant: Master manager not found
+Jul 21 16:40:13.376 WARNING: motor_speed: Dead connection: b7ab57b7-7ff9-466b-aa47-a169a4334929
+Jul 21 16:40:19.492 WARNING: motor_speed: Exception caught: minor code.
+Jul 21 16:40:22.220 INFO: ManagerServant: Master manager not found
+Jul 21 16:40:26.433 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 21 16:40:32.206 INFO: ManagerServant: Master manager not found
+Jul 21 16:40:42.335 INFO: ManagerServant: Master manager not found
+Jul 21 16:40:52.364 INFO: ManagerServant: Master manager not found
+Jul 21 16:41:02.819 INFO: ManagerServant: Master manager not found
+Jul 21 16:41:13.075 INFO: ManagerServant: Master manager not found
+Jul 21 16:41:22.537 INFO: ManagerServant: Master manager not found
+Jul 21 16:41:32.542 INFO: ManagerServant: Master manager not found
+Jul 21 16:41:42.638 INFO: ManagerServant: Master manager not found
+Jul 21 16:41:52.734 INFO: ManagerServant: Master manager not found
+Jul 21 16:42:02.855 INFO: ManagerServant: Master manager not found
+Jul 21 16:42:12.792 INFO: ManagerServant: Master manager not found
+Jul 21 16:42:22.900 INFO: ManagerServant: Master manager not found
+Jul 21 16:42:33.069 INFO: ManagerServant: Master manager not found
+Jul 21 16:42:43.100 INFO: ManagerServant: Master manager not found
+Jul 21 16:42:53.125 INFO: ManagerServant: Master manager not found
+Jul 21 16:43:03.148 INFO: ManagerServant: Master manager not found
+Jul 21 16:43:13.162 INFO: ManagerServant: Master manager not found
+Jul 21 16:43:23.168 INFO: ManagerServant: Master manager not found
+Jul 21 16:43:33.115 INFO: ManagerServant: Master manager not found
+Jul 21 16:43:43.258 INFO: ManagerServant: Master manager not found
+Jul 21 16:43:53.393 INFO: ManagerServant: Master manager not found
+Jul 21 16:44:03.693 INFO: ManagerServant: Master manager not found
+Jul 21 16:44:13.430 INFO: ManagerServant: Master manager not found
+Jul 21 16:44:23.526 INFO: ManagerServant: Master manager not found
+Jul 21 16:44:33.578 INFO: ManagerServant: Master manager not found
+Jul 21 16:44:43.611 INFO: ManagerServant: Master manager not found
+Jul 21 16:44:53.728 INFO: ManagerServant: Master manager not found

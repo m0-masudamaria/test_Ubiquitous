@@ -1,0 +1,26 @@
+Jul 18 13:25:33.728 INFO: manager: 2.0.1
+Jul 18 13:25:33.731 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 18 13:25:33.732 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 18 13:25:33.732 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 18 13:25:33.732 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 18 13:25:33.732 INFO: manager:   All right reserved.
+Jul 18 13:25:33.732 INFO: manager: Manager starting.
+Jul 18 13:25:33.732 INFO: manager: Starting local logging.
+Jul 18 13:25:33.754 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 18 13:25:33.754 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 18 13:25:33.765 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 18 13:25:33.770 INFO: ManagerServant: Master manager found: localhost:2810
+Jul 18 13:25:33.770 INFO: ManagerServant: Adding this manager to this manager.
+Jul 18 13:25:33.770 INFO: ManagerServant: Register this manager to master manager.
+Jul 18 13:25:33.771 INFO: ManagerServant: Slave manager servant was successfully created.
+Jul 18 13:25:33.773 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 18 13:25:33.805 INFO: ec_base: setRate(1000000.000000) done
+Jul 18 13:25:33.805 INFO: ec_base: setRate(1000.000000) done
+Jul 18 13:25:33.807 INFO: Dynamixel0: 1 execution context was created.
+Jul 18 13:25:33.809 INFO: Dynamixel0: onInitialize()
+Jul 18 13:25:33.830 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 18 13:26:32.101 INFO: Dynamixel0: onActivated()
+Jul 18 13:26:32.250 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 18 13:26:32.251 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 18 13:27:18.406 INFO: Dynamixel0: onDeactivated()
+Jul 18 13:28:22.891 WARNING: goalPosition: Dead connection: 8b044f3e-78d2-4473-bebf-11f8e8764eba

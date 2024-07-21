@@ -1,0 +1,45 @@
+Jul 21 16:54:06.029 INFO: manager: 2.0.1
+Jul 21 16:54:06.030 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 21 16:54:06.030 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 21 16:54:06.030 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 21 16:54:06.030 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 21 16:54:06.031 INFO: manager:   All right reserved.
+Jul 21 16:54:06.031 INFO: manager: Manager starting.
+Jul 21 16:54:06.031 INFO: manager: Starting local logging.
+Jul 21 16:54:06.180 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 21 16:54:06.180 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 21 16:54:06.185 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 21 16:54:10.424 WARNING: ManagerServant: Master manager not found
+Jul 21 16:54:10.426 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 21 16:54:10.433 INFO: ec_base: setRate(1000000.000000) done
+Jul 21 16:54:10.433 INFO: ec_base: setRate(1000.000000) done
+Jul 21 16:54:10.434 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 21 16:54:10.443 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 21 16:54:24.844 INFO: ManagerServant: Master manager not found
+Jul 21 16:54:34.786 INFO: ManagerServant: Master manager not found
+Jul 21 16:54:45.128 INFO: ManagerServant: Master manager not found
+Jul 21 16:54:54.867 INFO: ManagerServant: Master manager not found
+Jul 21 16:55:04.902 INFO: ManagerServant: Master manager not found
+Jul 21 16:55:13.036 WARNING: motor_deg: Dead connection: 41782538-44f8-4033-a53c-c8859b499794
+Jul 21 16:55:14.995 INFO: ManagerServant: Master manager not found
+Jul 21 16:55:19.159 WARNING: motor_deg: Exception caught: minor code.
+Jul 21 16:55:25.013 INFO: ManagerServant: Master manager not found
+Jul 21 16:55:25.466 WARNING: motor_speed: Dead connection: b8a324a4-8b05-4696-8e82-d8fdfa7590c0
+Jul 21 16:55:31.575 WARNING: motor_speed: Exception caught: minor code.
+Jul 21 16:55:34.983 INFO: ManagerServant: Master manager not found
+Jul 21 16:55:45.097 INFO: ManagerServant: Master manager not found
+Jul 21 16:55:54.474 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 21 16:55:55.751 INFO: ManagerServant: Master manager not found
+Jul 21 16:56:05.526 INFO: ManagerServant: Master manager not found
+Jul 21 16:56:15.169 INFO: ManagerServant: Master manager not found
+Jul 21 16:56:25.311 INFO: ManagerServant: Master manager not found
+Jul 21 16:56:35.351 INFO: ManagerServant: Master manager not found
+Jul 21 16:56:45.455 INFO: ManagerServant: Master manager not found
+Jul 21 16:56:55.537 INFO: ManagerServant: Master manager not found
+Jul 21 16:57:05.666 INFO: ManagerServant: Master manager not found
+Jul 21 16:57:15.673 INFO: ManagerServant: Master manager not found
+Jul 21 16:57:25.647 INFO: ManagerServant: Master manager not found
+Jul 21 16:57:35.747 INFO: ManagerServant: Master manager not found
+Jul 21 16:57:45.733 INFO: ManagerServant: Master manager not found
+Jul 21 16:57:55.818 INFO: ManagerServant: Master manager not found
+Jul 21 16:58:05.900 INFO: ManagerServant: Master manager not found

@@ -243,6 +243,7 @@ void DynamixelBase::reset(const std::vector<uint16_t> &speed, const std::vector<
 
 ErrorType DynamixelBase::setSpeedAndPosition(const std::vector<uint16_t> &speed, const std::vector<uint16_t> &position)
 {
+    std::cout << "set: " << speed[4] << std::endl;
   m_errors = m_zeros;
   // sync writeのパラメータ設定
   m_groupSyncWrite->clearParam();

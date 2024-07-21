@@ -1,4 +1,4 @@
-set(comp_srcs cal_inverse_kinematics.cpp )
+set(comp_srcs cal_inverse_kinematics.cpp basic_funtion.cpp cal_4motor_ik.cpp cal_3motor_ik.cpp operate_motor.cpp)
 set(standalone_srcs cal_inverse_kinematicsComp.cpp)
 
 if(${OPENRTM_VERSION_MAJOR} LESS 2)
@@ -38,11 +38,15 @@ include_directories(${OPENRTM_INCLUDE_DIRS})
 add_definitions(${OPENRTM_CFLAGS})
 
 MAP_ADD_STR(comp_hdrs "../" comp_headers)
+MAP_ADD_STR(comp_hdrs_1 "../" comp_headers_1)
+MAP_ADD_STR(comp_hdrs_2 "../" comp_headers_2)
+MAP_ADD_STR(comp_hdrs_3 "../" comp_headers_3)
+MAP_ADD_STR(comp_hdrs_4 "../" comp_headers_4)
 
 link_directories(${OPENRTM_LIBRARY_DIRS})
 
 add_library(${PROJECT_NAME} ${LIB_TYPE} ${comp_srcs}
-  ${comp_headers} ${ALL_IDL_SRCS})
+  ${comp_headers} ${comp_headers_1} ${comp_headers_2} ${comp_headers_3} ${comp_headers_4} ${ALL_IDL_SRCS})
 set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
 set_source_files_properties(${ALL_IDL_SRCS} PROPERTIES GENERATED 1)
 if(NOT TARGET ALL_IDL_TGT)
@@ -52,7 +56,7 @@ add_dependencies(${PROJECT_NAME} ALL_IDL_TGT)
 target_link_libraries(${PROJECT_NAME} ${OPENRTM_LIBRARIES})
 
 add_executable(${PROJECT_NAME}Comp ${standalone_srcs}
-  ${comp_srcs} ${comp_headers} ${ALL_IDL_SRCS})
+  ${comp_srcs} ${comp_headers} ${comp_headers_1} ${comp_headers_2} ${comp_headers_3} ${comp_headers_4} ${ALL_IDL_SRCS})
 add_dependencies(${PROJECT_NAME}Comp ALL_IDL_TGT)
 target_link_libraries(${PROJECT_NAME}Comp ${OPENRTM_LIBRARIES})
 

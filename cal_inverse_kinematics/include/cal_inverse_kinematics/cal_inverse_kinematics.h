@@ -23,6 +23,13 @@
 // <rtc-template block="consumer_stub_h">
 #include "BasicDataTypeStub.h"
 
+#include "basic_function.h"
+#include "cal_4motor_ik.h"
+#include "cal_3motor_ik.h"
+#include "operate_motor.h"
+#include <chrono>
+#include <thread>
+
 // </rtc-template>
 
 #include <rtm/Manager.h>
@@ -42,11 +49,14 @@ class cal_inverse_kinematics
   : public RTC::DataFlowComponentBase
 {
  public:
-  /*!
+	 
+	 void send_data();
+	 void change_motor_speed(uint16_t speed);
+	 /*!
    * @brief constructor
    * @param manager Maneger Object
    */
-  cal_inverse_kinematics(RTC::Manager* manager);
+	 cal_inverse_kinematics(RTC::Manager* manager);
 
   /*!
    * @brief destructor
@@ -220,7 +230,7 @@ class cal_inverse_kinematics
    * - Name:  motor_num
    * - DefaultValue: 4
    */
-	 double m_motor_num;  /*!
+  int m_motor_num;  /*!
    * 
    * - Name:  l0
    * - DefaultValue: 50
@@ -299,6 +309,11 @@ class cal_inverse_kinematics
 
 
  private:
+	 BasicFunction basic_f_;
+	 Cal4MotorIK cal_4_motor_IK_;
+	 Cal3MotorIK cal_3_motor_IK_;
+	 OperateMotor operate_motor_;
+
   // <rtc-template block="private_attribute">
   
   // </rtc-template>
@@ -307,21 +322,39 @@ class cal_inverse_kinematics
   
   // </rtc-template>
 
+	 //モータにsignalを送っていいかの判定
 	 bool flg;
 
+	 //一つのモータを動かすときに次の信号がくるまで動かし続けるためのflg
+	 bool flg_motor;
+
+	 //dataの長さ
+	 short check_data_length;
+
+	 //現在のモータの角度
+	 //基準:512
 	 int q_cur_signal[5];
+	//基準:0
 	 double q_cur_rad[5];
 	 double hand_axis[3];
 
-	 std::vector<double> L0;
-	 std::vector<double> L1;
-	 std::vector<double> L2;
-	 std::vector<double> L3;
-	 std::vector<double> L4;
+	 //計算して得られたモータの角度
+	 //基準:0
+	double q_rad_cal[5];
 
-	 double dq;
+	//ボールのリリースポイントの角度
+	double q_release_point[5];
 
-	 double q_cal[5];
+	 //リンクの長さ
+	 double link_length[5];
+
+	 //初期姿勢のリンクのベクトル
+	 //std::vector<double> L0;
+	 //std::vector<double> L1;
+	 //std::vector<double> L2;
+	 //std::vector<double> L3;
+	 //std::vector<double> L4;
+
 	 //double q0;
 	 //double q1;
 	 //double q2;
@@ -329,15 +362,25 @@ class cal_inverse_kinematics
 	 //double q4;
 
 	 
+	 //手先の目標座標
+	 //std::vector<double> dP;
 
-	 std::vector<double> dP;
+	 //得られたデータ
+	 int data[5];
 
-	 std::vector<double> L4_cur_vec;
-	 std::vector<double> P0;
-	 std::vector<double> P1;
-	 std::vector<double> P3;
-	 std::vector<double> P4;
-	 std::vector<double> P13;
+	
+	 //手先の目標角度 rad
+	 //double dq;
+
+	 //L4のベクトル
+	 //std::vector<double> L4_cur_vec;
+
+	 //対偶の位置
+	 //std::vector<double> P0;
+	 //std::vector<double> P1;
+	 //std::vector<double> P3;
+	 //std::vector<double> P4;
+	 //std::vector<double> P13;
 
 };
 
