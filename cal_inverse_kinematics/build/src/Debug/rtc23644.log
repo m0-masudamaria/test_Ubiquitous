@@ -1,0 +1,57 @@
+Jul 23 09:36:55.515 INFO: manager: 2.0.1
+Jul 23 09:36:55.516 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 23 09:36:55.516 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 23 09:36:55.516 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 23 09:36:55.517 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 23 09:36:55.517 INFO: manager:   All right reserved.
+Jul 23 09:36:55.517 INFO: manager: Manager starting.
+Jul 23 09:36:55.517 INFO: manager: Starting local logging.
+Jul 23 09:36:55.547 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 23 09:36:55.547 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 23 09:36:55.560 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 23 09:36:59.661 WARNING: ManagerServant: Master manager not found
+Jul 23 09:36:59.669 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 23 09:36:59.696 INFO: ec_base: setRate(1000000.000000) done
+Jul 23 09:36:59.696 INFO: ec_base: setRate(1000.000000) done
+Jul 23 09:36:59.697 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 23 09:36:59.723 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 23 09:37:13.858 INFO: ManagerServant: Master manager not found
+Jul 23 09:37:23.944 INFO: ManagerServant: Master manager not found
+Jul 23 09:37:34.018 INFO: ManagerServant: Master manager not found
+Jul 23 09:37:44.130 INFO: ManagerServant: Master manager not found
+Jul 23 09:37:54.133 INFO: ManagerServant: Master manager not found
+Jul 23 09:37:55.870 WARNING: motor_deg: Dead connection: 915eb892-27cb-4e6c-872d-9e1ad8fbfbdf
+Jul 23 09:37:57.914 WARNING: motor_deg: Exception caught: minor code.
+Jul 23 09:37:59.962 WARNING: motor_speed: Dead connection: 03054c9a-0750-4583-8303-d34fb9006fec
+Jul 23 09:38:02.011 WARNING: motor_speed: Exception caught: minor code(1096024066).
+Jul 23 09:38:04.204 INFO: ManagerServant: Master manager not found
+Jul 23 09:38:14.303 INFO: ManagerServant: Master manager not found
+Jul 23 09:38:24.387 INFO: ManagerServant: Master manager not found
+Jul 23 09:38:34.484 INFO: ManagerServant: Master manager not found
+Jul 23 09:38:44.557 INFO: ManagerServant: Master manager not found
+Jul 23 09:38:54.674 INFO: ManagerServant: Master manager not found
+Jul 23 09:39:04.649 INFO: ManagerServant: Master manager not found
+Jul 23 09:39:14.728 INFO: ManagerServant: Master manager not found
+Jul 23 09:39:24.847 INFO: ManagerServant: Master manager not found
+Jul 23 09:39:34.850 INFO: ManagerServant: Master manager not found
+Jul 23 09:39:44.848 INFO: ManagerServant: Master manager not found
+Jul 23 09:39:54.928 INFO: ManagerServant: Master manager not found
+Jul 23 09:40:05.008 INFO: ManagerServant: Master manager not found
+Jul 23 09:40:15.092 INFO: ManagerServant: Master manager not found
+Jul 23 09:40:25.186 INFO: ManagerServant: Master manager not found
+Jul 23 09:40:35.290 INFO: ManagerServant: Master manager not found
+Jul 23 09:40:45.281 INFO: ManagerServant: Master manager not found
+Jul 23 09:40:55.366 INFO: ManagerServant: Master manager not found
+Jul 23 09:41:05.445 INFO: ManagerServant: Master manager not found
+Jul 23 09:41:15.537 INFO: ManagerServant: Master manager not found
+Jul 23 09:41:25.594 INFO: ManagerServant: Master manager not found
+Jul 23 09:41:35.685 INFO: ManagerServant: Master manager not found
+Jul 23 09:41:37.601 INFO: ec_base: setRate(1000.000000) done
+Jul 23 09:41:45.774 INFO: ManagerServant: Master manager not found
+Jul 23 09:41:55.849 INFO: ManagerServant: Master manager not found
+Jul 23 09:42:05.932 INFO: ManagerServant: Master manager not found
+Jul 23 09:42:16.028 INFO: ManagerServant: Master manager not found
+Jul 23 09:42:18.855 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 23 09:42:26.120 INFO: ManagerServant: Master manager not found
+Jul 23 09:42:36.206 INFO: ManagerServant: Master manager not found
+Jul 23 09:42:46.311 INFO: ManagerServant: Master manager not found

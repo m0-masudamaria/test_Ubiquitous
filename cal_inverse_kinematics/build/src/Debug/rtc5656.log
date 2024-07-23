@@ -1,0 +1,57 @@
+Jul 23 11:25:24.447 INFO: manager: 2.0.1
+Jul 23 11:25:24.447 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 23 11:25:24.448 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 23 11:25:24.448 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 23 11:25:24.448 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 23 11:25:24.448 INFO: manager:   All right reserved.
+Jul 23 11:25:24.449 INFO: manager: Manager starting.
+Jul 23 11:25:24.449 INFO: manager: Starting local logging.
+Jul 23 11:25:24.630 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 23 11:25:24.631 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 23 11:25:24.694 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 23 11:25:28.836 WARNING: ManagerServant: Master manager not found
+Jul 23 11:25:28.838 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 23 11:25:28.860 INFO: ec_base: setRate(1000000.000000) done
+Jul 23 11:25:28.860 INFO: ec_base: setRate(1000.000000) done
+Jul 23 11:25:28.860 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 23 11:25:28.900 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 23 11:25:41.144 INFO: ec_base: setRate(1000.000000) done
+Jul 23 11:25:43.095 INFO: ManagerServant: Master manager not found
+Jul 23 11:25:53.099 INFO: ManagerServant: Master manager not found
+Jul 23 11:26:03.074 INFO: ManagerServant: Master manager not found
+Jul 23 11:26:13.187 INFO: ManagerServant: Master manager not found
+Jul 23 11:26:23.192 INFO: ManagerServant: Master manager not found
+Jul 23 11:26:33.358 INFO: ManagerServant: Master manager not found
+Jul 23 11:26:43.338 INFO: ManagerServant: Master manager not found
+Jul 23 11:26:53.424 INFO: ManagerServant: Master manager not found
+Jul 23 11:27:03.538 INFO: ManagerServant: Master manager not found
+Jul 23 11:27:13.543 INFO: ManagerServant: Master manager not found
+Jul 23 11:27:23.621 INFO: ManagerServant: Master manager not found
+Jul 23 11:27:33.739 INFO: ManagerServant: Master manager not found
+Jul 23 11:27:43.769 INFO: ManagerServant: Master manager not found
+Jul 23 11:27:53.777 INFO: ManagerServant: Master manager not found
+Jul 23 11:28:03.773 INFO: ManagerServant: Master manager not found
+Jul 23 11:28:13.882 INFO: ManagerServant: Master manager not found
+Jul 23 11:28:23.995 INFO: ManagerServant: Master manager not found
+Jul 23 11:28:33.998 INFO: ManagerServant: Master manager not found
+Jul 23 11:28:44.016 INFO: ManagerServant: Master manager not found
+Jul 23 11:28:54.024 INFO: ManagerServant: Master manager not found
+Jul 23 11:29:04.052 INFO: ManagerServant: Master manager not found
+Jul 23 11:29:14.055 INFO: ManagerServant: Master manager not found
+Jul 23 11:29:24.068 INFO: ManagerServant: Master manager not found
+Jul 23 11:29:34.051 INFO: ManagerServant: Master manager not found
+Jul 23 11:29:44.184 INFO: ManagerServant: Master manager not found
+Jul 23 11:29:54.198 INFO: ManagerServant: Master manager not found
+Jul 23 11:30:04.200 INFO: ManagerServant: Master manager not found
+Jul 23 11:30:14.219 INFO: ManagerServant: Master manager not found
+Jul 23 11:30:24.235 INFO: ManagerServant: Master manager not found
+Jul 23 11:30:34.245 INFO: ManagerServant: Master manager not found
+Jul 23 11:30:44.286 INFO: ManagerServant: Master manager not found
+Jul 23 11:30:54.298 INFO: ManagerServant: Master manager not found
+Jul 23 11:31:04.322 INFO: ManagerServant: Master manager not found
+Jul 23 11:31:14.299 INFO: ManagerServant: Master manager not found
+Jul 23 11:31:24.405 INFO: ManagerServant: Master manager not found
+Jul 23 11:31:34.480 INFO: ManagerServant: Master manager not found
+Jul 23 11:31:44.604 INFO: ManagerServant: Master manager not found
+Jul 23 11:32:00.967 INFO: ManagerServant: Master manager not found
+Jul 23 11:32:05.109 INFO: ManagerServant: Master manager not found

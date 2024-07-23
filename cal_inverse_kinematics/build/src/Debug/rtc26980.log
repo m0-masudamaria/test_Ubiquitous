@@ -1,0 +1,53 @@
+Jul 23 10:56:30.611 INFO: manager: 2.0.1
+Jul 23 10:56:30.611 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 23 10:56:30.612 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 23 10:56:30.612 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 23 10:56:30.612 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 23 10:56:30.612 INFO: manager:   All right reserved.
+Jul 23 10:56:30.612 INFO: manager: Manager starting.
+Jul 23 10:56:30.612 INFO: manager: Starting local logging.
+Jul 23 10:56:30.629 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 23 10:56:30.629 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 23 10:56:30.634 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 23 10:56:34.727 WARNING: ManagerServant: Master manager not found
+Jul 23 10:56:34.730 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 23 10:56:34.754 INFO: ec_base: setRate(1000000.000000) done
+Jul 23 10:56:34.754 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:56:34.766 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 23 10:56:34.794 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 23 10:56:45.735 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:56:49.038 INFO: ManagerServant: Master manager not found
+Jul 23 10:56:59.021 INFO: ManagerServant: Master manager not found
+Jul 23 10:57:09.123 INFO: ManagerServant: Master manager not found
+Jul 23 10:57:19.196 INFO: ManagerServant: Master manager not found
+Jul 23 10:57:29.320 INFO: ManagerServant: Master manager not found
+Jul 23 10:57:39.415 INFO: ManagerServant: Master manager not found
+Jul 23 10:57:49.519 INFO: ManagerServant: Master manager not found
+Jul 23 10:57:59.606 INFO: ManagerServant: Master manager not found
+Jul 23 10:58:09.667 INFO: ManagerServant: Master manager not found
+Jul 23 10:58:19.762 INFO: ManagerServant: Master manager not found
+Jul 23 10:58:29.833 INFO: ManagerServant: Master manager not found
+Jul 23 10:58:39.936 INFO: ManagerServant: Master manager not found
+Jul 23 10:58:50.020 INFO: ManagerServant: Master manager not found
+Jul 23 10:59:00.123 INFO: ManagerServant: Master manager not found
+Jul 23 10:59:10.199 INFO: ManagerServant: Master manager not found
+Jul 23 10:59:20.314 INFO: ManagerServant: Master manager not found
+Jul 23 10:59:24.867 WARNING: d_position: Dead connection: 8f2ec0d5-8e75-4fcd-8a1c-93848babae87
+Jul 23 10:59:26.915 WARNING: d_position: Exception caught: minor code(1096024066).
+Jul 23 10:59:30.420 INFO: ManagerServant: Master manager not found
+Jul 23 10:59:40.411 INFO: ManagerServant: Master manager not found
+Jul 23 10:59:50.505 INFO: ManagerServant: Master manager not found
+Jul 23 11:00:00.608 INFO: ManagerServant: Master manager not found
+Jul 23 11:00:07.825 INFO: ec_base: setRate(1000.000000) done
+Jul 23 11:00:10.716 INFO: ManagerServant: Master manager not found
+Jul 23 11:00:20.668 INFO: ManagerServant: Master manager not found
+Jul 23 11:00:30.759 INFO: ManagerServant: Master manager not found
+Jul 23 11:00:40.850 INFO: ManagerServant: Master manager not found
+Jul 23 11:00:50.946 INFO: ManagerServant: Master manager not found
+Jul 23 11:01:01.047 INFO: ManagerServant: Master manager not found
+Jul 23 11:01:11.090 INFO: ManagerServant: Master manager not found
+Jul 23 11:01:21.189 INFO: ManagerServant: Master manager not found
+Jul 23 11:01:31.281 INFO: ManagerServant: Master manager not found
+Jul 23 11:01:39.460 WARNING: d_motor_moving: Dead connection: 3db79d49-a9a6-478c-9752-e0bcbcf6d000
+Jul 23 11:01:41.373 INFO: ManagerServant: Master manager not found
+Jul 23 11:01:41.512 WARNING: d_motor_moving: Exception caught: minor code(1096024066).

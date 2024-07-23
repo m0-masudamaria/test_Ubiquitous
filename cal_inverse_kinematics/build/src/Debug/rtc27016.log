@@ -1,0 +1,22 @@
+Jul 23 10:35:50.581 INFO: manager: 2.0.1
+Jul 23 10:35:50.581 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 23 10:35:50.581 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 23 10:35:50.581 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 23 10:35:50.581 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 23 10:35:50.581 INFO: manager:   All right reserved.
+Jul 23 10:35:50.581 INFO: manager: Manager starting.
+Jul 23 10:35:50.581 INFO: manager: Starting local logging.
+Jul 23 10:35:50.603 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 23 10:35:50.603 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 23 10:35:50.614 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 23 10:35:54.724 WARNING: ManagerServant: Master manager not found
+Jul 23 10:35:54.729 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 23 10:35:54.766 INFO: ec_base: setRate(1000000.000000) done
+Jul 23 10:35:54.766 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:35:54.767 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 23 10:35:54.807 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 23 10:36:07.533 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:36:08.927 INFO: ManagerServant: Master manager not found
+Jul 23 10:36:19.046 INFO: ManagerServant: Master manager not found
+Jul 23 10:36:29.046 INFO: ManagerServant: Master manager not found
+Jul 23 10:36:39.049 INFO: ManagerServant: Master manager not found

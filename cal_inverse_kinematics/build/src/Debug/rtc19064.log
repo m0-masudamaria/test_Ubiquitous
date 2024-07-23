@@ -1,0 +1,40 @@
+Jul 23 09:31:32.996 INFO: manager: 2.0.1
+Jul 23 09:31:32.996 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 23 09:31:32.996 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 23 09:31:32.996 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 23 09:31:32.996 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 23 09:31:32.996 INFO: manager:   All right reserved.
+Jul 23 09:31:32.997 INFO: manager: Manager starting.
+Jul 23 09:31:32.997 INFO: manager: Starting local logging.
+Jul 23 09:31:33.022 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 23 09:31:33.022 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 23 09:31:33.037 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 23 09:31:37.128 WARNING: ManagerServant: Master manager not found
+Jul 23 09:31:37.130 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 23 09:31:37.154 INFO: ec_base: setRate(1000000.000000) done
+Jul 23 09:31:37.155 INFO: ec_base: setRate(1000.000000) done
+Jul 23 09:31:37.155 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 23 09:31:37.173 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 23 09:31:50.514 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 23 09:31:51.308 INFO: ManagerServant: Master manager not found
+Jul 23 09:32:01.394 INFO: ManagerServant: Master manager not found
+Jul 23 09:32:11.502 INFO: ManagerServant: Master manager not found
+Jul 23 09:32:21.483 INFO: ManagerServant: Master manager not found
+Jul 23 09:32:31.586 INFO: ManagerServant: Master manager not found
+Jul 23 09:32:41.667 INFO: ManagerServant: Master manager not found
+Jul 23 09:32:51.788 INFO: ManagerServant: Master manager not found
+Jul 23 09:33:01.895 INFO: ManagerServant: Master manager not found
+Jul 23 09:33:11.871 INFO: ManagerServant: Master manager not found
+Jul 23 09:33:21.982 INFO: ManagerServant: Master manager not found
+Jul 23 09:33:32.072 INFO: ManagerServant: Master manager not found
+Jul 23 09:33:42.168 INFO: ManagerServant: Master manager not found
+Jul 23 09:33:52.270 INFO: ManagerServant: Master manager not found
+Jul 23 09:34:02.344 INFO: ManagerServant: Master manager not found
+Jul 23 09:34:12.432 INFO: ManagerServant: Master manager not found
+Jul 23 09:34:22.523 INFO: ManagerServant: Master manager not found
+Jul 23 09:34:32.598 INFO: ManagerServant: Master manager not found
+Jul 23 09:34:42.706 INFO: ManagerServant: Master manager not found
+Jul 23 09:34:52.709 INFO: ManagerServant: Master manager not found
+Jul 23 09:35:02.705 INFO: ManagerServant: Master manager not found
+Jul 23 09:35:12.790 INFO: ManagerServant: Master manager not found
+Jul 23 09:35:22.914 INFO: ManagerServant: Master manager not found

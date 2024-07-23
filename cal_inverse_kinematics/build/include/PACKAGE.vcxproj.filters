@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cakes\workspace\test_Ubiquitous\cal_inverse_kinematics\build\CMakeFiles\525b889b1e8709f952bdb82ca5437cfb\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CC45FA31-21B9-369E-8F97-6FBA157D5141}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

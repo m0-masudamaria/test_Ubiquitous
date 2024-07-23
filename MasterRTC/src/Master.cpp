@@ -195,13 +195,23 @@ RTC::ReturnCode_t Master::onExecute(RTC::UniqueId /*ec_id*/)
                     std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
                     //move to the position to grab the ball
-                    send_motor_motion_.Grab_Ball_Position(motor_data);
+                    send_motor_motion_.Grab_Ball_Position_1(motor_data);
                     send_motor_data();
 
-                    std::this_thread::sleep_for(std::chrono::milliseconds(5000));
+                    std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+
+                    send_motor_motion_.Grab_Ball_Position_2(motor_data);
+                    send_motor_data();
+
+                    std::this_thread::sleep_for(std::chrono::milliseconds(3000));
 
                     //grab the ball
                     send_motor_motion_.Grab_Ball(motor_data);
+                    send_motor_data();
+
+                    std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+
+                    send_motor_motion_.Grab_Ball_Position_3(motor_data);
                     send_motor_data();
 
                     std::this_thread::sleep_for(std::chrono::milliseconds(3000));

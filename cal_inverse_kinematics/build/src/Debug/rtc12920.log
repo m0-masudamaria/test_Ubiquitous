@@ -1,0 +1,11 @@
+Jul 23 11:39:52.313 INFO: manager: 2.0.1
+Jul 23 11:39:52.314 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 23 11:39:52.314 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 23 11:39:52.314 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 23 11:39:52.315 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 23 11:39:52.315 INFO: manager:   All right reserved.
+Jul 23 11:39:52.315 INFO: manager: Manager starting.
+Jul 23 11:39:52.315 INFO: manager: Starting local logging.
+Jul 23 11:39:52.512 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 23 11:39:52.516 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 23 11:39:52.606 INFO: ManagerServant: Named manager reference (INS) was successfully created.

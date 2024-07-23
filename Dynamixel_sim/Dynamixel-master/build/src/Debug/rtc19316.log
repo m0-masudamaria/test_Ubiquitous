@@ -1,0 +1,57 @@
+Jul 23 10:19:57.279 INFO: manager: 2.0.1
+Jul 23 10:19:57.279 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 23 10:19:57.279 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 23 10:19:57.280 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 23 10:19:57.280 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 23 10:19:57.280 INFO: manager:   All right reserved.
+Jul 23 10:19:57.280 INFO: manager: Manager starting.
+Jul 23 10:19:57.280 INFO: manager: Starting local logging.
+Jul 23 10:19:57.301 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 23 10:19:57.301 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 23 10:19:57.309 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 23 10:20:01.404 WARNING: ManagerServant: Master manager not found
+Jul 23 10:20:01.408 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 23 10:20:01.446 INFO: ec_base: setRate(1000000.000000) done
+Jul 23 10:20:01.446 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:20:01.447 INFO: Dynamixel0: 1 execution context was created.
+Jul 23 10:20:01.447 INFO: Dynamixel0: onInitialize()
+Jul 23 10:20:01.482 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 23 10:20:12.099 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:20:15.642 INFO: ManagerServant: Master manager not found
+Jul 23 10:20:16.015 INFO: Dynamixel0: onActivated()
+Jul 23 10:20:16.167 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 23 10:20:16.167 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 23 10:20:25.623 INFO: ManagerServant: Master manager not found
+Jul 23 10:20:35.730 INFO: ManagerServant: Master manager not found
+Jul 23 10:20:45.804 INFO: ManagerServant: Master manager not found
+Jul 23 10:20:55.893 INFO: ManagerServant: Master manager not found
+Jul 23 10:21:05.989 INFO: ManagerServant: Master manager not found
+Jul 23 10:21:16.093 INFO: ManagerServant: Master manager not found
+Jul 23 10:21:26.193 INFO: ManagerServant: Master manager not found
+Jul 23 10:21:36.297 INFO: ManagerServant: Master manager not found
+Jul 23 10:21:46.300 INFO: ManagerServant: Master manager not found
+Jul 23 10:21:56.387 INFO: ManagerServant: Master manager not found
+Jul 23 10:22:06.469 INFO: ManagerServant: Master manager not found
+Jul 23 10:22:16.608 INFO: ManagerServant: Master manager not found
+Jul 23 10:22:26.619 INFO: ManagerServant: Master manager not found
+Jul 23 10:22:36.605 INFO: ManagerServant: Master manager not found
+Jul 23 10:22:46.687 INFO: ManagerServant: Master manager not found
+Jul 23 10:22:56.791 INFO: ManagerServant: Master manager not found
+Jul 23 10:23:06.752 INFO: ManagerServant: Master manager not found
+Jul 23 10:23:16.866 INFO: ManagerServant: Master manager not found
+Jul 23 10:23:26.843 INFO: ManagerServant: Master manager not found
+Jul 23 10:23:36.945 INFO: ManagerServant: Master manager not found
+Jul 23 10:23:42.239 INFO: Dynamixel0: onDeactivated()
+Jul 23 10:23:47.043 INFO: ManagerServant: Master manager not found
+Jul 23 10:23:57.134 INFO: ManagerServant: Master manager not found
+Jul 23 10:24:07.213 INFO: ManagerServant: Master manager not found
+Jul 23 10:24:17.290 INFO: ManagerServant: Master manager not found
+Jul 23 10:24:27.371 INFO: ManagerServant: Master manager not found
+Jul 23 10:24:37.453 INFO: ManagerServant: Master manager not found
+Jul 23 10:24:47.552 INFO: ManagerServant: Master manager not found
+Jul 23 10:24:57.645 INFO: ManagerServant: Master manager not found
+Jul 23 10:25:07.740 INFO: ManagerServant: Master manager not found
+Jul 23 10:25:17.727 INFO: ManagerServant: Master manager not found
+Jul 23 10:25:27.840 INFO: ManagerServant: Master manager not found
+Jul 23 10:25:37.931 INFO: ManagerServant: Master manager not found
+Jul 23 10:25:48.007 INFO: ManagerServant: Master manager not found

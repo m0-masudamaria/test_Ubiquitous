@@ -243,7 +243,6 @@ void DynamixelBase::reset(const std::vector<uint16_t> &speed, const std::vector<
 
 ErrorType DynamixelBase::setSpeedAndPosition(const std::vector<uint16_t> &speed, const std::vector<uint16_t> &position)
 {
-    std::cout << "set: " << speed[4] << std::endl;
   m_errors = m_zeros;
   // sync writeのパラメータ設定
   m_groupSyncWrite->clearParam();
@@ -459,7 +458,7 @@ ErrorType DynamixelBase::getMoving(std::vector<uint16_t> &moving)
         m_errors[i] |= ETDxlError;
         dxlError = true;
       } else {
-        moving.push_back(m);
+        moving.push_back((uint16_t)m);
       }
     }
   } else if (m_dtype == XL320 || m_dtype == XM430) {

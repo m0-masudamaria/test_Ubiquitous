@@ -1,0 +1,32 @@
+Jul 23 10:30:00.738 INFO: manager: 2.0.1
+Jul 23 10:30:00.739 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 23 10:30:00.739 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 23 10:30:00.739 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 23 10:30:00.739 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 23 10:30:00.739 INFO: manager:   All right reserved.
+Jul 23 10:30:00.739 INFO: manager: Manager starting.
+Jul 23 10:30:00.739 INFO: manager: Starting local logging.
+Jul 23 10:30:00.762 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 23 10:30:00.762 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 23 10:30:00.771 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 23 10:30:04.887 WARNING: ManagerServant: Master manager not found
+Jul 23 10:30:04.890 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 23 10:30:04.921 INFO: ec_base: setRate(1000000.000000) done
+Jul 23 10:30:04.921 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:30:04.922 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 23 10:30:04.954 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 23 10:30:15.744 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:30:19.093 INFO: ManagerServant: Master manager not found
+Jul 23 10:30:29.199 INFO: ManagerServant: Master manager not found
+Jul 23 10:30:39.016 WARNING: d_position: Dead connection: 8f2ec0d5-8e75-4fcd-8a1c-93848babae87
+Jul 23 10:30:39.220 INFO: ManagerServant: Master manager not found
+Jul 23 10:30:41.061 WARNING: d_position: Exception caught: minor code(1096024066).
+Jul 23 10:30:42.730 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 23 10:30:49.310 INFO: ManagerServant: Master manager not found
+Jul 23 10:30:59.390 INFO: ManagerServant: Master manager not found
+Jul 23 10:31:09.473 INFO: ManagerServant: Master manager not found
+Jul 23 10:31:13.016 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:31:19.573 INFO: ManagerServant: Master manager not found
+Jul 23 10:31:29.648 INFO: ManagerServant: Master manager not found
+Jul 23 10:31:35.098 WARNING: d_motor_moving: Dead connection: 3db79d49-a9a6-478c-9752-e0bcbcf6d000
+Jul 23 10:31:37.143 WARNING: d_motor_moving: Exception caught: minor code(1096024066).

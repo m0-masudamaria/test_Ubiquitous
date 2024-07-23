@@ -1,0 +1,29 @@
+Jul 23 10:30:52.582 INFO: manager: 2.0.1
+Jul 23 10:30:52.582 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 23 10:30:52.583 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 23 10:30:52.583 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 23 10:30:52.583 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 23 10:30:52.583 INFO: manager:   All right reserved.
+Jul 23 10:30:52.583 INFO: manager: Manager starting.
+Jul 23 10:30:52.583 INFO: manager: Starting local logging.
+Jul 23 10:30:52.610 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 23 10:30:52.610 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 23 10:30:52.628 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 23 10:30:56.748 WARNING: ManagerServant: Master manager not found
+Jul 23 10:30:56.750 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 23 10:30:56.765 INFO: ec_base: setRate(1000000.000000) done
+Jul 23 10:30:56.765 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:30:56.766 INFO: Dynamixel0: 1 execution context was created.
+Jul 23 10:30:56.766 INFO: Dynamixel0: onInitialize()
+Jul 23 10:30:56.783 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 23 10:31:10.919 INFO: ManagerServant: Master manager not found
+Jul 23 10:31:13.016 INFO: ec_base: setRate(1000.000000) done
+Jul 23 10:31:16.034 INFO: Dynamixel0: onActivated()
+Jul 23 10:31:16.038 ERROR: Dynamixel0: シリアルポートのオープンに失敗
+Jul 23 10:31:16.039 INFO: Dynamixel0: onDeactivated()
+Jul 23 10:31:16.039 INFO: Dynamixel0: onAborting()
+Jul 23 10:31:16.047 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jul 23 10:31:21.020 INFO: ManagerServant: Master manager not found
+Jul 23 10:31:25.159 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 23 10:31:27.129 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 23 10:31:31.023 INFO: ManagerServant: Master manager not found

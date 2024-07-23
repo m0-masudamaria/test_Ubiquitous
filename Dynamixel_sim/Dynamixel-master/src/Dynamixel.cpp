@@ -85,7 +85,6 @@ Dynamixel::~Dynamixel()
 
 RTC::ReturnCode_t Dynamixel::onInitialize()
 {
-    std::cout << "init" << std::endl;
   RTC_INFO(("onInitialize()"));
   // Registration: InPort/OutPort/Service
   // <rtc-template block="registration">
@@ -148,7 +147,6 @@ RTC::ReturnCode_t Dynamixel::onShutdown(RTC::UniqueId ec_id)
 
 RTC::ReturnCode_t Dynamixel::onActivated(RTC::UniqueId ec_id)
 {
-    std::cout << "active" << std::endl;
   RTC_INFO(("onActivated()"));
   m_rtcError = false;  //OpenRTM-aist-1.2.0のバグ回避
   m_ready = false;
@@ -163,9 +161,7 @@ RTC::ReturnCode_t Dynamixel::onActivated(RTC::UniqueId ec_id)
     m_rtcError = true;  //OpenRTM-aist-1.2.0のバグ回避
     return RTC::RTC_ERROR;
   }
-
-  std::cout << "11" << std::endl;
-
+ 
 
   // 位置指令の初期値の変換
   m_initialPosition.resize(m_NUM_ACTUATOR);
@@ -178,8 +174,6 @@ RTC::ReturnCode_t Dynamixel::onActivated(RTC::UniqueId ec_id)
     }
     RTC_INFO((oss.str().c_str()));
   }
-
-  std::cout << "22" << std::endl;
 
 
   // 速度の初期値の変換
@@ -194,7 +188,6 @@ RTC::ReturnCode_t Dynamixel::onActivated(RTC::UniqueId ec_id)
     RTC_INFO((oss.str().c_str()));
   }
   
-  std::cout << "aa" << std::endl;
 
   m_speed = m_initialSpeed;
 
@@ -202,13 +195,9 @@ RTC::ReturnCode_t Dynamixel::onActivated(RTC::UniqueId ec_id)
   m_errorType = m_pDynamixel->setAllTorqueMax();
   if (m_errorType != ETNone) {
       m_rtcError = true;  //OpenRTM-aist-1.2.0のバグ回避
-      std::cout << "aaaa" << std::endl;
       RTC_INFO(("全アクチュエータのトルク制限を最大に設定"));
       return RTC::RTC_ERROR;
   }
-
-  std::cout << "bb" << std::endl;
-
 
   //各ダイナミクセルのトルクをオンにする．
   m_errorType = m_pDynamixel->setAllTorqueOn();
@@ -218,8 +207,6 @@ RTC::ReturnCode_t Dynamixel::onActivated(RTC::UniqueId ec_id)
     return RTC::RTC_ERROR;
   }
 
-  std::cout << "cc" << std::endl;
-
 
   m_errorType = m_pDynamixel->setSpeedAndPosition(m_initialSpeed, m_initialPosition);
   if (m_errorType != ETNone) {
@@ -228,9 +215,6 @@ RTC::ReturnCode_t Dynamixel::onActivated(RTC::UniqueId ec_id)
     return RTC::RTC_ERROR;
   }
 
-  std::cout << "dd" << std::endl;
-
-
   //出力ポート用の変数のサイズ設定
   m_presentPosition.data.length(m_NUM_ACTUATOR); 
   m_moving.data.length(m_NUM_ACTUATOR);
@@ -238,8 +222,6 @@ RTC::ReturnCode_t Dynamixel::onActivated(RTC::UniqueId ec_id)
   m_countCommunicationError = 0;
 
   m_ready = true;
-
-  std::cout << "active okok" << std::endl;
 
   return RTC::RTC_OK;
 }
@@ -292,8 +274,6 @@ RTC::ReturnCode_t Dynamixel::onExecute(RTC::UniqueId ec_id)
     for (int i = 0; i<m_NUM_ACTUATOR; i++) {
       m_speed[i] = m_movingSpeed.data[i];
     }
-    std::cout << "get speed message: " << m_speed[0] << std::endl;
-
   }
 
   if(m_goalPositionIn.isNew()) {

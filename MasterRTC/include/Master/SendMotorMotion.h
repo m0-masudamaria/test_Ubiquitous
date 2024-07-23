@@ -9,7 +9,9 @@ public:
 	SendMotorMotion();
 	~SendMotorMotion();
 
-	void Grab_Ball_Position(uint16_t* motor_data);
+	void Grab_Ball_Position_1(uint16_t* motor_data);
+	void Grab_Ball_Position_2(uint16_t* motor_data);
+	void Grab_Ball_Position_3(uint16_t* motor_data);
 	void Grab_Ball(uint16_t* motor_data);
 	void Open_Hand(uint16_t* motor_data);
 

@@ -1,0 +1,10 @@
+^C:\USERS\CAKES\WORKSPACE\TEST_UBIQUITOUS\DYNAMIXEL_SIM\DYNAMIXEL-MASTER\BUILD\CMAKEFILES\32FFD5A087875DF0BC73C47F7413D2E9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/cakes/workspace/test_Ubiquitous/Dynamixel_sim/Dynamixel-master -BC:/Users/cakes/workspace/test_Ubiquitous/Dynamixel_sim/Dynamixel-master/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/cakes/workspace/test_Ubiquitous/Dynamixel_sim/Dynamixel-master/build/Dynamixel.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

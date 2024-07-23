@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_inverse_kinematics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\basic_funtion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_4motor_ik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\cal_3motor_ik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\operate_motor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\cal_inverse_kinematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\basic_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\cal_4motor_ik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\cal_3motor_ik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cakes\workspace\cal_inverse_kinematics\include\cal_inverse_kinematics\operate_motor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cakes\workspace\cal_inverse_kinematics\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7A417025-AB3E-3C03-A3CB-7250EA353AC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CF196C93-60C3-37A8-A1D1-9BEDEC563D7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
