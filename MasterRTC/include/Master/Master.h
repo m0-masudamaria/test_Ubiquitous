@@ -24,6 +24,10 @@
 #include "BasicDataTypeStub.h"
 #include "ExtendedDataTypesStub.h"
 
+#include "SendMotorMotion.h"
+#include <chrono>
+#include <thread>
+
 // </rtc-template>
 
 #include <rtm/Manager.h>
@@ -205,6 +209,8 @@ class Master
   // RTC::ReturnCode_t onRateChanged(RTC::UniqueId ec_id) override;
   // </rtc-template>
 
+   void send_motor_data();
+
 
  protected:
   // <rtc-template block="protected_attribute">
@@ -283,6 +289,17 @@ class Master
   // <rtc-template block="private_operation">
   
   // </rtc-template>
+
+	 SendMotorMotion send_motor_motion_;
+
+	 int motor_id;
+	 //送るデータの配列
+	 uint16_t motor_data[5];
+
+	 //ボールを持ってるかのflg
+	 bool grab_ball_flg;
+	 //ボールを投げたかのflg
+	 bool throw_ball_flg;
 
 };
 

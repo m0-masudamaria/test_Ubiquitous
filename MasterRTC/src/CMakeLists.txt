@@ -1,4 +1,4 @@
-set(comp_srcs Master.cpp )
+set(comp_srcs Master.cpp SendMotorMotion.cpp)
 set(standalone_srcs MasterComp.cpp)
 
 if(${OPENRTM_VERSION_MAJOR} LESS 2)
@@ -38,11 +38,12 @@ include_directories(${OPENRTM_INCLUDE_DIRS})
 add_definitions(${OPENRTM_CFLAGS})
 
 MAP_ADD_STR(comp_hdrs "../" comp_headers)
+MAP_ADD_STR(comp_hdrs_1 "../" comp_headers_1)
 
 link_directories(${OPENRTM_LIBRARY_DIRS})
 
 add_library(${PROJECT_NAME} ${LIB_TYPE} ${comp_srcs}
-  ${comp_headers} ${ALL_IDL_SRCS})
+  ${comp_headers} ${comp_headers_1} ${ALL_IDL_SRCS})
 set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
 set_source_files_properties(${ALL_IDL_SRCS} PROPERTIES GENERATED 1)
 if(NOT TARGET ALL_IDL_TGT)
@@ -52,7 +53,7 @@ add_dependencies(${PROJECT_NAME} ALL_IDL_TGT)
 target_link_libraries(${PROJECT_NAME} ${OPENRTM_LIBRARIES})
 
 add_executable(${PROJECT_NAME}Comp ${standalone_srcs}
-  ${comp_srcs} ${comp_headers} ${ALL_IDL_SRCS})
+  ${comp_srcs} ${comp_headers} ${comp_headers_1} ${ALL_IDL_SRCS})
 add_dependencies(${PROJECT_NAME}Comp ALL_IDL_TGT)
 target_link_libraries(${PROJECT_NAME}Comp ${OPENRTM_LIBRARIES})
 

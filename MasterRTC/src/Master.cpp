@@ -25,7 +25,9 @@ enum signal {
     Arelease,
     Brelease,
     Xrelease,
-    Yrelease
+    Yrelease,
+    LB,
+    RB
 };
 
 
@@ -133,6 +135,9 @@ RTC::ReturnCode_t Master::onFinalize()
 
 RTC::ReturnCode_t Master::onActivated(RTC::UniqueId /*ec_id*/)
 {
+    motor_id = 1;
+    grab_ball_flg = false;
+    throw_ball_flg = false;
     cout << "Activate" << endl;
     return RTC::RTC_OK;
 }
@@ -158,56 +163,94 @@ RTC::ReturnCode_t Master::onExecute(RTC::UniqueId /*ec_id*/)
             m_SendSpeed.data.length(2);
 
             if (signal == A) {
-                bool flg = true;
-                std::cout << "IK of 4 motors" << std::endl;
+                cout << "A" << endl;
+                send_motor_motion_.Positive_Rotation(motor_data, motor_id);
+                send_motor_data();
 
-                short send_arg[5];
-
-                send_arg[0] = 0; //mode
-                send_arg[1] = 60; //x
-                send_arg[2] = 50; //y
-                send_arg[3] = 230; //z
-                send_arg[4] = 30; //theta
-
-                std::cout << "complete_arg" << std::endl;
-
-                m_SendArg.data.length(5);
-
-                m_SendArg.data[0] = 0; //send_arg[0];
-                m_SendArg.data[1] = 60; //send_arg[1];
-                m_SendArg.data[2] = 50;//send_arg[2];
-                m_SendArg.data[3] = 230; //send_arg[3];
-                m_SendArg.data[4] = 30;//send_arg[4];
-
-                m_SendArgOut.write(m_SendArg);
             }
             else if (signal == Arelease) {
                 cout << "Arelease" << endl;
-                m_SendArgOut.write();
+                send_motor_motion_.Stop_Motor(motor_data, motor_id);
+                send_motor_data();
             }
             else if (signal == B) {
                 cout << "B" << endl;
-                m_SendArgOut.write();
+                send_motor_motion_.Negative_Rotation(motor_data, motor_id);
+                send_motor_data();
             }
             else if (signal == Brelease) {
                 cout << "Brelease" << endl;
-                m_SendArgOut.write();
+                send_motor_motion_.Stop_Motor(motor_data, motor_id);
+                send_motor_data();
             }
             else if (signal == X) {
                 cout << "X" << endl;
-                m_SendArgOut.write();
+                
+                if (!grab_ball_flg)
+                {
+                    //open hand
+                    send_motor_motion_.Open_Hand(motor_data);
+                    send_motor_data();
+
+                    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+
+                    //move to the position to grab the ball
+                    send_motor_motion_.Grab_Ball_Position(motor_data);
+                    send_motor_data();
+
+                    std::this_thread::sleep_for(std::chrono::milliseconds(5000));
+
+                    //grab the ball
+                    send_motor_motion_.Grab_Ball(motor_data);
+                    send_motor_data();
+
+                    std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+
+                    grab_ball_flg = true;
+                }
+
+
+                send_motor_motion_.Throw_Ball_iniPosition(motor_data);
+                send_motor_data();
             }
             else if (signal == Xrelease) {
                 cout << "Xrelease" << endl;
-                m_SendArgOut.write();
+                //m_SendArgOut.write();
             }
             else if (signal == Y) {
                 cout << "Y" << endl;
-                m_SendArgOut.write();
+                motor_id++;
+
+                if (motor_id >= 5)
+                {
+                    motor_id = 1;
+                }
             }
             else if (signal == Yrelease) {
                 cout << "Yrelease" << endl;
-                m_SendArgOut.write();
+                //m_SendArgOut.write();
+            }
+            else if (signal == LB)
+            {
+                cout << "LB" << endl;
+            }
+            else if (signal == RB) {
+                cout << "RB" << endl;
+                if (!throw_ball_flg)
+                {
+                    send_motor_motion_.Input_Throw_Position(motor_data);
+                    send_motor_data();
+                    throw_ball_flg = true;
+                }
+                else
+                {
+                    send_motor_motion_.Throw_Ball(motor_data);
+                    send_motor_data();
+
+                    grab_ball_flg = false;
+                    throw_ball_flg = false;
+                    motor_id = 1;
+                }
             }
             
 
@@ -349,6 +392,17 @@ RTC::ReturnCode_t Master::onExecute(RTC::UniqueId /*ec_id*/)
 
 }
 
+void Master::send_motor_data()
+{
+    m_SendArg.data.length(5);
+
+    for (int i = 0; i < 5; i++)
+    {
+        m_SendArg.data[i] = motor_data[i]; 
+    }
+
+    m_SendArgOut.write(m_SendArg);
+}
 
 //RTC::ReturnCode_t Master::onAborting(RTC::UniqueId /*ec_id*/)
 //{

@@ -380,12 +380,12 @@ void gamepadSetup()
   button[1].plug(this, "B_ButtonRelease", ControlIO.ON_RELEASE);
   button[2] = gpad.getButton(2);  // button_X
   button[2].plug(this, "X_ButtonPress", ControlIO.ON_PRESS);
-  //button[2].plug(this, "X_ButtonRelease", ControlIO.ON_RELEASE);
+  button[2].plug(this, "X_ButtonRelease", ControlIO.ON_RELEASE);
   button[3] = gpad.getButton(3);  // button_Y
   button[3].plug(this, "Y_ButtonPress", ControlIO.ON_PRESS);
-  //button[3].plug(this, "Y_ButtonRelease", ControlIO.ON_RELEASE);
+  button[3].plug(this, "Y_ButtonRelease", ControlIO.ON_RELEASE);
   button[4] = gpad.getButton(4);  // button_LB
-  //button[4].plug(this, "LB_ButtonPress", ControlIO.ON_PRESS);
+  button[4].plug(this, "LB_ButtonPress", ControlIO.ON_PRESS);
   //button[4].plug(this, "LB_ButtonRelease", ControlIO.ON_RELEASE);
   button[5] = gpad.getButton(5);  // button_RB
   button[5].plug(this, "RB_ButtonPress", ControlIO.ON_PRESS);
@@ -466,10 +466,16 @@ void X_ButtonPress()
   control_counter++;
 }
 
-//void X_ButtonRelease()
-//{
-//  button_X -= 1;
-//}
+void X_ButtonRelease()
+{
+  button_X -= 1;
+  // データポート配列長確保
+    //outdata.v.data = new short[1]; // 配列の長さを設定
+  outdata.v.data[0]=11;
+  // データ送信
+    outport.write();
+  println("Xr");
+}
 
 void Y_ButtonPress()
 {
@@ -483,16 +489,28 @@ void Y_ButtonPress()
   control_counter++;
 }
 
-//void Y_ButtonRelease()
-//{
-//  button_Y -= 1;
-//}
+void Y_ButtonRelease()
+{
+  button_Y -= 1;
+  // データポート配列長確保
+    //outdata.v.data = new short[1]; // 配列の長さを設定
+  outdata.v.data[0]=12;
+  // データ送信
+    outport.write();
+  println("Yr");
+}
 
-//void LB_ButtonPress()
-//{
-//  button_LB += 1;
-//  control_counter++;
-//}
+void LB_ButtonPress()
+{
+  button_LB += 1;
+    println("LB");
+  // データポート配列長確保
+    //outdata.v.data = new short[1]; // 配列の長さを設定
+  outdata.v.data[0]=13;
+  // データ送信
+    outport.write();
+  control_counter++;
+}
 
 //void LB_ButtonRelease()
 //{
@@ -502,6 +520,12 @@ void Y_ButtonPress()
 void RB_ButtonPress()
 {
   button_RB += 1;
+  println("RB");
+  // データポート配列長確保
+    //outdata.v.data = new short[1]; // 配列の長さを設定
+  outdata.v.data[0]=14;
+  // データ送信
+    outport.write();
   control_counter++;
 }
 
