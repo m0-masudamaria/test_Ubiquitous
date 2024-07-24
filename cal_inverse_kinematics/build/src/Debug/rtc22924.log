@@ -1,0 +1,38 @@
+Jul 24 03:52:34.334 INFO: manager: 2.0.1
+Jul 24 03:52:34.334 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 03:52:34.334 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 03:52:34.335 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 03:52:34.335 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 03:52:34.335 INFO: manager:   All right reserved.
+Jul 24 03:52:34.335 INFO: manager: Manager starting.
+Jul 24 03:52:34.335 INFO: manager: Starting local logging.
+Jul 24 03:52:34.366 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 03:52:34.366 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 03:52:34.381 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 03:52:38.520 WARNING: ManagerServant: Master manager not found
+Jul 24 03:52:38.523 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 03:52:38.543 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 03:52:38.543 INFO: ec_base: setRate(1000.000000) done
+Jul 24 03:52:38.544 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 24 03:52:38.570 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 24 03:52:52.773 INFO: ManagerServant: Master manager not found
+Jul 24 03:53:02.830 INFO: ManagerServant: Master manager not found
+Jul 24 03:53:12.911 INFO: ManagerServant: Master manager not found
+Jul 24 03:53:22.988 INFO: ManagerServant: Master manager not found
+Jul 24 03:53:33.079 INFO: ManagerServant: Master manager not found
+Jul 24 03:53:43.144 INFO: ManagerServant: Master manager not found
+Jul 24 03:53:53.225 INFO: ManagerServant: Master manager not found
+Jul 24 03:54:03.323 INFO: ManagerServant: Master manager not found
+Jul 24 03:54:13.388 INFO: ManagerServant: Master manager not found
+Jul 24 03:54:23.435 INFO: ManagerServant: Master manager not found
+Jul 24 03:54:33.491 INFO: ManagerServant: Master manager not found
+Jul 24 03:54:35.144 INFO: ec_base: setRate(1000.000000) done
+Jul 24 03:54:43.553 INFO: ManagerServant: Master manager not found
+Jul 24 03:54:53.598 INFO: ManagerServant: Master manager not found
+Jul 24 03:55:03.644 INFO: ManagerServant: Master manager not found
+Jul 24 03:55:13.701 INFO: ManagerServant: Master manager not found
+Jul 24 03:55:23.812 INFO: ManagerServant: Master manager not found
+Jul 24 03:55:33.890 INFO: ManagerServant: Master manager not found
+Jul 24 03:55:43.958 INFO: ManagerServant: Master manager not found
+Jul 24 03:55:54.013 INFO: ManagerServant: Master manager not found
+Jul 24 03:55:58.076 WARNING: SdoServiceAdmin: No available SDO service in the factory: 

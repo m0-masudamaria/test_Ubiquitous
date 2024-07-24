@@ -300,6 +300,8 @@ class Master
 	 bool grab_ball_flg;
 	 //ボールを投げたかのflg
 	 bool throw_ball_flg;
+	 //感情表現するかのflg
+	 bool act_emotion_flg;
 
 };
 

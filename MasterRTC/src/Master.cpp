@@ -138,6 +138,7 @@ RTC::ReturnCode_t Master::onActivated(RTC::UniqueId /*ec_id*/)
     motor_id = 1;
     grab_ball_flg = false;
     throw_ball_flg = false;
+    act_emotion_flg = false;
     cout << "Activate" << endl;
     return RTC::RTC_OK;
 }
@@ -161,146 +162,160 @@ RTC::ReturnCode_t Master::onExecute(RTC::UniqueId /*ec_id*/)
             signal = m_GamePad_Arg_Speed.data[0];//配列でデータを格納,GamePad_Arg_Speedの0番目に0,1,2の数値が入っている．
             cout << "start:" << m_GamePad_Arg_Speed.data[0] << endl; //.exeに「start」が表示され，データが来たことが分かる．
             m_SendSpeed.data.length(2);
+            
+            if(!act_emotion_flg)
+            {
 
-            if (signal == A) {
-                cout << "A" << endl;
-                send_motor_motion_.Positive_Rotation(motor_data, motor_id);
-                send_motor_data();
-
-            }
-            else if (signal == Arelease) {
-                cout << "Arelease" << endl;
-                send_motor_motion_.Stop_Motor(motor_data, motor_id);
-                send_motor_data();
-            }
-            else if (signal == B) {
-                cout << "B" << endl;
-                send_motor_motion_.Negative_Rotation(motor_data, motor_id);
-                send_motor_data();
-            }
-            else if (signal == Brelease) {
-                cout << "Brelease" << endl;
-                send_motor_motion_.Stop_Motor(motor_data, motor_id);
-                send_motor_data();
-            }
-            else if (signal == X) {
-                cout << "X" << endl;
-                
-                if (!grab_ball_flg)
+                if (signal == A)
                 {
-                    //open hand
-                    send_motor_motion_.Open_Hand(motor_data);
+                    cout << "A" << endl;
+                    send_motor_motion_.Positive_Rotation(motor_data, motor_id);
                     send_motor_data();
 
-                    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-
-                    //move to the position to grab the ball
-                    send_motor_motion_.Grab_Ball_Position_1(motor_data);
+                }
+                else if (signal == Arelease) {
+                    cout << "Arelease" << endl;
+                    send_motor_motion_.Stop_Motor(motor_data, motor_id);
                     send_motor_data();
-
-                    std::this_thread::sleep_for(std::chrono::milliseconds(3000));
-
-                    send_motor_motion_.Grab_Ball_Position_2(motor_data);
+                }
+                else if (signal == B) {
+                    cout << "B" << endl;
+                    send_motor_motion_.Negative_Rotation(motor_data, motor_id);
                     send_motor_data();
-
-                    std::this_thread::sleep_for(std::chrono::milliseconds(3000));
-
-                    //grab the ball
-                    send_motor_motion_.Grab_Ball(motor_data);
+                }
+                else if (signal == Brelease) {
+                    cout << "Brelease" << endl;
+                    send_motor_motion_.Stop_Motor(motor_data, motor_id);
                     send_motor_data();
+                }
+                else if (signal == X) {
+                    cout << "X" << endl;
 
-                    std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+                    if (!grab_ball_flg)
+                    {
+                        //open hand
+                        send_motor_motion_.Open_Hand(motor_data);
+                        send_motor_data();
 
-                    send_motor_motion_.Grab_Ball_Position_3(motor_data);
+                        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+
+                        //move to the position to grab the ball
+                        send_motor_motion_.Grab_Ball_Position_1(motor_data);
+                        send_motor_data();
+
+                        std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+
+                        send_motor_motion_.Grab_Ball_Position_2(motor_data);
+                        send_motor_data();
+
+                        std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+
+                        //grab the ball
+                        send_motor_motion_.Grab_Ball(motor_data);
+                        send_motor_data();
+
+                        std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+
+                        send_motor_motion_.Grab_Ball_Position_3(motor_data);
+                        send_motor_data();
+
+                        std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+
+                        grab_ball_flg = true;
+                    }
+
+
+                    send_motor_motion_.Throw_Ball_iniPosition(motor_data);
                     send_motor_data();
+                }
+                else if (signal == Xrelease) {
+                    cout << "Xrelease" << endl;
+                    //m_SendArgOut.write();
+                }
+                else if (signal == Y) {
+                    cout << "Y" << endl;
+                    motor_id++;
 
-                    std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+                    if (motor_id >= 5)
+                    {
+                        motor_id = 1;
+                    }
+                }
+                else if (signal == Yrelease) {
+                    cout << "Yrelease" << endl;
+                    //m_SendArgOut.write();
+                }
+             
+                else if (signal == RB && grab_ball_flg) {
+                    cout << "RB" << endl;
+                    if (!throw_ball_flg)
+                    {
+                        send_motor_motion_.Input_Throw_Position(motor_data);
+                        send_motor_data();
+                        throw_ball_flg = true;
+                    }
+                    else
+                    {
+                        send_motor_motion_.Throw_Ball(motor_data);
+                        send_motor_data();
 
-                    grab_ball_flg = true;
+                        grab_ball_flg = false;
+                        throw_ball_flg = false;
+                        motor_id = 1;
+                        act_emotion_flg = true;
+                    }
                 }
 
+
+                //Kobukiに信号を送る左の十字キー
+                else if (signal == LEFT) {
+
+                    std::cout << "kobuki left" << std::endl;
+                    m_SendSpeed.data[0] = 0;
+                    m_SendSpeed.data[1] = 20;
+                    m_SendSpeedOut.write(m_SendSpeed);
+                }
+                else if (signal == RIGHT) {
+
+                    std::cout << "kobuki right" << std::endl;
+                    m_SendSpeed.data[0] = 0;
+                    m_SendSpeed.data[1] = -20;
+                    m_SendSpeedOut.write(m_SendSpeed);
+                }
+                else if (signal == UP) {
+                    ;
+                    std::cout << "kobuki up" << std::endl;
+                    m_SendSpeed.data[0] = 10;
+                    m_SendSpeed.data[1] = 0;
+                    m_SendSpeedOut.write(m_SendSpeed);
+                }
+                else if (signal == DOWN) {
+
+                    std::cout << "kobuki down" << std::endl;
+                    m_SendSpeed.data[0] = -10;
+                    m_SendSpeed.data[1] = 0;
+                    m_SendSpeedOut.write(m_SendSpeed);
+                }
+                else if (signal == SIGNAL_NUM) {
+
+                    std::cout << "kobuki stop" << std::endl;
+                    m_SendSpeed.data[0] = 0;
+                    m_SendSpeed.data[1] = 0;
+                    m_SendSpeedOut.write(m_SendSpeed);
+                }
+                //ここまでがKobukiにデータを送る用
+            }
+
+            if (signal == LB && act_emotion_flg)
+            {
+                cout << "LB" << endl;
+
+                act_emotion_flg = false;
 
                 send_motor_motion_.Throw_Ball_iniPosition(motor_data);
                 send_motor_data();
-            }
-            else if (signal == Xrelease) {
-                cout << "Xrelease" << endl;
-                //m_SendArgOut.write();
-            }
-            else if (signal == Y) {
-                cout << "Y" << endl;
-                motor_id++;
 
-                if (motor_id >= 5)
-                {
-                    motor_id = 1;
-                }
             }
-            else if (signal == Yrelease) {
-                cout << "Yrelease" << endl;
-                //m_SendArgOut.write();
-            }
-            else if (signal == LB)
-            {
-                cout << "LB" << endl;
-            }
-            else if (signal == RB) {
-                cout << "RB" << endl;
-                if (!throw_ball_flg)
-                {
-                    send_motor_motion_.Input_Throw_Position(motor_data);
-                    send_motor_data();
-                    throw_ball_flg = true;
-                }
-                else
-                {
-                    send_motor_motion_.Throw_Ball(motor_data);
-                    send_motor_data();
-
-                    grab_ball_flg = false;
-                    throw_ball_flg = false;
-                    motor_id = 1;
-                }
-            }
-            
-
-            //Kobukiに信号を送る左の十字キー
-            else if (signal == LEFT) {
-                
-                std::cout << "kobuki left" << std::endl;
-                m_SendSpeed.data[0] = 0;
-                m_SendSpeed.data[1] = 20;
-                m_SendSpeedOut.write(m_SendSpeed);
-            }
-            else if (signal == RIGHT) {
-                
-                std::cout << "kobuki right" << std::endl;
-                m_SendSpeed.data[0] = 0;
-                m_SendSpeed.data[1] = -20;
-                m_SendSpeedOut.write(m_SendSpeed);
-            }
-            else if (signal == UP) {
-                ;
-                std::cout << "kobuki up" << std::endl;
-                m_SendSpeed.data[0] = 10;
-                m_SendSpeed.data[1] = 0;
-                m_SendSpeedOut.write(m_SendSpeed);
-            }
-            else if (signal == DOWN) {
-                
-                std::cout << "kobuki down" << std::endl;
-                m_SendSpeed.data[0] = -10;
-                m_SendSpeed.data[1] = 0;
-                m_SendSpeedOut.write(m_SendSpeed);
-            }
-            else if (signal == SIGNAL_NUM) {
-
-                std::cout << "kobuki stop" << std::endl;
-                m_SendSpeed.data[0] = 0;
-                m_SendSpeed.data[1] = 0;
-                m_SendSpeedOut.write(m_SendSpeed);
-            }
-            //ここまでがKobukiにデータを送る用
 
 
             /*else if (m_sender.data[0] == 1)
@@ -361,10 +376,21 @@ RTC::ReturnCode_t Master::onExecute(RTC::UniqueId /*ec_id*/)
 
         std::cout << "Bowling pins detected: " << m_nb_of_pins.data << std::endl;
 
-        switch (m_nb_of_pins.data) {
+        if(act_emotion_flg)
+        {
+
+            motor_data[0] = 6;
+            motor_data[1] = (int16_t)m_nb_of_pins.data;
+            motor_data[2] = 0;
+            motor_data[3] = 0;
+            motor_data[4] = 0;
+
+            send_motor_data();
+
+            /*
+            switch (m_nb_of_pins.data) {
             case 0: // 0 pins remaining
                 // ACE
-
                 break;
             case 1:
             case 2:
@@ -386,12 +412,15 @@ RTC::ReturnCode_t Master::onExecute(RTC::UniqueId /*ec_id*/)
                 break;
             case 10: // all pins remain (no pin hit)
                 // fail
-                
+
                 break;
 
             default:
                 // undefined condition, nothing.
                 break;
+
+            }
+            */
         }
     }
 

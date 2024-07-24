@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cakes\workspace\test_Ubiquitous\FloatSeqToVelocity\build\CMakeFiles\bdbc645bb96dedc1bc3abf125b55919e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4DA05C1F-E82E-3E15-B5A7-1644E173B056}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

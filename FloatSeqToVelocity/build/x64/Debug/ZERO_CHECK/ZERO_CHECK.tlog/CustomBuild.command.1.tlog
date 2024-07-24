@@ -1,0 +1,10 @@
+^C:\USERS\CAKES\WORKSPACE\TEST_UBIQUITOUS\FLOATSEQTOVELOCITY\BUILD\CMAKEFILES\BDBC645BB96DEDC1BC3ABF125B55919E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/cakes/workspace/test_Ubiquitous/FloatSeqToVelocity -BC:/Users/cakes/workspace/test_Ubiquitous/FloatSeqToVelocity/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/cakes/workspace/test_Ubiquitous/FloatSeqToVelocity/build/FloatSeqToVelocity.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

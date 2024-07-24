@@ -1,0 +1,41 @@
+Jul 23 12:18:50.971 INFO: manager: 2.0.1
+Jul 23 12:18:50.972 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 23 12:18:50.972 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 23 12:18:50.973 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 23 12:18:50.973 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 23 12:18:50.973 INFO: manager:   All right reserved.
+Jul 23 12:18:50.973 INFO: manager: Manager starting.
+Jul 23 12:18:50.973 INFO: manager: Starting local logging.
+Jul 23 12:18:51.014 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 23 12:18:51.014 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 23 12:18:51.032 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 23 12:18:55.140 WARNING: ManagerServant: Master manager not found
+Jul 23 12:18:55.143 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 23 12:18:55.193 INFO: ec_base: setRate(1000000.000000) done
+Jul 23 12:18:55.194 INFO: ec_base: setRate(1000.000000) done
+Jul 23 12:18:55.207 INFO: Dynamixel0: 1 execution context was created.
+Jul 23 12:18:55.209 INFO: Dynamixel0: onInitialize()
+Jul 23 12:18:55.485 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 23 12:19:09.683 INFO: ManagerServant: Master manager not found
+Jul 23 12:19:19.771 INFO: ManagerServant: Master manager not found
+Jul 23 12:19:29.838 INFO: ManagerServant: Master manager not found
+Jul 23 12:19:39.908 INFO: ManagerServant: Master manager not found
+Jul 23 12:19:49.991 INFO: ManagerServant: Master manager not found
+Jul 23 12:20:00.059 INFO: ManagerServant: Master manager not found
+Jul 23 12:20:10.148 INFO: ManagerServant: Master manager not found
+Jul 23 12:20:20.216 INFO: ManagerServant: Master manager not found
+Jul 23 12:20:26.274 INFO: ec_base: setRate(1000.000000) done
+Jul 23 12:20:30.324 INFO: ManagerServant: Master manager not found
+Jul 23 12:20:40.418 INFO: ManagerServant: Master manager not found
+Jul 23 12:20:50.493 INFO: ManagerServant: Master manager not found
+Jul 23 12:21:00.522 INFO: ManagerServant: Master manager not found
+Jul 23 12:21:10.598 INFO: ManagerServant: Master manager not found
+Jul 23 12:21:12.487 INFO: Dynamixel0: onActivated()
+Jul 23 12:21:12.492 ERROR: Dynamixel0: シリアルポートのオープンに失敗
+Jul 23 12:21:12.493 INFO: Dynamixel0: onDeactivated()
+Jul 23 12:21:12.493 INFO: Dynamixel0: onAborting()
+Jul 23 12:21:12.498 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jul 23 12:21:20.684 INFO: ManagerServant: Master manager not found
+Jul 23 12:21:30.775 INFO: ManagerServant: Master manager not found
+Jul 23 12:21:36.123 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 23 12:21:41.259 INFO: ManagerServant: Master manager not found

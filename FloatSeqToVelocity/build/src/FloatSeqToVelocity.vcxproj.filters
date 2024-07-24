@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cakes\workspace\test_Ubiquitous\FloatSeqToVelocity\src\FloatSeqToVelocity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\cakes\workspace\test_Ubiquitous\FloatSeqToVelocity\include\FloatSeqToVelocity\FloatSeqToVelocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cakes\workspace\test_Ubiquitous\FloatSeqToVelocity\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CC84F0C8-F4EF-3EF2-8B36-05003F5A5DB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FD0DD54-BFBD-3562-8807-D6EB4B9B314C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

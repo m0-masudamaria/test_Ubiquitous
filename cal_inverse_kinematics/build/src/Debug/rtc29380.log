@@ -1,0 +1,30 @@
+Jul 24 04:16:18.234 INFO: manager: 2.0.1
+Jul 24 04:16:18.234 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 04:16:18.234 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 04:16:18.234 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 04:16:18.234 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 04:16:18.235 INFO: manager:   All right reserved.
+Jul 24 04:16:18.235 INFO: manager: Manager starting.
+Jul 24 04:16:18.235 INFO: manager: Starting local logging.
+Jul 24 04:16:18.258 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 04:16:18.258 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 04:16:18.265 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 04:16:22.351 WARNING: ManagerServant: Master manager not found
+Jul 24 04:16:22.356 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 04:16:22.378 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 04:16:22.379 INFO: ec_base: setRate(1000.000000) done
+Jul 24 04:16:22.380 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 24 04:16:22.410 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 24 04:16:36.627 INFO: ManagerServant: Master manager not found
+Jul 24 04:16:37.600 INFO: ec_base: setRate(1000.000000) done
+Jul 24 04:16:46.693 INFO: ManagerServant: Master manager not found
+Jul 24 04:16:56.771 INFO: ManagerServant: Master manager not found
+Jul 24 04:17:06.860 INFO: ManagerServant: Master manager not found
+Jul 24 04:17:15.687 WARNING: d_motor_moving: Dead connection: 3db79d49-a9a6-478c-9752-e0bcbcf6d000
+Jul 24 04:17:16.409 ERROR: ec_base: The component is not responding.
+Jul 24 04:17:16.410 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 04:17:16.964 INFO: ManagerServant: Master manager not found
+Jul 24 04:17:17.058 WARNING: motor_deg: connection_lost id: e2f8c0a2-dc42-4d31-b954-30364d80cb95
+Jul 24 04:17:17.724 WARNING: d_motor_moving: Exception caught: minor code(1096024066).
+Jul 24 04:17:19.115 WARNING: motor_deg: Exception caught: minor code(1096024066).
+Jul 24 04:17:19.768 WARNING: motor_deg: Dead connection: e2f8c0a2-dc42-4d31-b954-30364d80cb95
