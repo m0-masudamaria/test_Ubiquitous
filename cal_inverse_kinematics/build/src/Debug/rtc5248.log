@@ -1,0 +1,130 @@
+Jul 24 05:39:14.294 INFO: manager: 2.0.1
+Jul 24 05:39:14.294 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 05:39:14.295 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 05:39:14.295 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 05:39:14.295 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 05:39:14.295 INFO: manager:   All right reserved.
+Jul 24 05:39:14.295 INFO: manager: Manager starting.
+Jul 24 05:39:14.295 INFO: manager: Starting local logging.
+Jul 24 05:39:14.341 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 05:39:14.341 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 05:39:14.357 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 05:39:18.433 WARNING: ManagerServant: Master manager not found
+Jul 24 05:39:18.438 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 05:39:18.476 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 05:39:18.476 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:39:18.479 INFO: cal_inverse_kinematics0: 1 execution context was created.
+Jul 24 05:39:18.516 INFO: cal_inverse_kinematics0: Initial active configuration set is default.
+Jul 24 05:39:32.705 INFO: ManagerServant: Master manager not found
+Jul 24 05:39:42.789 INFO: ManagerServant: Master manager not found
+Jul 24 05:39:52.893 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:02.951 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:12.996 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:13.235 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:40:23.073 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:33.106 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:43.184 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:53.266 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:03.357 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:13.382 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:24.069 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:33.493 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:43.600 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:52.238 ERROR: ec_worker: State of the RTC is not INACTIVE_STATE.
+Jul 24 05:41:53.600 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:03.843 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:14.459 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:24.738 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:33.867 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:43.934 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:54.043 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:04.660 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:14.661 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:24.757 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:34.287 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:44.723 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:54.605 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:04.593 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:14.675 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:24.688 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:33.789 WARNING: d_position: Dead connection: 3e590aee-add4-4c1b-aaa1-7664edbb5501
+Jul 24 05:44:34.772 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:35.845 WARNING: d_position: Exception caught: minor code.
+Jul 24 05:44:44.881 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:55.138 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:04.991 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:15.083 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:25.193 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:35.259 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:41.583 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:45:45.353 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:55.860 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:06.260 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:16.104 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:25.727 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:36.541 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:45.756 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:56.656 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:03.551 WARNING: motor_deg: Dead connection: 20c27938-351a-4365-987d-9def84f4b6a0
+Jul 24 05:47:05.774 WARNING: motor_deg: Exception caught: minor code.
+Jul 24 05:47:06.304 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:07.835 WARNING: motor_speed: Dead connection: cfc4595f-9b35-4f3b-a90b-e6498b46404f
+Jul 24 05:47:09.897 WARNING: motor_speed: Exception caught: minor code.
+Jul 24 05:47:13.211 WARNING: d_position: Dead connection: 3e590aee-add4-4c1b-aaa1-7664edbb5501
+Jul 24 05:47:15.283 WARNING: d_position: Exception caught: minor code.
+Jul 24 05:47:15.846 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:25.940 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:36.037 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:46.129 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:57.324 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:06.251 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:16.347 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:16.390 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:48:26.683 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:37.069 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:37.424 ERROR: ec_worker: State of the RTC is not INACTIVE_STATE.
+Jul 24 05:48:47.099 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:57.684 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:07.485 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:17.498 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:27.379 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:37.881 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:47.297 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:57.574 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:07.380 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:17.883 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:27.879 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:37.308 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:47.210 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:55.054 WARNING: d_position: Dead connection: 3e590aee-add4-4c1b-aaa1-7664edbb5501
+Jul 24 05:50:57.106 WARNING: d_position: Exception caught: minor code.
+Jul 24 05:50:57.187 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:07.291 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:17.376 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:27.397 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:37.492 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:47.552 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:50.022 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:51:57.618 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:07.735 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:17.806 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:27.874 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:38.689 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:48.027 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:58.148 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:09.404 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:18.200 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:28.286 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:38.318 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:49.283 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:58.629 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:08.509 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:18.575 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:28.658 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:38.742 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:48.778 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:51.825 WARNING: d_position: Dead connection: 3e590aee-add4-4c1b-aaa1-7664edbb5501
+Jul 24 05:54:53.896 WARNING: d_position: Exception caught: minor code.
+Jul 24 05:54:58.898 INFO: ManagerServant: Master manager not found
+Jul 24 05:55:08.874 INFO: ManagerServant: Master manager not found
+Jul 24 05:55:18.963 INFO: ManagerServant: Master manager not found

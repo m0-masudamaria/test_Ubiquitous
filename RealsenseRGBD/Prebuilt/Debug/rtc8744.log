@@ -1,0 +1,110 @@
+Jul 24 04:52:22.043 INFO: manager: 2.0.1
+Jul 24 04:52:22.043 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 04:52:22.043 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 04:52:22.044 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 04:52:22.044 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 04:52:22.044 INFO: manager:   All right reserved.
+Jul 24 04:52:22.044 INFO: manager: Manager starting.
+Jul 24 04:52:22.044 INFO: manager: Starting local logging.
+Jul 24 04:52:22.069 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 04:52:22.069 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 04:52:22.080 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 04:52:26.175 WARNING: ManagerServant: Master manager not found
+Jul 24 04:52:26.177 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 04:52:26.494 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 04:52:26.494 INFO: ec_base: setRate(1000.000000) done
+Jul 24 04:52:26.495 INFO: RealSense_RGBD_Camera0: 1 execution context was created.
+Jul 24 04:52:26.505 INFO: RealSense_RGBD_Camera0: Initial active configuration set is default.
+Jul 24 04:52:40.723 INFO: ManagerServant: Master manager not found
+Jul 24 04:52:50.788 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:00.838 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:10.891 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:20.962 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:31.030 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:34.346 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 24 04:53:41.066 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:51.134 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:01.185 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:11.257 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:21.304 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:31.338 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:41.387 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:51.425 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:01.458 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:11.502 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:21.541 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:31.568 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:41.601 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:51.635 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:01.685 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:11.741 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:21.789 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:31.802 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:41.864 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:51.904 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:01.926 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:11.975 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:22.005 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:32.026 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:42.084 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:52.155 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:02.211 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:12.263 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:22.303 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:32.360 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:42.420 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:52.477 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:02.540 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:12.574 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:22.615 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:32.628 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:42.680 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:52.731 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:02.804 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:12.851 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:22.894 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:32.966 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:43.012 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:53.052 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:03.078 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:13.133 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:23.203 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:33.266 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:43.331 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:53.404 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:03.430 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:13.479 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:23.538 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:33.595 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:43.653 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:53.699 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:03.751 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:13.784 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:16.175 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 24 05:03:23.827 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:30.665 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:03:33.888 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:43.970 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:54.049 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:04.136 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:14.167 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:17.808 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 24 05:04:24.200 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:34.268 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:44.336 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:54.404 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:04.455 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:14.517 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:24.556 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:34.617 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:44.694 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:54.777 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:04.846 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:14.925 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:24.992 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:35.049 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:45.111 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:55.174 INFO: ManagerServant: Master manager not found
+Jul 24 05:07:05.254 INFO: ManagerServant: Master manager not found
+Jul 24 05:07:15.318 INFO: ManagerServant: Master manager not found
+Jul 24 05:07:25.370 INFO: ManagerServant: Master manager not found

@@ -1,0 +1,149 @@
+Jul 24 05:58:34.906 INFO: manager: 2.0.1
+Jul 24 05:58:34.907 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 05:58:34.908 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 05:58:34.909 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 05:58:34.909 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 05:58:34.909 INFO: manager:   All right reserved.
+Jul 24 05:58:34.910 INFO: manager: Manager starting.
+Jul 24 05:58:34.910 INFO: manager: Starting local logging.
+Jul 24 05:58:35.083 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 05:58:35.083 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 05:58:35.156 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 05:58:39.907 WARNING: ManagerServant: Master manager not found
+Jul 24 05:58:39.912 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 05:58:39.967 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 05:58:39.968 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:58:39.971 INFO: Dynamixel0: 1 execution context was created.
+Jul 24 05:58:39.972 INFO: Dynamixel0: onInitialize()
+Jul 24 05:58:40.084 INFO: Dynamixel0: Initial active configuration set is default.
+Jul 24 05:58:53.349 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:58:54.278 INFO: ManagerServant: Master manager not found
+Jul 24 05:58:56.132 INFO: Dynamixel0: onActivated()
+Jul 24 05:58:56.276 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 24 05:58:56.277 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 24 05:59:04.239 INFO: ManagerServant: Master manager not found
+Jul 24 05:59:14.306 INFO: ManagerServant: Master manager not found
+Jul 24 05:59:24.288 INFO: ManagerServant: Master manager not found
+Jul 24 05:59:34.374 INFO: ManagerServant: Master manager not found
+Jul 24 05:59:44.447 INFO: ManagerServant: Master manager not found
+Jul 24 05:59:54.544 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:04.673 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:14.652 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:24.758 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:34.871 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:44.858 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:54.938 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:05.040 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:15.527 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:25.198 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:35.318 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:45.399 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:55.518 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:59.695 INFO: Dynamixel0: onDeactivated()
+Jul 24 06:02:05.529 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:15.506 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:25.554 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:35.631 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:45.707 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:55.827 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:03.203 INFO: ec_base: setRate(1000.000000) done
+Jul 24 06:03:05.944 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:07.619 INFO: Dynamixel0: onActivated()
+Jul 24 06:03:07.619 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 24 06:03:07.619 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 24 06:03:15.933 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:26.020 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:36.128 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:46.218 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:49.477 INFO: Dynamixel0: onDeactivated()
+Jul 24 06:03:56.239 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:06.239 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:16.329 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:25.070 INFO: ec_base: setRate(1000.000000) done
+Jul 24 06:04:26.397 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:27.704 INFO: Dynamixel0: onActivated()
+Jul 24 06:04:27.705 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 24 06:04:27.705 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 24 06:04:37.302 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:47.208 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:57.508 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:07.594 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:17.406 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:27.408 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:37.504 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:48.104 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:57.721 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:08.008 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:17.720 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:27.602 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:38.001 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:47.908 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:58.107 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:07.922 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:17.905 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:28.416 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:38.506 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:48.605 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:50.940 INFO: Dynamixel0: onDeactivated()
+Jul 24 06:07:57.695 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:07.593 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:17.693 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:27.691 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:37.725 INFO: ec_base: setRate(1000.000000) done
+Jul 24 06:08:37.735 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:41.277 INFO: Dynamixel0: onActivated()
+Jul 24 06:08:41.277 INFO: Dynamixel0: m_initialPosition: 512, 512, 512, 512, 512, 
+Jul 24 06:08:41.278 INFO: Dynamixel0: m_initialSpeed: 100, 100, 100, 100, 100, 
+Jul 24 06:08:47.827 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:57.888 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:07.975 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:18.063 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:28.153 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:38.232 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:48.302 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:58.388 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:08.431 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:18.521 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:28.612 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:38.628 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:48.732 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:58.998 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:08.875 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:18.943 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:29.023 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:39.606 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:49.434 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:59.589 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:09.262 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:19.297 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:29.398 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:39.481 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:49.581 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:59.614 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:09.644 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:19.673 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:29.796 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:39.883 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:49.921 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:00.027 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:00.176 INFO: Dynamixel0: onDeactivated()
+Jul 24 06:14:10.126 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:20.193 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:31.259 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:40.394 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:50.370 INFO: ManagerServant: Master manager not found
+Jul 24 06:15:00.479 INFO: ManagerServant: Master manager not found
+Jul 24 06:15:10.477 INFO: ManagerServant: Master manager not found
+Jul 24 06:15:20.555 INFO: ManagerServant: Master manager not found
+Jul 24 06:15:30.638 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:00.014 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:04.105 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:14.159 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:24.202 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:34.284 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:44.373 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:54.411 INFO: ManagerServant: Master manager not found
+Jul 24 06:19:04.494 INFO: ManagerServant: Master manager not found
+Jul 24 06:19:14.562 INFO: ManagerServant: Master manager not found
+Jul 24 06:19:24.658 INFO: ManagerServant: Master manager not found
+Jul 24 06:19:34.729 INFO: ManagerServant: Master manager not found

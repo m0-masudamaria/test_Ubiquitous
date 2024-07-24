@@ -1,0 +1,20 @@
+Jul 24 04:50:58.574 INFO: manager: 2.0.1
+Jul 24 04:50:58.574 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 04:50:58.574 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 04:50:58.574 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 04:50:58.575 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 04:50:58.575 INFO: manager:   All right reserved.
+Jul 24 04:50:58.575 INFO: manager: Manager starting.
+Jul 24 04:50:58.575 INFO: manager: Starting local logging.
+Jul 24 04:50:58.606 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 04:50:58.606 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 04:50:58.617 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 04:51:02.698 WARNING: ManagerServant: Master manager not found
+Jul 24 04:51:02.699 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 04:51:02.938 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 04:51:02.938 INFO: ec_base: setRate(1000.000000) done
+Jul 24 04:51:02.939 INFO: RealSense_RGBD_Camera0: 1 execution context was created.
+Jul 24 04:51:02.947 INFO: RealSense_RGBD_Camera0: Initial active configuration set is default.
+Jul 24 04:51:17.143 INFO: ManagerServant: Master manager not found
+Jul 24 04:51:27.207 INFO: ManagerServant: Master manager not found
+Jul 24 04:51:37.751 INFO: ManagerServant: Master manager not found

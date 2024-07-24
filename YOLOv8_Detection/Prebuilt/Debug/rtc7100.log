@@ -1,0 +1,97 @@
+Jul 24 04:33:21.322 INFO: manager: 2.0.1
+Jul 24 04:33:21.322 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 04:33:21.322 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 04:33:21.322 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 04:33:21.322 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 04:33:21.322 INFO: manager:   All right reserved.
+Jul 24 04:33:21.322 INFO: manager: Manager starting.
+Jul 24 04:33:21.322 INFO: manager: Starting local logging.
+Jul 24 04:33:21.345 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 04:33:21.345 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 04:33:21.362 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 04:33:25.456 WARNING: ManagerServant: Master manager not found
+Jul 24 04:33:25.459 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 04:33:25.546 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 04:33:25.546 INFO: ec_base: setRate(1000.000000) done
+Jul 24 04:33:25.547 INFO: YOLOv8_Detection0: 1 execution context was created.
+Jul 24 04:33:25.552 INFO: YOLOv8_Detection0: Initial active configuration set is default.
+Jul 24 04:33:36.847 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 24 04:33:40.344 INFO: ManagerServant: Master manager not found
+Jul 24 04:33:50.406 INFO: ManagerServant: Master manager not found
+Jul 24 04:34:00.448 INFO: ManagerServant: Master manager not found
+Jul 24 04:34:10.505 INFO: ManagerServant: Master manager not found
+Jul 24 04:34:20.572 INFO: ManagerServant: Master manager not found
+Jul 24 04:34:29.476 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jul 24 04:34:30.644 INFO: ManagerServant: Master manager not found
+Jul 24 04:34:40.720 INFO: ManagerServant: Master manager not found
+Jul 24 04:34:50.811 INFO: ManagerServant: Master manager not found
+Jul 24 04:35:00.865 INFO: ManagerServant: Master manager not found
+Jul 24 04:35:10.940 INFO: ManagerServant: Master manager not found
+Jul 24 04:35:20.999 INFO: ManagerServant: Master manager not found
+Jul 24 04:35:21.202 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 24 04:35:31.072 INFO: ManagerServant: Master manager not found
+Jul 24 04:35:41.129 INFO: ManagerServant: Master manager not found
+Jul 24 04:35:51.213 INFO: ManagerServant: Master manager not found
+Jul 24 04:36:01.286 INFO: ManagerServant: Master manager not found
+Jul 24 04:36:11.347 INFO: ManagerServant: Master manager not found
+Jul 24 04:36:21.439 INFO: ManagerServant: Master manager not found
+Jul 24 04:36:31.507 INFO: ManagerServant: Master manager not found
+Jul 24 04:36:41.537 INFO: ManagerServant: Master manager not found
+Jul 24 04:36:48.068 WARNING: ec_base: The component is not responding.
+Jul 24 04:36:48.068 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 04:36:51.613 INFO: ManagerServant: Master manager not found
+Jul 24 04:37:01.688 INFO: ManagerServant: Master manager not found
+Jul 24 04:37:11.759 INFO: ManagerServant: Master manager not found
+Jul 24 04:37:21.863 INFO: ManagerServant: Master manager not found
+Jul 24 04:37:31.938 INFO: ManagerServant: Master manager not found
+Jul 24 04:37:42.004 INFO: ManagerServant: Master manager not found
+Jul 24 04:37:52.077 INFO: ManagerServant: Master manager not found
+Jul 24 04:38:02.149 INFO: ManagerServant: Master manager not found
+Jul 24 04:38:12.226 INFO: ManagerServant: Master manager not found
+Jul 24 04:38:22.302 INFO: ManagerServant: Master manager not found
+Jul 24 04:38:32.370 INFO: ManagerServant: Master manager not found
+Jul 24 04:38:42.498 INFO: ManagerServant: Master manager not found
+Jul 24 04:38:52.486 INFO: ManagerServant: Master manager not found
+Jul 24 04:39:02.554 INFO: ManagerServant: Master manager not found
+Jul 24 04:39:12.604 INFO: ManagerServant: Master manager not found
+Jul 24 04:39:22.672 INFO: ManagerServant: Master manager not found
+Jul 24 04:39:32.730 INFO: ManagerServant: Master manager not found
+Jul 24 04:39:42.804 INFO: ManagerServant: Master manager not found
+Jul 24 04:39:52.890 INFO: ManagerServant: Master manager not found
+Jul 24 04:40:02.973 INFO: ManagerServant: Master manager not found
+Jul 24 04:40:13.076 INFO: ManagerServant: Master manager not found
+Jul 24 04:40:23.159 INFO: ManagerServant: Master manager not found
+Jul 24 04:40:33.222 INFO: ManagerServant: Master manager not found
+Jul 24 04:40:43.316 INFO: ManagerServant: Master manager not found
+Jul 24 04:40:53.498 INFO: ManagerServant: Master manager not found
+Jul 24 04:41:03.382 INFO: ManagerServant: Master manager not found
+Jul 24 04:41:13.433 INFO: ManagerServant: Master manager not found
+Jul 24 04:41:23.539 INFO: ManagerServant: Master manager not found
+Jul 24 04:41:33.615 INFO: ManagerServant: Master manager not found
+Jul 24 04:41:43.666 INFO: ManagerServant: Master manager not found
+Jul 24 04:41:53.739 INFO: ManagerServant: Master manager not found
+Jul 24 04:42:00.955 WARNING: ec_base: The component is not responding.
+Jul 24 04:42:00.955 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 04:42:03.829 INFO: ManagerServant: Master manager not found
+Jul 24 04:42:13.938 INFO: ManagerServant: Master manager not found
+Jul 24 04:42:24.031 INFO: ManagerServant: Master manager not found
+Jul 24 04:42:34.069 INFO: ManagerServant: Master manager not found
+Jul 24 04:42:44.112 INFO: ManagerServant: Master manager not found
+Jul 24 04:42:54.159 INFO: ManagerServant: Master manager not found
+Jul 24 04:43:04.219 INFO: ManagerServant: Master manager not found
+Jul 24 04:43:14.284 INFO: ManagerServant: Master manager not found
+Jul 24 04:43:24.366 INFO: ManagerServant: Master manager not found
+Jul 24 04:43:34.430 INFO: ManagerServant: Master manager not found
+Jul 24 04:43:44.475 INFO: ManagerServant: Master manager not found
+Jul 24 04:43:54.543 INFO: ManagerServant: Master manager not found
+Jul 24 04:44:04.622 INFO: ManagerServant: Master manager not found
+Jul 24 04:44:14.634 INFO: ManagerServant: Master manager not found
+Jul 24 04:44:24.639 INFO: ManagerServant: Master manager not found
+Jul 24 04:44:34.692 INFO: ManagerServant: Master manager not found
+Jul 24 04:44:44.775 INFO: ManagerServant: Master manager not found
+Jul 24 04:44:54.880 INFO: ManagerServant: Master manager not found
+Jul 24 04:45:04.948 INFO: ManagerServant: Master manager not found
+Jul 24 04:45:14.998 INFO: ManagerServant: Master manager not found
+Jul 24 04:45:25.072 INFO: ManagerServant: Master manager not found
+Jul 24 04:45:35.162 INFO: ManagerServant: Master manager not found
+Jul 24 04:45:45.214 INFO: ManagerServant: Master manager not found

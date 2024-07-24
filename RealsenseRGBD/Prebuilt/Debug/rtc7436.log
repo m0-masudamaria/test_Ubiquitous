@@ -1,0 +1,53 @@
+Jul 24 07:32:17.789 INFO: manager: 2.0.1
+Jul 24 07:32:17.790 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 07:32:17.790 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 07:32:17.790 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 07:32:17.790 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 07:32:17.790 INFO: manager:   All right reserved.
+Jul 24 07:32:17.790 INFO: manager: Manager starting.
+Jul 24 07:32:17.791 INFO: manager: Starting local logging.
+Jul 24 07:32:17.835 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 07:32:17.835 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 07:32:17.858 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 07:32:21.993 WARNING: ManagerServant: Master manager not found
+Jul 24 07:32:22.003 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 07:32:22.509 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 07:32:22.509 INFO: ec_base: setRate(1000.000000) done
+Jul 24 07:32:22.512 INFO: RealSense_RGBD_Camera0: 1 execution context was created.
+Jul 24 07:32:22.530 INFO: RealSense_RGBD_Camera0: Initial active configuration set is default.
+Jul 24 07:32:36.793 INFO: ManagerServant: Master manager not found
+Jul 24 07:32:46.886 INFO: ManagerServant: Master manager not found
+Jul 24 07:32:57.468 INFO: ManagerServant: Master manager not found
+Jul 24 07:33:07.045 INFO: ManagerServant: Master manager not found
+Jul 24 07:33:17.115 INFO: ManagerServant: Master manager not found
+Jul 24 07:33:27.215 INFO: ManagerServant: Master manager not found
+Jul 24 07:33:35.169 INFO: ec_base: setRate(1000.000000) done
+Jul 24 07:33:37.285 INFO: ManagerServant: Master manager not found
+Jul 24 07:33:47.377 INFO: ManagerServant: Master manager not found
+Jul 24 07:33:57.473 INFO: ManagerServant: Master manager not found
+Jul 24 07:34:07.517 INFO: ManagerServant: Master manager not found
+Jul 24 07:34:17.601 INFO: ManagerServant: Master manager not found
+Jul 24 07:34:27.671 INFO: ManagerServant: Master manager not found
+Jul 24 07:34:37.756 INFO: ManagerServant: Master manager not found
+Jul 24 07:34:47.824 INFO: ManagerServant: Master manager not found
+Jul 24 07:34:57.905 INFO: ManagerServant: Master manager not found
+Jul 24 07:35:07.953 INFO: ManagerServant: Master manager not found
+Jul 24 07:35:18.027 INFO: ManagerServant: Master manager not found
+Jul 24 07:35:28.125 INFO: ManagerServant: Master manager not found
+Jul 24 07:35:38.210 INFO: ManagerServant: Master manager not found
+Jul 24 07:35:48.281 INFO: ManagerServant: Master manager not found
+Jul 24 07:35:58.360 INFO: ManagerServant: Master manager not found
+Jul 24 07:36:08.444 INFO: ManagerServant: Master manager not found
+Jul 24 07:36:18.524 INFO: ManagerServant: Master manager not found
+Jul 24 07:36:28.646 INFO: ManagerServant: Master manager not found
+Jul 24 07:36:38.717 INFO: ManagerServant: Master manager not found
+Jul 24 07:36:48.778 INFO: ManagerServant: Master manager not found
+Jul 24 07:36:58.843 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jul 24 07:36:58.845 INFO: ManagerServant: Master manager not found
+Jul 24 07:37:08.926 INFO: ManagerServant: Master manager not found
+Jul 24 07:37:18.978 INFO: ManagerServant: Master manager not found
+Jul 24 07:37:19.121 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 24 07:37:29.065 INFO: ManagerServant: Master manager not found
+Jul 24 07:37:31.339 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jul 24 07:37:39.710 INFO: ManagerServant: Master manager not found
+Jul 24 07:37:49.813 INFO: ManagerServant: Master manager not found

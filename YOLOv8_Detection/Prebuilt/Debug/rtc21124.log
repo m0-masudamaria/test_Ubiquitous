@@ -1,0 +1,117 @@
+Jul 24 04:52:33.826 INFO: manager: 2.0.1
+Jul 24 04:52:33.826 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 04:52:33.826 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 04:52:33.826 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 04:52:33.826 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 04:52:33.826 INFO: manager:   All right reserved.
+Jul 24 04:52:33.826 INFO: manager: Manager starting.
+Jul 24 04:52:33.826 INFO: manager: Starting local logging.
+Jul 24 04:52:33.851 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 04:52:33.852 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 04:52:33.859 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 04:52:37.941 WARNING: ManagerServant: Master manager not found
+Jul 24 04:52:37.944 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 04:52:38.056 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 04:52:38.057 INFO: ec_base: setRate(1000.000000) done
+Jul 24 04:52:38.057 INFO: YOLOv8_Detection0: 1 execution context was created.
+Jul 24 04:52:38.062 INFO: YOLOv8_Detection0: Initial active configuration set is default.
+Jul 24 04:52:52.375 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:02.412 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:12.486 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:22.526 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:32.577 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:35.874 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 24 04:53:42.616 INFO: ManagerServant: Master manager not found
+Jul 24 04:53:52.682 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:02.738 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:12.787 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:22.829 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:32.865 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:42.931 INFO: ManagerServant: Master manager not found
+Jul 24 04:54:52.974 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:03.016 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:13.054 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:23.084 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:33.109 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:43.156 INFO: ManagerServant: Master manager not found
+Jul 24 04:55:53.229 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:03.266 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:13.345 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:23.374 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:33.413 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:43.449 INFO: ManagerServant: Master manager not found
+Jul 24 04:56:53.490 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:03.520 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:13.547 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:23.579 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:33.601 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:43.626 INFO: ManagerServant: Master manager not found
+Jul 24 04:57:53.689 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:03.756 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:13.806 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:23.853 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:33.916 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:43.981 INFO: ManagerServant: Master manager not found
+Jul 24 04:58:54.043 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:04.087 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:14.134 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:21.840 ERROR: ec_base: State of the RTC transitioned to ERROR_STATE.
+Jul 24 04:59:24.174 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:32.166 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 24 04:59:34.208 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:44.259 INFO: ManagerServant: Master manager not found
+Jul 24 04:59:54.324 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:04.380 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:14.409 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:24.464 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:34.509 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:44.551 INFO: ManagerServant: Master manager not found
+Jul 24 05:00:54.610 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:01.472 WARNING: ec_base: The component is not responding.
+Jul 24 05:01:01.472 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 05:01:04.638 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:14.692 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:24.750 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:34.810 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:44.877 INFO: ManagerServant: Master manager not found
+Jul 24 05:01:54.931 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:04.956 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:15.028 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:25.076 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:35.109 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:45.199 INFO: ManagerServant: Master manager not found
+Jul 24 05:02:55.246 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:05.295 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:15.306 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:25.356 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:30.651 ERROR: out_objects: Connection already exists.
+Jul 24 05:03:30.654 ERROR: in_image: Connection already exists.
+Jul 24 05:03:30.666 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:03:35.401 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:38.617 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 24 05:03:45.472 INFO: ManagerServant: Master manager not found
+Jul 24 05:03:55.540 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:05.605 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:15.637 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:25.686 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:35.771 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:45.837 INFO: ManagerServant: Master manager not found
+Jul 24 05:04:55.884 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:05.946 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:15.996 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:26.041 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:36.119 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:41.087 WARNING: in_image: Dead connection: b46ae5fd-9da2-46de-b6a1-9bfa6bf621f0
+Jul 24 05:05:43.136 WARNING: in_image: Exception caught: minor code(1096024066).
+Jul 24 05:05:46.198 INFO: ManagerServant: Master manager not found
+Jul 24 05:05:56.296 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:06.367 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:16.399 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:26.489 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:36.550 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:46.643 INFO: ManagerServant: Master manager not found
+Jul 24 05:06:56.693 INFO: ManagerServant: Master manager not found
+Jul 24 05:07:06.755 INFO: ManagerServant: Master manager not found
+Jul 24 05:07:16.817 INFO: ManagerServant: Master manager not found
+Jul 24 05:07:19.603 WARNING: out_objects: Dead connection: 049e6843-bb73-49b8-8216-43f546513a01
+Jul 24 05:07:21.647 WARNING: out_objects: Exception caught: minor code.

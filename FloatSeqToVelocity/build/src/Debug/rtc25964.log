@@ -1,0 +1,62 @@
+Jul 24 05:13:26.195 INFO: manager: 2.0.1
+Jul 24 05:13:26.196 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 05:13:26.196 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 05:13:26.196 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 05:13:26.196 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 05:13:26.196 INFO: manager:   All right reserved.
+Jul 24 05:13:26.196 INFO: manager: Manager starting.
+Jul 24 05:13:26.196 INFO: manager: Starting local logging.
+Jul 24 05:13:26.214 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 05:13:26.215 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 05:13:26.223 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 05:13:30.336 WARNING: ManagerServant: Master manager not found
+Jul 24 05:13:30.338 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 05:13:30.362 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 05:13:30.362 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:13:30.364 INFO: FloatSeqToVelocity0: 1 execution context was created.
+Jul 24 05:13:30.376 INFO: FloatSeqToVelocity0: Initial active configuration set is default.
+Jul 24 05:13:44.574 INFO: ManagerServant: Master manager not found
+Jul 24 05:13:54.649 INFO: ManagerServant: Master manager not found
+Jul 24 05:14:04.710 INFO: ManagerServant: Master manager not found
+Jul 24 05:14:14.748 INFO: ManagerServant: Master manager not found
+Jul 24 05:14:24.831 INFO: ManagerServant: Master manager not found
+Jul 24 05:14:34.875 INFO: ManagerServant: Master manager not found
+Jul 24 05:14:44.996 INFO: ManagerServant: Master manager not found
+Jul 24 05:14:54.637 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:14:55.048 INFO: ManagerServant: Master manager not found
+Jul 24 05:15:05.088 INFO: ManagerServant: Master manager not found
+Jul 24 05:15:15.114 INFO: ManagerServant: Master manager not found
+Jul 24 05:15:25.230 INFO: ManagerServant: Master manager not found
+Jul 24 05:15:35.255 INFO: ManagerServant: Master manager not found
+Jul 24 05:15:45.302 INFO: ManagerServant: Master manager not found
+Jul 24 05:15:55.371 INFO: ManagerServant: Master manager not found
+Jul 24 05:16:05.426 INFO: ManagerServant: Master manager not found
+Jul 24 05:16:15.480 INFO: ManagerServant: Master manager not found
+Jul 24 05:16:25.534 INFO: ManagerServant: Master manager not found
+Jul 24 05:16:35.582 INFO: ManagerServant: Master manager not found
+Jul 24 05:16:45.650 INFO: ManagerServant: Master manager not found
+Jul 24 05:16:55.726 INFO: ManagerServant: Master manager not found
+Jul 24 05:17:05.847 INFO: ManagerServant: Master manager not found
+Jul 24 05:17:15.885 INFO: ManagerServant: Master manager not found
+Jul 24 05:17:25.919 INFO: ManagerServant: Master manager not found
+Jul 24 05:17:35.959 INFO: ManagerServant: Master manager not found
+Jul 24 05:17:46.015 INFO: ManagerServant: Master manager not found
+Jul 24 05:17:56.095 INFO: ManagerServant: Master manager not found
+Jul 24 05:18:06.145 INFO: ManagerServant: Master manager not found
+Jul 24 05:18:16.194 INFO: ManagerServant: Master manager not found
+Jul 24 05:18:26.301 INFO: ManagerServant: Master manager not found
+Jul 24 05:18:26.663 WARNING: out: Dead connection: c266fdbc-6bb0-4ccb-b3df-cae66e3a350a
+Jul 24 05:18:26.665 WARNING: out: Exception caught: minor code.
+Jul 24 05:18:36.297 INFO: ManagerServant: Master manager not found
+Jul 24 05:18:46.341 INFO: ManagerServant: Master manager not found
+Jul 24 05:18:56.374 INFO: ManagerServant: Master manager not found
+Jul 24 05:19:06.416 INFO: ManagerServant: Master manager not found
+Jul 24 05:19:16.461 INFO: ManagerServant: Master manager not found
+Jul 24 05:19:26.508 INFO: ManagerServant: Master manager not found
+Jul 24 05:19:36.536 INFO: ManagerServant: Master manager not found
+Jul 24 05:19:46.585 INFO: ManagerServant: Master manager not found
+Jul 24 05:19:56.609 INFO: ManagerServant: Master manager not found
+Jul 24 05:20:06.649 INFO: ManagerServant: Master manager not found
+Jul 24 05:20:16.680 INFO: ManagerServant: Master manager not found
+Jul 24 05:20:26.736 INFO: ManagerServant: Master manager not found
+Jul 24 05:20:36.779 INFO: ManagerServant: Master manager not found

@@ -1,0 +1,305 @@
+Jul 24 05:39:38.130 INFO: manager: 2.0.1
+Jul 24 05:39:38.130 INFO: manager: Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+Jul 24 05:39:38.130 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Jul 24 05:39:38.131 INFO: manager: Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+Jul 24 05:39:38.131 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Jul 24 05:39:38.131 INFO: manager:   All right reserved.
+Jul 24 05:39:38.131 INFO: manager: Manager starting.
+Jul 24 05:39:38.131 INFO: manager: Starting local logging.
+Jul 24 05:39:38.172 INFO: NamingOnCorba: Endpoint for the CORBA naming service (localhost) is 127.0.0.1.
+Jul 24 05:39:38.173 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Jul 24 05:39:38.187 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Jul 24 05:39:42.310 WARNING: ManagerServant: Master manager not found
+Jul 24 05:39:42.314 INFO: LocalServiceAdmin: All the local services are enabled.
+Jul 24 05:39:42.519 INFO: ec_base: setRate(1000000.000000) done
+Jul 24 05:39:42.520 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:39:42.523 INFO: YOLOv8_Detection0: 1 execution context was created.
+Jul 24 05:39:42.537 INFO: YOLOv8_Detection0: Initial active configuration set is default.
+Jul 24 05:39:56.991 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:07.038 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:13.237 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:40:17.114 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:18.505 WARNING: ec_base: The component is not responding.
+Jul 24 05:40:18.506 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 05:40:27.195 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:37.273 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:47.364 INFO: ManagerServant: Master manager not found
+Jul 24 05:40:57.405 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:07.486 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:07.700 WARNING: in_image: Dead connection: fb93cc2f-aa2a-44aa-855a-d695f4887c9d
+Jul 24 05:41:09.750 WARNING: in_image: Exception caught: minor code.
+Jul 24 05:41:17.507 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:27.715 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:32.328 WARNING: ec_base: The component is not responding.
+Jul 24 05:41:32.328 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 05:41:37.577 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:46.566 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Jul 24 05:41:47.701 INFO: ManagerServant: Master manager not found
+Jul 24 05:41:52.772 WARNING: ec_base: The component is not responding.
+Jul 24 05:41:52.773 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 05:41:57.731 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:08.436 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:19.037 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:28.352 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:37.971 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:47.948 INFO: ManagerServant: Master manager not found
+Jul 24 05:42:58.009 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:08.960 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:18.960 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:28.650 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:38.638 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:48.837 INFO: ManagerServant: Master manager not found
+Jul 24 05:43:58.266 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:08.248 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:18.262 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:28.317 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:37.914 WARNING: out_objects: Dead connection: 049e6843-bb73-49b8-8216-43f546513a01
+Jul 24 05:44:38.413 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:39.981 WARNING: out_objects: Exception caught: minor code.
+Jul 24 05:44:48.508 INFO: ManagerServant: Master manager not found
+Jul 24 05:44:59.010 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:08.641 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:18.744 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:28.835 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:38.934 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:41.564 ERROR: in_image: Connection failed. cleanup.
+Jul 24 05:45:41.565 ERROR: in_image: Invalid connector id: fb93cc2f-aa2a-44aa-855a-d695f4887c9d
+Jul 24 05:45:41.587 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:45:48.653 WARNING: ec_base: The component is not responding.
+Jul 24 05:45:48.653 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 05:45:49.039 INFO: ManagerServant: Master manager not found
+Jul 24 05:45:59.758 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:09.861 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:19.290 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:30.296 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:39.404 INFO: ManagerServant: Master manager not found
+Jul 24 05:46:49.752 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:00.357 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:09.527 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:17.384 WARNING: out_objects: Dead connection: 049e6843-bb73-49b8-8216-43f546513a01
+Jul 24 05:47:19.432 WARNING: out_objects: Exception caught: minor code.
+Jul 24 05:47:19.666 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:29.675 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:39.798 INFO: ManagerServant: Master manager not found
+Jul 24 05:47:49.869 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:00.335 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:09.971 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:16.361 ERROR: in_image: Connection failed. cleanup.
+Jul 24 05:48:16.362 ERROR: in_image: Invalid connector id: fb93cc2f-aa2a-44aa-855a-d695f4887c9d
+Jul 24 05:48:16.394 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:48:20.049 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:20.992 WARNING: ec_base: The component is not responding.
+Jul 24 05:48:20.993 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 05:48:30.884 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:37.967 WARNING: ec_base: The component is not responding.
+Jul 24 05:48:37.969 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 05:48:41.380 INFO: ManagerServant: Master manager not found
+Jul 24 05:48:51.083 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:01.581 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:11.482 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:21.542 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:31.571 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:41.679 INFO: ManagerServant: Master manager not found
+Jul 24 05:49:51.672 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:01.779 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:12.170 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:22.171 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:31.972 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:41.167 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:51.264 INFO: ManagerServant: Master manager not found
+Jul 24 05:50:59.191 WARNING: out_objects: Dead connection: 049e6843-bb73-49b8-8216-43f546513a01
+Jul 24 05:51:01.247 WARNING: out_objects: Exception caught: minor code.
+Jul 24 05:51:01.248 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:11.344 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:21.429 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:31.450 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:41.535 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:50.017 ERROR: in_image: Connection failed. cleanup.
+Jul 24 05:51:50.017 ERROR: in_image: Invalid connector id: fb93cc2f-aa2a-44aa-855a-d695f4887c9d
+Jul 24 05:51:50.024 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:51:51.633 INFO: ManagerServant: Master manager not found
+Jul 24 05:51:54.046 WARNING: ec_base: The component is not responding.
+Jul 24 05:51:54.046 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 05:52:01.749 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:11.764 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:21.755 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:31.815 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:42.790 INFO: ManagerServant: Master manager not found
+Jul 24 05:52:51.935 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:02.581 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:13.189 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:22.199 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:32.325 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:42.568 INFO: ManagerServant: Master manager not found
+Jul 24 05:53:53.276 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:02.456 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:12.582 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:22.549 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:32.610 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:42.694 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:52.809 INFO: ManagerServant: Master manager not found
+Jul 24 05:54:55.994 WARNING: out_objects: Dead connection: 049e6843-bb73-49b8-8216-43f546513a01
+Jul 24 05:54:58.056 WARNING: out_objects: Exception caught: minor code.
+Jul 24 05:55:02.903 INFO: ManagerServant: Master manager not found
+Jul 24 05:55:12.993 INFO: ManagerServant: Master manager not found
+Jul 24 05:55:23.107 INFO: ManagerServant: Master manager not found
+Jul 24 05:55:33.115 INFO: ManagerServant: Master manager not found
+Jul 24 05:55:43.128 INFO: ManagerServant: Master manager not found
+Jul 24 05:55:53.204 INFO: ManagerServant: Master manager not found
+Jul 24 05:56:03.285 INFO: ManagerServant: Master manager not found
+Jul 24 05:56:13.386 INFO: ManagerServant: Master manager not found
+Jul 24 05:56:23.412 INFO: ManagerServant: Master manager not found
+Jul 24 05:56:33.513 INFO: ManagerServant: Master manager not found
+Jul 24 05:56:43.585 INFO: ManagerServant: Master manager not found
+Jul 24 05:56:53.678 INFO: ManagerServant: Master manager not found
+Jul 24 05:57:04.033 INFO: ManagerServant: Master manager not found
+Jul 24 05:57:13.890 INFO: ManagerServant: Master manager not found
+Jul 24 05:57:23.895 INFO: ManagerServant: Master manager not found
+Jul 24 05:57:34.300 INFO: ManagerServant: Master manager not found
+Jul 24 05:57:43.973 INFO: ManagerServant: Master manager not found
+Jul 24 05:57:54.040 INFO: ManagerServant: Master manager not found
+Jul 24 05:58:04.072 INFO: ManagerServant: Master manager not found
+Jul 24 05:58:09.775 ERROR: in_image: Connection failed. cleanup.
+Jul 24 05:58:09.777 ERROR: in_image: Invalid connector id: fb93cc2f-aa2a-44aa-855a-d695f4887c9d
+Jul 24 05:58:09.792 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:58:14.127 INFO: ManagerServant: Master manager not found
+Jul 24 05:58:14.511 WARNING: ec_base: The component is not responding.
+Jul 24 05:58:14.512 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 05:58:25.082 INFO: ManagerServant: Master manager not found
+Jul 24 05:58:34.791 ERROR: ec_worker: State of the RTC is not ACTIVE_STATE.
+Jul 24 05:58:35.183 INFO: ManagerServant: Master manager not found
+Jul 24 05:58:44.324 INFO: ManagerServant: Master manager not found
+Jul 24 05:58:53.334 ERROR: in_image: Connection failed. cleanup.
+Jul 24 05:58:53.334 ERROR: in_image: Invalid connector id: fb93cc2f-aa2a-44aa-855a-d695f4887c9d
+Jul 24 05:58:53.351 INFO: ec_base: setRate(1000.000000) done
+Jul 24 05:58:54.400 INFO: ManagerServant: Master manager not found
+Jul 24 05:58:57.471 WARNING: ec_base: The component is not responding.
+Jul 24 05:58:57.471 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 05:59:04.471 INFO: ManagerServant: Master manager not found
+Jul 24 05:59:14.558 INFO: ManagerServant: Master manager not found
+Jul 24 05:59:24.660 INFO: ManagerServant: Master manager not found
+Jul 24 05:59:34.641 INFO: ManagerServant: Master manager not found
+Jul 24 05:59:44.771 INFO: ManagerServant: Master manager not found
+Jul 24 05:59:54.765 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:04.842 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:14.947 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:24.987 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:35.074 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:45.105 INFO: ManagerServant: Master manager not found
+Jul 24 06:00:55.122 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:05.163 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:15.527 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:25.214 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:35.272 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:45.385 INFO: ManagerServant: Master manager not found
+Jul 24 06:01:55.486 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:05.544 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:15.614 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:25.739 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:34.012 WARNING: out_objects: Dead connection: 049e6843-bb73-49b8-8216-43f546513a01
+Jul 24 06:02:35.724 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:36.065 WARNING: out_objects: Exception caught: minor code.
+Jul 24 06:02:45.814 INFO: ManagerServant: Master manager not found
+Jul 24 06:02:55.858 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:03.181 ERROR: in_image: Connection failed. cleanup.
+Jul 24 06:03:03.181 ERROR: in_image: Invalid connector id: fb93cc2f-aa2a-44aa-855a-d695f4887c9d
+Jul 24 06:03:03.206 INFO: ec_base: setRate(1000.000000) done
+Jul 24 06:03:05.944 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:08.805 WARNING: ec_base: The component is not responding.
+Jul 24 06:03:08.805 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 06:03:15.995 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:26.086 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:36.114 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:46.202 INFO: ManagerServant: Master manager not found
+Jul 24 06:03:56.239 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:06.239 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:16.314 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:25.058 ERROR: in_image: Connection failed. cleanup.
+Jul 24 06:04:25.059 ERROR: in_image: Invalid connector id: fb93cc2f-aa2a-44aa-855a-d695f4887c9d
+Jul 24 06:04:25.071 INFO: ec_base: setRate(1000.000000) done
+Jul 24 06:04:26.397 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:28.883 WARNING: ec_base: The component is not responding.
+Jul 24 06:04:28.883 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 06:04:37.302 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:47.223 INFO: ManagerServant: Master manager not found
+Jul 24 06:04:57.509 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:07.594 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:17.809 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:27.595 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:37.504 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:48.104 INFO: ManagerServant: Master manager not found
+Jul 24 06:05:57.907 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:08.008 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:17.705 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:28.207 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:38.001 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:47.907 INFO: ManagerServant: Master manager not found
+Jul 24 06:06:58.119 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:07.908 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:17.905 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:28.404 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:38.307 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:47.907 INFO: ManagerServant: Master manager not found
+Jul 24 06:07:57.694 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:07.593 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:17.605 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:20.248 WARNING: out_objects: Dead connection: 049e6843-bb73-49b8-8216-43f546513a01
+Jul 24 06:08:22.287 WARNING: out_objects: Exception caught: minor code.
+Jul 24 06:08:27.583 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:37.705 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:37.708 ERROR: in_image: Connection failed. cleanup.
+Jul 24 06:08:37.708 ERROR: in_image: Invalid connector id: fb93cc2f-aa2a-44aa-855a-d695f4887c9d
+Jul 24 06:08:37.726 INFO: ec_base: setRate(1000.000000) done
+Jul 24 06:08:42.465 WARNING: ec_base: The component is not responding.
+Jul 24 06:08:42.466 ERROR: ec_base: Unknown error: Invalid state transition.
+Jul 24 06:08:47.781 INFO: ManagerServant: Master manager not found
+Jul 24 06:08:57.857 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:07.868 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:17.909 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:27.924 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:38.000 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:48.055 INFO: ManagerServant: Master manager not found
+Jul 24 06:09:58.033 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:08.139 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:18.166 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:28.198 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:38.241 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:48.315 INFO: ManagerServant: Master manager not found
+Jul 24 06:10:58.389 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:08.443 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:18.496 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:28.512 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:38.910 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:48.913 INFO: ManagerServant: Master manager not found
+Jul 24 06:11:59.062 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:08.734 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:18.829 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:28.876 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:38.907 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:48.963 INFO: ManagerServant: Master manager not found
+Jul 24 06:12:58.995 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:09.026 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:19.145 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:29.210 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:39.268 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:49.349 INFO: ManagerServant: Master manager not found
+Jul 24 06:13:59.388 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:09.427 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:19.412 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:30.358 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:39.454 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:49.535 INFO: ManagerServant: Master manager not found
+Jul 24 06:14:59.624 INFO: ManagerServant: Master manager not found
+Jul 24 06:15:09.720 INFO: ManagerServant: Master manager not found
+Jul 24 06:15:19.813 INFO: ManagerServant: Master manager not found
+Jul 24 06:15:29.818 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:00.011 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:04.105 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:14.159 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:24.187 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:34.238 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:44.311 INFO: ManagerServant: Master manager not found
+Jul 24 06:18:54.349 INFO: ManagerServant: Master manager not found
+Jul 24 06:19:04.416 INFO: ManagerServant: Master manager not found
+Jul 24 06:19:14.470 INFO: ManagerServant: Master manager not found
+Jul 24 06:19:24.533 INFO: ManagerServant: Master manager not found
